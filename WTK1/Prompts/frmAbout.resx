@@ -1,0 +1,2016 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdKey.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAW5JREFUOE+l
+        kj1rwlAUhoM41VJCh86li4PQPQkRNajgogSFRCMIgmBxcsyWMYNTf4O/RBcXEQNmEcVRdBPcwtv7YaS2
+        1ob2gQOXe+775B5uhFu4rotWqwWyfOA7ERkOh+54PMZoNIKqqqEkzru3iU2nU+i6jlqtBs/zUKlUYFlW
+        KPmZ+XwOGvZ9H6vVikkcx2Hrer3OJL1e76okpmkaJpMJFosFNpsNdrsdTNPE4XBAtVpFs9lEt9tFo9FA
+        v9/3TzlOOp1GJpMBlSyXS2y3WxyPR3blcrmMIAjOZRgGk5DYHU8TEomEH0pyuRz2+z2KxSJKpdJF+LOE
+        jkSiMW4QhPt8Pg8qyWaz7Ca/IYpiKDnzYts2k0Tl2yiEgizLkSSDwcAj55957JI3KqE/zzXoU5MzOqnz
+        /F+JJ5NJSJIERVFOMU4qlXon/Sd+7DaP9M07nQ7W6zVmsxn9aoG3ovPabrdp0CYlsp0/EOm6/0QQPgDV
+        SmRpi9CeHAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        7dqbQgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="txtCL.Text" xml:space="preserve">
+    <value>*1.6.0.11: FIX: Minor UI fixes.
+*1.6.0.10: FIX: AIO Components showed message during preset load
+*1.6.0.10: FIX: Tweaks tab showed incorrect count
+*1.6.0.9: FIX: WIM Manager will remember choice when editing names and descriptions
+*1.6.0.9: FIX: Fixed WIM Manager column sizes
+*1.6.0.8: FIX: Unattended remained grey when cancel import
+*1.6.0.8: FIX: Minor column size changes.
+*1.6.0.8: FIX: Added format warning on USB Boot Prep tool
+*1.6.0.8: FIX: Tooltips on AIO Integrator for silent installers and files.
+*1.6.0.8: FIX: Flickering on AIO Components and vLite tabs on check all
+*1.6.0.8: FIX: Centering on + button in AIO
+*1.6.0.8: Updated download links
+*1.6.0.8: Better 4K support and scaling options
+*1.6.0.8: Removed update cache button.
+*1.6.0.7: FIX: Selecting all tweaks in a category in AIO integrator would cause an error.
+*1.6.0.7: FIX: Registry files added to AIO Integrator in Tweaks could not be removed.
+*1.6.0.6: FIX: Writing EFI file (typo) 
+*1.6.0.6: Added more Windows 10 edition flags
+*1.6.0.5: FIX: Made Re-Arm option on Capture Image Windows 7 only
+*1.6.0.4: Added 'None' option in ISO Maker
+*1.6.0.3: FIX: Fixed 'Upgrade Image' in 'WIM Manager'
+*1.6.0.2: Updated and fixed EFI boot in ISO Maker
+*1.6.0.1: Added Windows 10 generic keys.
+*1.6.0.1: Added screen to get current windows key to Tools menu.
+*1.6.0.1: Removed all adverts on links (starting 2018).
+
+[1.5.4]
+*1.5.4.16^FIX: Error importing previous presets.
+*1.5.4.15^FIX: Fixed boot.wim test enabled on preset import.
+*1.5.4.14^FIX: Fixed some drivers not being detected when adding to AIO integrator
+*1.5.4.13^FIX: Fixed options being loaded last effecting preset import.
+*1.5.4.13^FIX: Known problem updated were still integrated
+*1.5.4.13^FIX: Temp files incorrectly remained causing duplicate entries.
+*1.5.4.12^Remove 'Create Backups' on AIO as it was pointless
+*1.5.4.12^Refactored and cleanuped file operations code. 
+*1.5.4.11^Allowed Image Capture tool to open separately.
+*1.5.4.10^Hopefully fixed UI staying disabled adding drivers.
+*1.5.4.9^Removed Windows 10 expiry.
+*1.5.4.8^All update rollups now go in 2nd phase
+*1.5.4.7^Updated download ISO screen
+*1.5.4.7^FIX: Fixed Capture Image sometimes renaming to 'Select a new wim...'
+*1.5.4.7^FIX: Fixed silent installer prompt for known updates
+*1.5.4.6^Added more known prerequisite updates
+*1.5.4.6^Added more editions to Capture Image tool
+*1.5.4.5^Added upgrade options for Windows 10 
+*1.5.4.5^Added upgrade options for Windows 8 CoreConnected
+*1.5.4.5^Update rollups integrated after IE
+*1.5.4.5^FIX: Removed *.db, *.chk, and *.log files from Cleanup Manager as they can corrupt sfc.exe
+*1.5.4.4^FIX: Extended Windows 10 support
+*1.5.4.2^FIX: Fixed issue with RunOnce skipping certain filenames 
+*1.5.4.1^New prompt on known bad updates
+*1.5.4.1^New auto-clean feature when unmounting for exclusive users
+
+[1.5.3]
+*1.5.3.21^FIX: Skype of Business allows in MSP Converter
+*1.5.3.19^FIX: Component Remover &gt; Metro App removal
+*1.5.3.18^Improved Addon Integration
+*1.5.3.18^Improved RunOnce Installer
+*1.5.3.16^FIX: Issues with DISM on Windows 8.1 and later
+*1.5.3.14^Fixed minor bugs
+*1.5.3.14^Better string comparisons
+*1.5.3.14^ISO Maker remembers last rebuild setting
+*1.5.3.14^Capture Image tool updated
+*1.5.3.14^Fixed ClearAttribute method
+*1.5.3.14^NEW: New addon engine.
+*1.5.3.14^BAT file support for silent installers
+*1.5.3.13^Fixed potential access denied message on USB Boot Prep 
+*1.5.3.12^DISM Update prompt showed everytime main menu was accessed
+*1.5.3.12^Cleanup Manager still enabled on capture image.
+*1.5.3.12^Fixed adding RunOnce installer when turned off.
+*1.5.3.11^Extended Windows 10 support
+*1.5.3.10^FIX: Fixed bugs on donation page
+*1.5.3.10^FIX: Fixed DateTime parsing on updateCache.db
+*1.5.3.09^FIX: Fixed WIM Manager image export
+*1.5.3.09^FIX: Fixed crash on AIO loading
+*1.5.3.09^Added better logging and recovery for updateCache.db error
+*1.5.3.08^FIX: Better update integrated detection
+*1.5.3.08^FIX: Image detected as x86 when x64 if already mounted
+*1.5.3.08^Added updateCache.db download
+*1.5.3.08^Added LDR/GDR info to update information in AIO
+*1.5.3.07^FIX: Fixed Alphawaves Downloader crashing on last download.
+*1.5.3.07^Double-click on update in AIO to view information
+*1.5.3.06^FIX: Fixed DISM error on Driver Installer and Update Installer
+*1.5.3.06^FIX: Fixed error on WIM Manager &gt; ISO Maker
+*1.5.3.06^FIX: Fixed null description in EXE to MSP
+*1.5.3.06^FIX: DISM checking in options
+*1.5.3.06^New silent install switches
+*1.5.3.06^New UpdateText Delegation
+*1.5.3.05^FIX: Fixed update checking
+*1.5.3.05^FIX: Updated Windows Hotfix Downloder name to WHDownloader
+*1.5.3.05^FIX: Added CBS.log and NPad2.cab to the cleanup exclusion list
+*1.5.3.05^FIX: Fixed an issue getting values in Alphawaves Downloader
+*1.5.3.04^FIX: Fixed many aggregation errors (list empty)
+*1.5.3.04^NEW: New DISM management
+*1.5.3.04^FIX: Other fixes from logs
+*1.5.3.03^FIX: Fixed DateTime parsing on Alphwaves Downloader
+*1.5.3.02^FIX: Fixed crash on Vista if DISM is not installed
+*1.5.3.01^FIX: Fixed right-click save in Component Remover when no items
+*1.5.3.01^FIX: Fixed potential error adding update on AIO Integrator
+*1.5.3.01^FIX: Hopefully fixed setting date error in Alphawaves Downloader
+
+[1.5.2]
+*1.5.2.16^FIX: Fixed a race condition with the RunOnce
+*1.5.2.16^FIX: Fixed selecting read-only wim images
+*1.5.2.16^FIX: Fixed 'Make ISO' button on AIO Disk Creator
+*1.5.2.16^FIX: Fixed scratchdir crash on exit
+*1.5.2.15^FIX: Unattended 'Serial' did not update
+*1.5.2.14^FIX: MaxDate error if Windows year is set to &lt; 2013
+*1.5.2.14^FIX: Potential duplicate folder path in RunOnce
+*1.5.2.14^Better error logging
+*1.5.2.13^FIX: Fixed potential RunOnce issues
+*1.5.2.12^FIX: Fixed most too long silent installer path errors
+*1.5.2.12^FIX: Fixed hanging at end of Update Catalog download
+*1.5.2.12^Update Catalog code improvements
+*1.5.2.11^FIX: Fixed incorrect name on Silent Installer
+*1.5.2.10^FIX: No longer able to work on images with install.wim missing
+*1.5.2.10^FIX: Temporary fix of Windows 10 image support
+*1.5.2.10^FIX: Invalid options showing in WIM Manager
+*1.5.2.10^FIX: Unmount Screen &gt; Cleanup Manager text too big
+*1.5.2.9^Added more logging on Update Catalog
+*1.5.2.8^FIX: Fixed image not appearing
+*1.5.2.7^FIX: AIO Move to top and bottom buttons
+*1.5.2.5^FIX: Cleanup Manager via Capture Image error when no folder selected
+*1.5.2.4^FIX: Object null on Cleanup Manager load
+*1.5.2.3^FIX: Fixed parameter not correct when getting wim info
+*1.5.2.3^FIX: Index -1 error when moving in AIO
+*1.5.2.2^FIX: ISO Maker access denied error on DVDs
+*1.5.2.1^FIX: Corrupt update detection
+*1.5.2.1^FIX: Null error on update integration
+*1.5.2.1^FIX: Access denied error on ISO extraction
+
+[1.5.1]
+*1.5.1.11^FIX: Silent Installers name editor no longer accepts blank names
+*1.5.1.11^FIX: Silent Installers name editor accepts enter
+*1.5.1.11^FIX: Silent Installers combo list accepts enter
+*1.5.1.10^NEW: Updated 'Exclusive' downloads links
+*1.5.1.10^NEW: Cleanup Manager (WIM Manager, Unmount &amp; Capture Image)
+*1.5.1.10^FIX: WIM Registry Editor cant move when saving/rebuilding.
+*1.5.1.10^FIX: GUI more responsive during mount/unmount/rebuild
+*1.5.1.10^WIM Manager will calculate an estimate size of a mounted image
+*1.5.1.8^FIX: WIM Manager &gt; 'Upgrade Image' did not work
+*1.5.1.7^FIX: Cleanup on Capture Image
+*1.5.1.7^FIX: Delete some folders
+*1.5.1.6^FIX: ei.cfg green highlightation
+*1.5.1.6^FIX: EXE to MSP OneDrive update recognition
+*1.5.1.6^FIX: Silent Installer removes no longer prompts
+*1.5.1.6^Add multi select to WIM Manager
+*1.5.1.6^Add option for office updates not to go in subfolder.
+*1.5.1.6^EXE to MSP creates subfolder when folder selected already empty
+*1.5.1.5^FIX: Hopefully fixed Update Catalogue setting new date
+*1.5.1.5^FIX: Hopefully fixed reg mount error 32 (in use)
+*1.5.1.5^Added more logging for registry mount failure
+*1.5.1.4^FIX: Fixed settings.txt access denied error
+*1.5.1.3^New donate screen
+*1.5.1.2^FIX: Fixed not detecting updates for version x.x.0.x
+*1.5.1.1^FIX: Extraction error when OK (false positive)
+*1.5.1.1^FIX: WIM Manager now remains responsive whilst extracting ISO
+*1.5.1.1^FIX: WIM Manager now remains responsive whilst copying DVD
+*1.5.1.1^FIX: Removed duplicate WIM Manager DVD message
+*1.5.1.1^FIX: Duplicated silent installer now rename correctly
+*1.5.1.1^FIX: Win Toolkit can now instantly scan for empty folders
+*1.5.1.1^FIX: Win Toolkit no longer tries to delete read-only folders
+*1.5.1.1^FIX: WIM Manager- ISO extraction now checks for free space
+*1.5.1.1^FIX: WIM Manager- ISO extraction now checks for network
+*1.5.1.1^FIX: WIM Manager- ISO extraction now checks for read-only copy directory
+*1.5.1.1^FIX: WIM Manager- Copy DVD now checks for free space
+*1.5.1.1^FIX: WIM Manager- Copy DVD now checks for network
+*1.5.1.1^FIX: WIM Manager- Copy DVD now checks for read-only copy directory
+*1.5.1.1^FIX: Silent Installers should no longer add duplicate entries
+*1.5.1.1^FIX: Downloaded tab in Alphawaves Downloader did not update
+
+[1.5.0]
+*1.5.0.25^FIX: Fixed default theme integration
+*1.5.0.25^FIX: Viewing saved/uploaded log fix no longer uses adf.ly
+*1.5.0.24^FIX: Copy UEFI files onto CD error
+*1.5.0.24^FIX: Imagex mount log
+*1.5.0.23^FIX: Click on any item on the 'vLite' tab in AIO Integrator.
+*1.5.0.23^WinToolkit will attempt to fix updates with null names.
+*1.5.0.22^FIX: Overwrite theme prompt after installation
+*1.5.0.15^FIX: Moving silent installers caused prompt
+*1.5.0.14^MSP Extractor now has filters
+*1.5.0.14^Capture image tool has cleanup options
+*1.5.0.13^FIX: Unattended password value stayed
+*1.5.0.13^Added RunOnce idle timeout option 
+*1.5.0.12^Option to delete mount folder after dismount
+*1.5.0.10^FIX: WIM Manger &gt; Set Product Key now uses new key screen
+*1.5.0.8^FIX: Internet Explorer did not always move to the top
+*1.5.0.8^Revamped WIM image handling
+*1.5.0.8^MSP support for RunOnce
+*1.5.0.8^Improved Unattended Creator GUI
+*1.5.0.8^Updated all text input boxes
+*1.5.0.7^FIX: Fixed default theme settings on themepack integration
+*1.5.0.6^FIX: Mini dumps tweaks
+*1.5.0.6^FIX: MSI files did not always get installed in RunOnce
+*1.5.0.6^FIX: CAB files did not always get installed in RunOnce
+*1.5.0.3^NEW: ISO Maker customize date options
+*1.5.0.3^Added more silent installer common programs
+*1.5.0.2^NEW: Add common application switches
+*1.5.0.2^NEW: Replace unattended serial key box
+*1.5.0.2^FIX: Restore old method of driver extraction
+*1.5.0.2^FIX: install.ini will no longer write if &lt; 10KB is available.
+*1.5.0.2^Updated sample install.ini
+
+[1.4.x]
+*1.4.47.2^New unmount screen
+*1.4.47.1^FIX: KB2955164 will be moved to Silent Installers on XP
+*1.4.47.1^FIX: Updates with -express.cab at the end will be skipped
+*1.4.46.1^FIX: Fixed DISM update prompt
+*1.4.45.5^FIX: Fixed RunOnce crashing
+*1.4.45.1^FIX: RunOnce prompt
+*1.4.44.4^FIX: *.msp silent installer support
+*1.4.44.4^FIX: Hopefully fixed RunOnce not restarting Windows
+*1.4.44.4^FIX: Hopefully fixed RunOnce starting multiple times
+*1.4.44.3^FIX: Temp folders did not always delete
+*1.4.44.2^FIX: Win Toolkit now checks for DISM updates
+*1.4.44.1^FIX: Checks DISM version whilst integrating
+*1.4.44.1^FIX: LDR-QFE option ignored for Windows 8 updates.
+*1.4.43.1^FIX: Fixed User and ProgramData entries in Unattended Creator
+*1.4.43.1^FIX: Moved mount temp directory
+*1.4.43.1^FIX: Fixed minor issues with RunOnce
+*1.4.43.1^Added more logging to RunOnce
+*1.4.42.1^NEW: RunOnce now deletes itself
+*1.4.41.3^3rd party themes tweak enhancements
+*1.4.41.2^FIX: Fixed setting new date on Alphawaves Downloader
+*1.4.41.2^FIX: Fixed adding some drivers on AIO Integrator
+*1.4.41.2^FIX: Fixed 3rd party themes tweak
+*1.4.41.2^FIX: Fixed Alphawaves Downloader crashing on right-click
+*1.4.41.1^FIX: Fixed extracting ISO to network drive
+*1.4.40.3^FIX: Fixed expanded driver already exists
+*1.4.40.2^FIX: Removed driver extraction message
+*1.4.40.1^FIX: Fixed driver *.tx_ extraction
+*1.4.39.2^FIX: Allow 3rd party theme tweaks
+*1.4.39.2^FIX: Fixed adding drivers via network path
+*1.4.39.2^FIX: Fixed Preset Manager not showing
+*1.4.39.1^FIX: Fixed RunOnce
+*1.4.38.10^FIX: Fixed an issue with RunOnce not starting
+*1.4.38.10^FIX: LargestDriveDetection will only use Fixed or RAMDrive
+*1.4.38.10^FIX: Updated 'Exclusive ISOs' update lists
+*1.4.38.9^FIX: Fixed driver error popping up multiple times
+*1.4.38.9^FIX: Fixed debug message once on AIO Disk Creator &gt; Make ISO
+*1.4.38.8^FIX: Fixed x64 RunOnce
+*1.4.38.7^FIX: Sometimes updates got added via temp filepath rather than original
+*1.4.38.7^FIX: Update icons reset on start
+*1.4.38.5^FIX: Fixed english language pack integration
+*1.4.38.5^FIX: Fixed services tab list showing when scrolling
+*1.4.38.3^FIX: Fixed driver tab showing wrong status message
+*1.4.38.3^FIX: Fixed update column clickable during integration
+*1.4.38.2^FIX: Moving updates affected integration status
+*1.4.38.1^FIX: Fixed Check/Uncheck options in Alphawave's Downloader
+*1.4.37.20^FIX: Fixed adding drivers
+*1.4.37.19^FIX: Fixed Preset Manager always showing when unchecked
+*1.4.37.16^FIX: Updated theme patcher
+*1.4.37.15^FIX: RunOnce Installer not working when certain updates added
+*1.4.37.10^FIX: More temp path checking
+*1.4.37.10^FIX: Disable update compatibility checking
+*1.4.37.6^Moved to .NET 4
+*1.4.37.6^Alphawaves' Downloader check now &gt; 1 hour instead of &gt; 24 hours
+*1.4.37.6^Alphawaves' Downloader now sets creation date as release date
+*1.4.37.6^FIX: Alphawaves' Downloader list checking
+*1.4.37.6^FIX: Prevented ISO from being extracted to non-valid paths
+*1.4.37.5^FIX: AIO Integrator no longer flickers on load
+*1.4.37.5^FIX: Better update integration detection
+*1.4.37.4^FIX: Unmount no longer hangs when you choose to keep an image
+*1.4.37.3^FIX: Update reported as failed when multiple images selected
+*1.4.37.3^FIX: RunOnce updates now install in alphabetical order (easier)
+*1.4.37.2^FIX: Fixed adding IE and XP Mode to AIO Updates
+*1.4.37.2^FIX: Minor fix to Alpahwaves Downloader
+*1.4.37.2^FIX: Minor fix to Update Retriever
+*1.4.37.1^FIX: Fixed updates issue with RunOnce
+*1.4.36.2^FIX: Fixed taskbar update error
+*1.4.36.1^FIX: Error when pressing cancel on Browse ISO button (WIM Manager)
+*1.4.36.1^FIX: Fixed issue with RunOnce installer
+*1.4.36.1^FIX: .DOS driver files did not get expanded
+*1.4.36.1^More big errors moved onto new error system
+*1.4.35.1^Errorboxes now show full details to user
+*1.4.35.1^Moved more logging onto the new system
+*1.4.35.1^FIX: AIO RunOnce Integration
+*1.4.35.1^FIX: .BIN driver files did not get expanded
+*1.4.34.14^Further enhancements to the new error logging system
+*1.4.34.14^FIX: Alphawaves' downloader showing wrong updates for Win 8.1
+*1.4.34.14^FIX: .BMP driver files did not get expanded
+*1.4.34.14^FIX: .VXD driver files did not get expanded
+*1.4.34.14^FIX: .MPG driver files did not get expanded
+*1.4.34.14^FIX: .EN driver files did not get expanded
+*1.4.34.14^FIX: .LNG driver files did not get expanded
+*1.4.34.14^FIX: .NT driver files did not get expanded
+*1.4.34.14^FIX: .DS driver files did not get expanded
+*1.4.34.14^FIX: .RTF driver files did not get expanded
+*1.4.34.14^FIX: .BAT driver files did not get expanded
+*1.4.34.14^FIX: .FON driver files did not get expanded
+*1.4.34.14^FIX: .CN driver files did not get expanded
+*1.4.34.14^FIX: .AX driver files did not get expanded
+*1.4.34.14^FIX: .TVP driver files did not get expanded (nVidia)
+*1.4.34.13^NEW: Error logging system with improvements and fixes
+*1.4.34.13^NEW: System tray icon for new loggin system and future plans
+*1.4.34.13^FIX: Fixed getting default browser
+*1.4.34.13^FIX: RunOnce opened multiple times
+*1.4.34.13^FIX: Taskbar icon did not show properly
+*1.4.34.12^FIX: Fixed all sub-item checking
+*1.4.34.7^install.ini sample is made in sources folder for RunOnce installers 
+*1.4.34.6^Enhanced RunOnce installer 
+*1.4.34.5^Updated Alphawaves' Downloader
+*1.4.34.4^Better pinging of external servers
+*1.4.34.4^FIX: Not support error when trying to upload error log
+*1.4.34.4^FIX: Error mounting to parent folder with similar name
+*1.4.34.3^Added Show/Hide confirmation dialog on delete to tweaks 
+*1.4.34.2^FIX: Better registry mounting code
+*1.4.34.2^FIX: Error adding update with missing MD5 
+*1.4.34.1^FIX: WIM Manager &gt; ISO Maker did not always work (boot.wim)
+*1.4.34.1^FIX: Drivers did not prepare properly
+*1.4.34.1^Added right click for drivers to integrate into boot.wim
+*1.4.33.7^Removed all built-in adverts
+*1.4.33.6^FIX: Sorting by size now works properly
+*1.4.33.4^NEW: Alphawaves' Downloader
+*1.4.33.3^FIX: Fixed tweaks count updating wrong tab
+*1.4.33.2^FIX: Fixed NSIS Error
+*1.4.32.5^FIX: Removed left over messagebox
+*1.4.32.1^FIX: MSU files did not integrate in 'Update Integrator'
+*1.4.32.1^Improvements to the 'Update Integrator'
+*1.4.31.7^FIX: Preset Manager did not tick parent checkbox
+*1.4.31.6^Added ability to automatically retry updates
+*1.4.31.6^Added ability to automatically move failed updates to silent installers
+*1.4.31.5^FIX: English language pack would not integrate properly
+*1.4.31.2^FIX: Options &gt; DISM could not detect correct file
+*1.4.31.1^Better Win Toolkit update detection
+*1.4.30.20^External links now have shortcut arrow
+*1.4.30.20^You can now specify a DISM location
+*1.4.30.19^Better DISM detection.
+*1.4.30.18^FIX: KB971088 did not integrate as cab.
+*1.4.30.18^AIO Preset name now shows character limit
+*1.4.30.16^FIX: Updates disappearing when add Updates + Subfolder (same folder)
+*1.4.30.13^NEW: Main window redesigned
+*1.4.30.13^FIX: Imporing registry permissions
+*1.4.30.13^FIX: Fixed detecting largest drive on startup
+*1.4.30.12^FIX: Component Remover now recognizes more packages
+*1.4.30.12^FIX: Component Remover wont list multiple language packs
+*1.4.30.12^FIX: RunOnce won't crash during installations (hopefully)
+*1.4.30.9^FIX: Fixed outdated support links
+*1.4.30.9^FIX: Fixed monitor not turning off (sleep)
+*1.4.30.9^FIX: Fixed Update Installer BF/LDR mode.
+*1.4.30.9^CAB support RunOnce
+*1.4.30.7^New preset naming
+*1.4.30.6^FIX: Crash on sorting items
+*1.4.30.4^FIX: Integration status was swapped during item moving
+*1.4.30.3^FIX: Mount folder was removed even though 'Keep' was selected
+*1.4.30.3^FIX: Offline updates had wrong name
+*1.4.30.3^FIX: RunOnce showed security warning
+*1.4.30.2^FIX: RunOnce hanged when no installs
+*1.4.30.1^FIX: RunOnce used wrong version string
+*1.4.30.1^FIX: Moving updates to IE group did not work
+*1.4.30.1^FIX: Better MSU &gt; CAB extraction detection
+*1.4.29.0^FIX: Fixed default browser detection
+*1.4.29.0^FIX: Fixed issue replacing strings
+*1.4.29.0^FIX: FAT32 now hidden on USB Boot Prep if partition &gt; 32GB
+*1.4.29.0^FIX: AIO did not cancel rebuild WIM
+*1.4.29.0^FIX: Remove WinToolkit_Mount properly
+*1.4.29.0^FIX: Detection of unmounted images
+*1.4.29.0^FIX: Exlusive ISO links
+*1.4.29.0^FIX: IE11 exe did not integrate
+*1.4.29.0^FIX: IE11 did not add for non-english version.
+*1.4.29.0^FIX: IE11 now back at priority group
+*1.4.29.0^FIX: AIO Creator buttons remained visible.
+*1.4.29.0^FIX: AIO Disk Creator couldn't add other images
+*1.4.29.0^FIX: RunOnce no longer runs during Windows installation.
+*1.4.29.0^New RunOnce Installer
+*1.4.29.0^New theme patcher now supports Windows 8 and 8.1
+*1.4.29.0^Created 'Update' tab
+*1.4.29.0^Added RicaNeaga update repository
+*1.4.1.28^Added checking on unattended 'Profile Directory'
+*1.4.1.28^Added checking on unattended 'ProgramData Folder'
+*1.4.1.28^Internet Explorer gets installed after updates
+*1.4.1.28^Added IE11 download link
+*1.4.1.28^Added Upgrade button on WIM Manager
+*1.4.1.28^Child prompt screen now open CenterParent instead of CenterScreen
+*1.4.1.28^Added IE11 support
+*1.4.1.27^FIX: IE LangPack (MSU) showed as red
+*1.4.1.27^FIX: Fixed empty mount paths not being unmounted properly
+*1.4.1.26^FIX: Fixed IE langpack integration detection
+*1.4.1.26^FIX: Fixed string replacement error
+*1.4.1.26^Updated May 2013 exclusive ISOs
+*1.4.1.25^FIX: Fixed sorting error when update changed group
+*1.4.1.25^FIX: Fixed IE langpack integrating before IE itself
+*1.4.1.25^FIX: RunOnce did not install anything
+*1.4.1.25^FIX: RunOnce hanged on looking for installation files
+*1.4.1.25^Upgrade image option added for WIM Manager
+*1.4.1.25^Improved saving image status reporting
+*1.4.1.25^Added keyboard shortcuts on WIM Manager
+*1.4.1.24^FIX: Fixed a critical issue with hanging
+*1.4.1.23^FIX: AIO &gt; Files did not always copy files correctly (unsupported path error)
+*1.4.1.23^FIX: Fixed an error with RunOnce if no installers present
+*1.4.1.23^FIX: Fixed issue with exe missing on Silent Installers if 'Copy Folder' selected
+*1.4.1.23^FIX: WIM Capture will now store temp files in WinToolkit temp dir
+*1.4.1.23^FIX: WIM Capture worked without selecting a wim file
+*1.4.1.23^FIX: 0x80070057 also get added to silent installers like
+*1.4.1.23^FIX: Disable Langauge Bar tweak re-added.
+*1.4.1.23^FIX: Fixed issue with Silent Installers and _ characters.
+*1.4.1.23^FIX: Could not add French IE exe
+*1.4.1.23^Exclusive ISOs now updated to May 2013
+*1.4.1.23^Added support for word and filterpack in MSP Extractor
+*1.4.1.22^FIX: Add 'xxxxx' and subfolders now works in AIO Integrator
+*1.4.1.22^FIX: AIO preset manager still shows despite unchecked
+*1.4.1.22^Silent Installers now contain _ instead of spaces.
+*1.4.1.22^Addon Maker now uses addon name when save file dialog is opened
+*1.4.1.21^FIX: Fixed registry detection code
+*1.4.1.20^FIX: RunOnce will only open if it has something to install
+*1.4.1.20^FIX: Addon Maker variables added unwanted spaces
+*1.4.1.20^FIX: Addon Maker did not save 'Dual' architecture setting
+*1.4.1.20^FIX: Download ISOs button had two tooltips
+*1.4.1.20^Wallpapers with same MD5 won't get added to the integration list
+*1.4.1.20^Gadgets with same MD5 won't get added to the integration list
+*1.4.1.19^FIX: AIO Integration should now unmount properly if BIG error appears
+*1.4.1.19^FIX: Fixed RunOnce not installing automatic files
+*1.4.1.19^FIX: Online only updates will get added to silent installer automatically during integration
+*1.4.1.19^'Show Network Drives' in Options added
+*1.4.1.19^FIX: Make ISO in WIM Manager will not disable browse box
+*1.4.1.18^FIX: RunOnce does not install duplicate entries
+*1.4.1.18^FIX: Fixed moving old silent installers.
+*1.4.1.18^FIX: Files could not be extracted if foreign character was in the file path
+*1.4.1.17^FIX: Fixed many spelling mistakes
+*1.4.1.17^FIX: Fixed Windows language pack integration
+*1.4.1.17^FIX: Fixed Internet Explorer EXE integration
+*1.4.1.17^Not applicable updates go blue during integration
+*1.4.1.16^FIX: Hopefully fixed detecting largest drive
+*1.4.1.16^FIX: Fixed Office 2013 downloads
+*1.4.1.16^FIX: Fixed some spelling mistakes in AIO Integrator
+*1.4.1.16^Removed KUC servers
+*1.4.1.16^Made some changes to Win Toolkit RunOnce
+*1.4.1.16^Updated imagex to Windows 8 version (6.2.9200.16384)
+*1.4.1.15^FIX: Corrected 'Exclusive ISOs' hashes
+*1.4.1.15^FIX: %DVDRoot% did not work on AIO Integrator &gt; Files
+*1.4.1.15^FIX: Fixed cab updates getting wrong version
+*1.4.1.15^FIX: Fixed cab updates appearing red
+*1.4.1.15^FIX: Temp folder now deleted after integrating updates
+*1.4.1.15^FIX: Fixed Update Retriever going red instead of green
+*1.4.1.15^FIX: Browse for ISO fixed
+*1.4.1.15^FIX: IE10 Final integration
+*1.4.1.15^FIX: Swapping items did not swap color
+*1.4.1.15^FIX: Multiple issues USB Prep Tool
+*1.4.1.15^WIM editing tools always closed on unmount
+*1.4.1.15^More options for silent installers
+*1.4.1.15^Mount folder now uses 'WinToolkit_Mount' instead of 'WinToolkit_Temp\\Mount' as default
+*1.4.1.15^Updates now have a leading 0 if KB number is less than 6 numbers. (sorting)
+*1.4.1.15^All files extracted go into a temp folder instead of WinToolkit root
+*1.4.1.15^Assembly's now run from memory
+*1.4.1.15^Less file deletion for temp files (save HDD I/O)
+*1.4.1.14^FIX: Fixed sorting error in AIO integrator
+*1.4.1.14^FIX: Changed date format to 'yyyy/MM/dd' to fix sorting dates
+*1.4.1.13^FIX: Fixed 0 selected error in AIO Integrator
+*1.4.1.13^FIX: Hopefully fixed speed with Windows ISO's download
+*1.4.1.13^FIX: Fixed 'Files' in AIO Integrator not copying properly
+*1.4.1.13^More start menu tweaks
+*1.4.1.13^Sort by columns on AIO Integrator
+*1.4.1.13^Sort by columns on Update Catalog
+*1.4.1.12^FIX: "KB2670838" will always be integrated before IE10.
+*1.4.1.12^FIX: Typo on new 'Windows ISO' screen.
+*1.4.1.12^FIX: Tooltips did not get moved on sorting in AIO Integrator.
+*1.4.1.12^FIX: Processor architecture neutral updates can now be integrated.
+*1.4.1.12^New update integration detection method. Less updates going red.
+*1.4.1.12^KB2764913 and KB2764916 (IE10 files) can now be integrated on x64
+*1.4.1.12^'Windows ISO' &gt; 'Exclusive ISOs' now displays download speed and time remaining.
+*1.4.1.12^Win Toolkit now checks if update is already integrated.
+*1.4.1.11^Updated 'Windows ISO' screen.
+*1.4.1.10^FIX: Fixed removing non-Aero themes
+*1.4.1.10^FIX: Fixed 'Prompt Unmount' not unmounting with multiple images selected
+*1.4.1.10^WinToolkit should now work on Windows 8/Server 2012 without installing .NET 3.5
+*1.4.1.10^Ability to change image flag in WIM Manager
+*1.4.1.9^FIX: Fixed addon/registry conversion
+*1.4.1.9^FIX: Fixed Win8 Trial link
+*1.4.1.9^DISM now uses WinToolkit temp folder for its scratch directory
+*1.4.1.8^FIX: Fixed version number
+*1.4.1.7^FIX: Fixed renaming images in WIM Manager
+*1.4.1.6^FIX: Potentially fixed a lot of string replacement bugs
+*1.4.1.6^UEFI files get added automatically for ISO Maker
+*1.4.1.6^UEFI files get added automatically for AIO Disk Creator
+*1.4.1.5^FIX: Fixed an issue with saving settings on network share
+*1.4.1.4^Code Enhancements
+*1.4.1.3^FIX: Update Installer incorrectly numbered updates being added
+*1.4.1.3^FIX: WinToolkit temp folder now in user temp folder
+*1.4.1.3^FIX: Options saved settings even if user said no
+*1.4.1.3^Added new Windows ISO for download
+*1.4.1.2^FIX: IE10 LangPack shows as IE9 LangPack
+*1.4.1.2^Last Session also saved onto DVD
+*1.4.1.2^Explorer windows viewing mount folder are closed on unmount
+*1.4.1.2^Application can handle large
+*1.4.1.2^Built-in adverts are disabled for people who donate
+*1.4.1.1^FIX: Missing items (IE) in Integrated list
+*1.4.1.1^FIX: Integrated &gt; Updates did not show correct item count
+*1.4.1.1^FIX: Windows Thin PC (EMB) detection
+*1.4.1.1^FIX: 'Sources' folder can now be selected in WIM manager Browse for folder/DVD
+*1.4.1.1^FIX: Addon Maker commands
+*1.4.1.1^FIX: IE9 LangPack integration fixed.
+*1.4.1.1^FIX: WIM Manager &gt; Merge remained disabled if not enough space
+*1.4.1.1^FIX: Fixed process error if AIO cancelled
+*1.4.1.1^FIX: If AIO cancelled then the process will now close correctly
+*1.4.1.1^FIX: SWM Merger showed WIM Manager instead
+*1.4.1.1^FIX: Auto button in Options set temp instead of mount temp
+*1.4.1.1^FIX: Single thread error when error box for swm file shown
+*1.4.1.1^FIX: AIO &gt; Files will now show correct folder
+*1.4.1.1^FIX: 2574819 update required for RDP8.0 now added to top
+*1.4.1.1^FIX: AIO Integrator status bar hides when tab changed during integration
+*1.4.1.1^FIX: Component Remover 'object not set as reference' with Win 8 image
+*1.4.1.1^FIX: Hopefully no more hanging when compressing images
+*1.4.1.1^FIX: AIO &gt; Files would not work properly if user put C:\ in save to path
+*1.4.1.1^FIX: McRip servers now working
+*1.4.1.1^FIX: Silent Installer should now work on Windows 8
+*1.4.1.1^FIX: AIO &gt; Files could did not work properly without file extensions
+*1.4.1.1^FIX: Could not change Unattended serial
+*1.4.1.1^FIX: Fixed form showing transparent on startup
+*1.4.1.1^FIX: Fixed TransparencyAll settings and set forced minimum of 40%
+*1.4.1.1^FIX: WIM Registry Editor did not load default key
+*1.4.1.1^FIX: Statusbar flickered when adding updates in AIO Integrator
+*1.4.1.1^FIX: Options column in AIO Integrator was not the correct size
+*1.4.1.1^FIX: Fixed user from being able to open multiple AIO Integrators
+*1.4.1.1^FIX: Fixed user from being able to open multiple Component Removers
+*1.4.1.1^FIX: Fixed user from being able to open multiple WIM Registry Editors
+*1.4.1.1^Improved Win Toolkit startup time!
+*1.4.1.1^Improved AIO Integrator LDR update integration
+*1.4.1.1^Added more screen resolutions for logon background tweak
+*1.4.1.1^Logon Background tweak will automatically new screen resolutions
+*1.4.1.1^More start menu options in AIO &gt; Tweaks
+*1.4.1.1^KUC updates now available via Update Catalog
+*1.4.1.1^Showing Components in Component Remover is faster
+*1.4.1.1^Update Catalog Additional's now have their own group and unchecked by default
+*1.4.1.1^Ability to select ISO in WIM Manager
+*1.4.1.1^Ability to select CD/DVD draw in WIM Manager
+*1.4.1.1^Ability to remove Metro apps when using Win 8
+*1.4.1.1^Added Update Catalog filter option to 'Options'
+*1.4.1.1^Internet Explorer 10 support.
+
+[1.4.0]
+*1.4.0.77^FIX: Fixed SFX integrator
+*1.4.0.77^FIX: Fixed addons, wallpapers and some other stuff being 'WinToolkit_Temp' folder
+*1.4.0.77^FIX: Code improvements and optimizations
+*1.4.0.77^Icon changes to Update Retriever
+*1.4.0.76^FIX: Sort arrows in AIO did not always appear in certain conditions
+*1.4.0.76^FIX: Could not close AIO Integrator if preset name cancelled
+*1.4.0.76^FIX: Fixed .theme integration
+*1.4.0.76^FIX: Fixed access denied message at beginning of mount
+*1.4.0.76^FIX: Fixed temp directory error during startup
+*1.4.0.76^FIX: Hopefully fixed file copying error with %SystemDrive% in AIO
+*1.4.0.76^FIX: Multiple bug fixes due to code re-factoring
+*1.4.0.76^FIX: WinToolkit temp folder renamed to WinToolkit_Temp
+*1.4.0.76^New preset name dialog in AIO
+*1.4.0.75^FIX: Removed 'Change User Folders Location' tweak
+*1.4.0.75^FIX: Fixed importing 'Advanced &gt; Files' in AIO Integrator
+*1.4.0.74^FIX: Fixed renaming images bug in AIO Disk Creator
+*1.4.0.74^FIX: Fixed renaming images name bug in WIM Manager
+*1.4.0.74^Added ability to rename display name and description on AIO Disk Creator
+*1.4.0.74^Tooltip on AIO Disk Creator show image display name and description
+*1.4.0.74^Added ability to rename display name and description on WIM Manager
+*1.4.0.74^Tooltip on WIM Manager show image display name and description
+*1.4.0.73^FIX: Fixed donation links within Win Toolkit
+*1.4.0.73^FIX: Fixed already exists error if user presses Cancel on AIO Disk Creator edit buttons
+*1.4.0.72^FIX: Fixed adding silent installers with same name
+*1.4.0.72^FIX: Anti-virus prompt did not display correctly
+*1.4.0.72^FIX: Some Office updates did not work with EXE to MSP Converter
+*1.4.0.71^FIX: Office MSP Converter did not work if Office *.exe had a space in it
+*1.4.0.71^Adding addons now notify you why they didn't get added
+*1.4.0.70^FIX: Update Catalog will hide 0 byte files
+*1.4.0.70^FIX: Hopefully fixed object not set as reference when integrating silent installer
+*1.4.0.70^FIX: Hopefully fixed could not load 'Interop.IWshRuntimeLibrary' in Addon Maker
+*1.4.0.70^FIX: Error integrating theme if 'Themes' directory did not exist
+*1.4.0.70^FIX: Error when user did not add extension to save to path on AIO Integrator &gt; Files tab
+*1.4.0.70^FIX: 'Unable to save as JPG' error sometimes occurring with logon background tweak
+*1.4.0.70^FIX: Tweak tab in AIO Integrator showed sort buttons
+*1.4.0.70^FIX: Fixed missing file error in Update Retriever
+*1.4.0.70^FIX: Collection was modified; enumeration operation may not execute on main form
+*1.4.0.70^FIX: Fixed a file in use error when adding unattended via WIM Manager
+*1.4.0.70^Added refresh buttons in Update Retriever
+*1.4.0.69^FIX: Hopefully fixed a disposed error when loading Win Toolkit
+*1.4.0.69^FIX: USB drives will not be scanned for mount/temp folders
+*1.4.0.68^FIX: KB2685811 and KB2685813 forced LDR Mode
+*1.4.0.68^FIX: Further fixed registry issues with x86 addons and x64 image
+*1.4.0.68^FIX: Fixed a font error sometimes occurring
+*1.4.0.67^FIX: Fixed error when opening URL
+*1.4.0.67^FIX: Further fixed importing registry / addons
+*1.4.0.67^FIX: Fixed some GUI issues in Update Catalog
+*1.4.0.67^Update Catalog now shows progress for each download
+*1.4.0.66^FIX: Importing registry files with addons
+*1.4.0.66^On first run the partitions with the most free space are used for temp folders.
+*1.4.0.65^FIX: Always said v64 was available
+*1.4.0.64^FIX: Error during addon integration
+*1.4.0.64^FIX: Update integration did not work
+*1.4.0.63^FIX: Previous form sizes now loaded correctly (maximized)
+*1.4.0.63^FIX: All-In-One Integrator did not install LDR/QFE on XP.
+*1.4.0.63^FIX: Win Toolkit now prevents users from mounting an image to the desktop itself.
+*1.4.0.63^Update Installer disabled on XP
+*1.4.0.63^Update Retriever disabled on XP
+*1.4.0.63^Driver Installer and AIO show 'Unknown' drivers yellow instead of removing them
+*1.4.0.63^Better cleanup before update integration
+*1.4.0.63^Made some code more simple and efficient
+*1.4.0.62^FIX: Services tab in AIO was very slow when sorting columns
+*1.4.0.62^FIX: Services tab in AIO was very slow when using BlackViper presets
+*1.4.0.62^FIX: Removed 'RPC Endpoint Mapper' service, caused start services hang
+*1.4.0.61^FIX: Fixed WinPE product key error in unattended 
+*1.4.0.60^NEW: Unmount screen will prompt if other wim editing tools are open on 'Save'
+*1.4.0.60^NEW: 'Add' option in All-In-One Integrator
+*1.4.0.60^FIX: FolderBrowserDialog went into root directly of previously saved
+*1.4.0.60^FIX: Fixed a few status messages in All-In-One Integrator
+*1.4.0.60^FIX: Changing setup background could not find file
+*1.4.0.60^FIX: Win Toolkit will save logs with UTC time
+*1.4.0.59^NEW: Win Toolkit now required .NET Framework 3.5
+*1.4.0.59^FIX: Update Catalog did not work properly outside Berlin time
+*1.4.0.59^FIX: Update Installer did not work on Windows 8
+*1.4.0.59^FIX: Component Removal showed incorrect group count
+*1.4.0.58^FIX: Unattended Creator did not import product key
+*1.4.0.58^GUI changes to WIM Manager
+*1.4.0.58^ISO Maker loads last ISO location on startup
+*1.4.0.57^FIX: Tweak prompt form did not load correctly
+*1.4.0.57^FIX: 'Remove Shortcut Prefix' tweak did not work
+*1.4.0.57^FIX: 'Change Setup Background' tweak did not work
+*1.4.0.56^FIX: Fixed dll error when importing addon in Addon Maker
+*1.4.0.56^FIX: Fixed 'Save Screenshot' on error form
+*1.4.0.55^FIX: Hopefully fixed .dll error in Addon Maker
+*1.4.0.55^FIX: Hopefully fixed known status bar error when rebuilding images
+*1.4.0.55^FIX: Silent Installers did not copy folders
+*1.4.0.55^Integrating Silent Installers will replace files if MD5 do not match
+*1.4.0.54^Update Catalog now shows Windows 8 RTM updates
+*1.4.0.53^FIX: All-In-One Integrator did not integrate updates if mount path had a space
+*1.4.0.53^FIX: 'Disable Mapped Drive Checking' caused BSOD on install
+*1.4.0.53^All logs will now go into 'Logs' folder
+*1.4.0.53^Registry logging can be enabled via options
+*1.4.0.52^FIX: Textbox's selected all on mouse wheel scroll
+*1.4.0.52^FIX: Hopefully fixed a few missing .dll errors
+*1.4.0.52^FIX: VistaBrowserDialog will revert to old FolderBrowserDialog if it fails
+*1.4.0.51^NEW: Main screen design
+*1.4.0.51^NEW: Mouse wheel will now move currently viewed list view
+*1.4.0.51^NEW: Built-in browser will load if default web browser fails to load
+*1.4.0.51^FIX: Some links did not open properly
+*1.4.0.51^FIX: x64 recovery mode enabled even if no x86 images are selected.
+*1.4.0.51^FIX: WIM Manager &gt; ISO Maker had BIOS selected as default
+*1.4.0.51^FIX: All-In-One Disk Creator &gt; ISO Maker had BIOS selected as default
+*1.4.0.51^FIX: WIM Registry Editor did not load correct registry location
+*1.4.0.51^FIX: Rebuilding image may accidentally delete wim
+*1.4.0.51^FIX: Fixed a lot more spelling and grammar mistakes
+*1.4.0.51^FIX: ISO Maker did not load last ISO location
+*1.4.0.51^Update Catalog will now compare dates
+*1.4.0.51^Donation links no longer travel through ADF.LY
+*1.4.0.50^FIX: Users now prevented from mounting to the desktop itself
+*1.4.0.50^FIX: Better cleanup when integrating addons
+*1.4.0.50^FIX: Update Catalog did not show top of 'New Updates' section
+*1.4.0.49^FIX: Fixed a bunch of spelling and grammar mistakes
+*1.4.0.48^FIX: AIO Disk Creator deleting everything with x64 Rec mode
+*1.4.0.48^FIX: Fixed background worker error in Update Catalog
+*1.4.0.48^FIX: Made some changes to driver duplicate detection
+*1.4.0.47^FIX: I have now prevent users from adding *.msp files in DragDrop situations
+*1.4.0.47^FIX: AIO Integrator did not show progress
+*1.4.0.47^FIX: Some integration tasks did not cancel if user requested.
+*1.4.0.47^Rechecked progress changing code.
+*1.4.0.46^FIX: Fixed error changing setup background
+*1.4.0.45^FIX: Fixed another file copying issue
+*1.4.0.45^FIX: Fixed file already exists error when copying files
+*1.4.0.45^FIX: Further DPI fixes
+*1.4.0.45^FIX: Corrected some text
+*1.4.0.45^Tweak: 'Desktop Icon Size'
+*1.4.0.45^Tweak: 'Disable Mapped Drive Checking on Startup'
+*1.4.0.44^FIX: Sometimes Win Toolkit could not detect existing mount folder
+*1.4.0.44^FIX: Fixed some DPI GUI glitches
+*1.4.0.44^FIX: Fixed some other GUI issues to stop confusion
+*1.4.0.43^FIX: Fixed 'Delete Silent Installers' option in AIO
+*1.4.0.43^FIX: Column sizes did not adjust if preset was imported
+*1.4.0.43^FIX: Silent installers with foreign characters now supported
+*1.4.0.43^FIX: Fixed index error whilst saving AIO preset
+*1.4.0.43^FIX: Minor GUI and code fixes
+*1.4.0.42^NEW: Update integration system. Efficient, faster and more bug free.
+*1.4.0.42^FIX: Importing multiple SFX files got set as 'Always Install'
+*1.4.0.42^FIX: Items could not be removed from All-In-One Integrator lists
+*1.4.0.42^FIX: 'Files' list in All-In-One Integrator did not get cleared
+*1.4.0.41^FIX: IE9 LangPacks did not save in preset
+*1.4.0.41^FIX: Size column did not show correctly on Update catalog
+*1.4.0.41^FIX: Fixed error when removing item in AIO Integrator
+*1.4.0.41^FIX: Fixed error when adding reg files in AIO Integrator
+*1.4.0.41^FIX: Drivers did not integrate
+*1.4.0.41^FIX: Re-Fixed Toolkit being on top when opening webpage's
+*1.4.0.41^Update catalog now shows McRips Windows 8 updates
+*1.4.0.40^FIX: Update Installer will not longer try to install corrupt files
+*1.4.0.40^FIX: Update Catalog will delete corrupt (0 bytes) files when scanning.
+*1.4.0.40^FIX: 'Adjust Visual Styles' tweaks now sets other checkbox's
+*1.4.0.40^FIX: File not found for Update Installer
+*1.4.0.40^Re-updated the unmount screen
+*1.4.0.40^Added 'Open Mount' in WIM Manager for mounted images
+*1.4.0.40^Win Toolkit now remembers form sizes
+*1.4.0.39^FIX: Hopefully fixed copying file error with AIO Disk Creator
+*1.4.0.39^FIX: Fixed IE9 and XP Mode *.exe integration
+*1.4.0.39^FIX: Main form is no longer TopMost
+*1.4.0.39^FIX: Update Catalog will now show top item
+*1.4.0.39^FIX: Error when adding driver if folder has been deleted/moved during integration.
+*1.4.0.39^Better cleanup for IE9 LangPacks
+*1.4.0.39^Made some improvements to big improvements to MSU&gt;CAB Converter
+*1.4.0.38^FIX: Fixed a few typos
+*1.4.0.38^FIX: IE9 Language Pack integration and detection
+*1.4.0.38^Updates now show language
+*1.4.0.37^FIX: Fixed a few 'Object not set as reference' errors
+*1.4.0.37^FIX: Items in 'Updates' list &gt; 'Integrated' tab did not fit in the columns properly
+*1.4.0.37^Added Virtual PC and VirtualBox to 'Downloads' tab
+*1.4.0.37^Further memory enhancements and code cleanup
+*1.4.0.37^Incorporated adf.ly into links
+*1.4.0.36^FIX: Fixed AIO Integrator sort buttons
+*1.4.0.36^FIX: 'Mouse Hover Time' tweak in AIO Integrator
+*1.4.0.36^Ability to 'Save Screenshots' in the new error message window.
+*1.4.0.35^FIX: Wrong status after 'Clear Lists' in AIO Integrator
+*1.4.0.35^FIX: KB2719177 did not add to the updates list
+*1.4.0.35^Less intrusive error messages when adding updates to list
+*1.4.0.35^Some GUI changes to Update Installer
+*1.4.0.34^New notification for invalid updates
+*1.4.0.33^FIX: Added Windows Self-Update cabs now load
+*1.4.0.33^FIX: Adding language packs support links now fixed
+*1.4.0.33^FIX: 'SoLoR' was the default folder for the Update Catalog
+*1.4.0.33^Rebuilding image shows image number
+*1.4.0.33^Some code enhancements
+*1.4.0.32^FIX: Error during copy directories (already exists)
+*1.4.0.32^FIX: Copy Directories did not work
+*1.4.0.32^FIX: Made some improvements to the GUI on AIO Disk Creator
+*1.4.0.31^FIX: Some updates such as IE9 did not add to updates list
+*1.4.0.30^FIX: IE9 LangPack will now go green
+*1.4.0.30^FIX: Multiple errors when closing WIM Manager during 'Save &amp; Rebuild' unmount
+*1.4.0.30^FIX: Update Catalog did not detect additions folder
+*1.4.0.30^IBAN/BIC/SWIFT options added to donation screens
+*1.4.0.30^Massively improved update compatibility detection
+*1.4.0.30^USB Boot Prep enhancements
+*1.4.0.30^SoLoR Updates option temporarily removed
+*1.4.0.29^FIX: Hopefully fixed Silent Installer integration of Russian versions
+*1.4.0.29^FIX: Access Denied error when copy directories
+*1.4.0.29^FIX: Index error when uninstalling update via Update Installer
+*1.4.0.29^FIX: Internet Explorer did not add to AIO integrator correctly
+*1.4.0.29^FIX: Some code and GUI fixes to Component Remover
+*1.4.0.29^Update Catalog now removes empty directories
+*1.4.0.29^Windows 8 option for Downloads &gt; Windows ISOs
+*1.4.0.29^Main tooltips now show for 30s instead of 5s
+*1.4.0.28^New 'Donate' options
+*1.4.0.27^FIX: 'Adjust Visual Styles' tweak did not work
+*1.4.0.27^FIX: Using 'Import Image' via 'WIM Manager' had wrong options selected
+*1.4.0.27^FIX: Update Installer hanged uninstalling updates
+*1.4.0.27^FIX: Updates for Windows Update itself now show green
+*1.4.0.27^FIX: Links did not open correctly.
+*1.4.0.27^FIX: MSU to CAB Converter now opens support page on double click
+*1.4.0.27^FIX: MSU to CAB Converter did not show correct support link
+*1.4.0.27^FIX: Driver Installer said 'Stop' when removing drivers
+*1.4.0.27^FIX: When uninstalling drivers, the list was still disabled.
+*1.4.0.27^FIX: When loading services presets, same values will not be checked
+*1.4.0.27^FIX: WinToolkit now cleans up on exit when on new update screen
+*1.4.0.27^FIX: Removed 'SoLoR' button from Update Catalog
+*1.4.0.27^FIX: Update Checker did not load setting correctly
+*1.4.0.27^'Music and Video Samples' is now red
+*1.4.0.27^Antivirus prompt before AIO Integration starts
+*1.4.0.27^EXE &gt; MSU now prompts where to put the files after completion
+*1.4.0.26^FIX: Multiple fixes to Unattended Creator
+*1.4.0.26^FIX: Fixed resizing issue on Update retriever
+*1.4.0.26^FIX: Fixed link to 'Update Catalog' on download tab
+*1.4.0.26^FIX: AIO Creator had overlapping check boxes
+*1.4.0.26^FIX: AIO Integrator now has the correct service settings
+*1.4.0.26^FIX: Added some missing descriptions in Tweaks (not all)
+*1.4.0.26^Renamed group 'Online Installers' to 'Online Installers - Current OS'
+*1.4.0.26^Status messages enhancement
+*1.4.0.26^Removed CPU choice from Unattended
+*1.4.0.26^FolderBrowserDialog now saves last directory
+*1.4.0.25^FIX: KB943790, KB971033 &amp; KB917607 integrated detection
+*1.4.0.25^FIX: Crash when returning to Tools Manager
+*1.4.0.25^FIX: WinToolkit allowed forms to open more than once
+*1.4.0.24^TWEAK: Pre-install .Net Framework 2.0/3.0/3.5 [Win8]
+*1.4.0.24^NEW: SoLoR Updates now renamed to 'Update Catalog'
+*1.4.0.24^NEW: 'Update Catalog' now supports McRip updates
+*1.4.0.24^FIX: KB2666914 integrated detection
+*1.4.0.23^FIX: AIO language pack integration will go green if successful
+*1.4.0.23^FIX: Better WIM unmount &amp; cleanup
+*1.4.0.22^FIX: Finally fixed Silent Installer issues (confirmed)
+*1.4.0.22^FIX: Prevent USB Boot Prep from closing whilst scanning
+*1.4.0.22^FIX: Removed 'Change DPI Setting' tweak as it caused a BSOD.
+*1.4.0.21^FIX: Fixed issue where boot.wim #2 was not mounted
+*1.4.0.21^FIX: Tools Manager now remembers which 'Main' sub tab page
+*1.4.0.21^FIX: Progress bar for integrating updates in AIO Integrator
+*1.4.0.21^FIX: Possibly fixed error when removing 'ei.cfg' file via WIM Manager 
+*1.4.0.20^FIX: Hopefully fixed AIO sorting errors
+*1.4.0.20^FIX: Invalid characters can't be used in 'Name' section of Silent Installers
+*1.4.0.20^FIX: Error occurs when user closed WIM Registry Editor whilst unmounting
+*1.4.0.20^FIX:.dll missing error if deleted
+*1.4.0.20^FIX: Issue where a normal WIM file can be detected as SWM instead
+*1.4.0.19^FIX: Fixed RunOnce issues
+*1.4.0.19^FIX: Office 2003 updates did not extract
+*1.4.0.18^FIX: WinToolkit crashed when closing SoLoR Updates
+*1.4.0.18^FIX: WinToolkit crashed when closing CAB Retriever
+*1.4.0.18^FIX: WinToolkit crashed when closing Component Remover
+*1.4.0.18^FIX: WinToolkit did not load all settings on startup
+*1.4.0.18^FIX: Office update KB2553111 did not extract
+*1.4.0.18^FIX: Hopefully fixed an error when rebuilding images
+*1.4.0.18^FIX: Show Preset Manager setting did not save
+*1.4.0.18^FIX:.dll missing error if deleted
+*1.4.0.18^FIX: Fixed thread already running error in WIM Manager
+*1.4.0.18^FIX: WinToolkit tried to integrate a LP which didn't exist
+*1.4.0.17^FIX: Some issues with RunOnce Installers
+*1.4.0.17^FIX: Progress bar error in AIO
+*1.4.0.17^FIX: Update Retriever did not show Windows Updates
+*1.4.0.16^FIX: Some issues with RunOnce
+*1.4.0.16^FIX: Update Retriever shows duplicate files
+*1.4.0.16^FIX: Always show menu bar in IE9 did not work
+*1.4.0.16^.WA files now get an icon, special thanks to ElmerBeFuddled
+*1.4.0.15^FIX: Unhandled errors did not get logged.
+*1.4.0.14^FIX: Old W7T installers would not get installed via RunOnce.
+*1.4.0.14^RunOnce code cleanup
+*1.4.0.13^Renamed Windows 7 Toolkit (W7T) to WinToolkit
+*1.4.0.13^FIX: Not sorting files on AIO Lists
+*1.4.0.13^FIX: IA64 drivers where being displayed as x86
+*1.4.0.13^FIX: Fixed some minor bugs
+*1.4.0.13^FIX: Fixed open file prompt when installing from USB
+*1.4.0.13^FIX: MSU &gt; CAB Converter did not convert IE9 Lang Packs correctly
+*1.4.0.13^WinToolkitRunOnce will try and prevent shutdown
+*1.4.0.13^You can now double click mounted images in WIM Manager to open folder 
+*1.4.0.12^NEW: 'CAB Retriever' has now been upgraded to 'Update Retriever'
+*1.4.0.12^FIX: Update Installer did not integrate updates if LDR Mode was enabled
+*1.4.0.12^FIX: Addon integration if file/folder did not exist
+*1.4.0.12^FIX: Made some modifications to MSU &gt; CAB Converter which affects IE9 Lang Packs
+*1.4.0.12^Sorted out 'Options'
+*1.4.0.12^More 'Options in AIO Integrator and also more organized
+*1.4.0.12^Drivers in boot.wim is shown in integrated tab
+*1.4.0.11^FIX: Option to change RunOnceLogo did not work
+*1.4.0.11^FIX: AIO - Could not import/save updates
+*1.4.0.10^FIX: Some tweaks did not provide options
+*1.4.0.10^FIX: Driver Installer displayed message after each install
+*1.4.0.10^FIX: If Win Toolkit is already running then the current Win Toolkit will move to foreground
+*1.4.0.9^FIX: Updates did not integrate if IE9 Lang Packs where added.
+*1.4.0.9^FIX: Online Driver Installer did not work at all
+*1.4.0.9^FIX: Boot.wim did not always mount
+*1.4.0.9^FIX: RunOnce did not restart and showed aborting...
+*1.4.0.8^NEW: Win Toolkit will automatically recover mount images
+*1.4.0.8^NEW: Enhanced Win Toolkit update checking
+*1.4.0.8^FIX: AIO will remount boot.wim #1 if image #2 is not found.
+*1.4.0.8^FIX: WIM Registry Editor should mount properly
+*1.4.0.8^FIX: Fixed detection if image is already mounted
+*1.4.0.7^FIX: RunOnce Installer could not be started
+*1.4.0.7^FIX: Capture Image automatically detects name if nothing entered
+*1.4.0.7^FIX: Tooltips on Addon Maker did not show up correctly
+*1.4.0.7^Small improvements to Addon Maker
+*1.4.0.6^FIX: Win Toolkit could not re-mount image if you used a premounted image in AIO Integrator
+*1.4.0.6^FIX: Better mount detection
+*1.4.0.6^FIX: Options always had 'Detect Antivirus' ticked
+*1.4.0.6^FIX: Issue where image did not mount.
+*1.4.0.6^FIX: Some tweaks where incorrect
+*1.4.0.6^FIX: Some updates did not show as green after integration (Windows Update ones)
+*1.4.0.6^Removed some duplicate tweaks
+*1.4.0.6^VirtualPC is added to priority list
+*1.4.0.6^Option added to anti-virus warning
+*1.4.0.5^FIX: Addons now work with foreign characters
+*1.4.0.5^FIX: WinToolkitRunOnce sometimes crashed
+*1.4.0.5^FIX: Better IE9 exe detection (some people are forcing other *.exe)
+*1.4.0.5^Made some other improvements to WinToolkitRunOnce
+*1.4.0.4^FIX: WIM Manager accidentally deleted mount entries.
+*1.4.0.4^FIX: Win Toolkit sometimes hanged deleting previous folder
+*1.4.0.4^FIX: Better update integration detection
+*1.4.0.3^FIX: Always Show Preset did not show correctly
+*1.4.0.3^FIX: AIO caused an error when trying to write WinToolkitDrivers.txt
+*1.4.0.3^FIX: WIM_Default registry items will also be written to WIM_Admin
+*1.4.0.3^FIX: Loading presets did not work correctly
+*1.4.0.3^LocalPacks are now grouped
+*1.4.0.3^Full 'LocalPacks' support
+*1.4.0.3^Better update integration
+*1.4.0.2^FIX: Donate button did not work
+*1.4.0.2^FIX: Installer white text option was not in the correct group (AIO Options Tab)
+*1.4.0.2^FIX: Integration of IE9 and XP Mode is cleaner
+*1.4.0.2^FIX: Fixed foreign language detection on updates
+*1.4.0.1^NEW: Win Toolkit now uses a new error logging system catching most errors
+*1.4.0.1^NEW: Completely new reprogrammed WinToolkitRunOnce (v4.0.0)
+*1.4.0.1^FIX: Some items in the integrated updates list did not show properly
+*1.4.0.1^FIX: Some items in the integrated drivers list did not show properly
+*1.4.0.1^FIX: Win Toolkit sometimes hanged on exit (rare)
+*1.4.0.1^FIX: Sometimes Win Toolkit would start being completely white.
+*1.4.0.1^FIX: Options in AIO let the user edit the name
+*1.4.0.1^FIX: AIO Options did not restore to default after completion
+*1.4.0.1^FIX: Could not mount image if it had no &lt;NAME&gt; variable
+*1.4.0.1^FIX: WIM Manager could not rename all images
+*1.4.0.1^FIX: MSU could not convert if you selected output path as drive root
+*1.4.0.1^FIX: Some tools did not report which image was being mounted/unmounted properly
+*1.4.0.1^FIX: Could not extract file is 'SevenZipSharp.dll' was missing.
+*1.4.0.1^FIX: Could not extract file is 'Interop.IWshRuntimeLibrary.dll' was missing.
+*1.4.0.1^FIX: Unattended Creator no longer lets you use invalid characters for 'Computer Name'
+*1.4.0.1^FIX: Fixed a potential language pack integration bug.
+*1.4.0.1^FIX: Language pack integration bug where a 'license' folder could not be copied
+*1.4.0.1^FIX: Fixed an issue where adding updates did not cancel on request using Update Integrated
+*1.4.0.1^FIX: Fixed 'Read Task.txt' in AIO Integrator
+*1.4.0.1^FIX: Removed hand cursor from Welcome Tab (Tools Manager)
+*1.4.0.1^FIX: Current OS option in AIO did not uncheck if user selected no
+*1.4.0.1^FIX: Better detection of architecture for drivers
+*1.4.0.1^FIX: Some files did not extract properly if 'ExtractTo' folder was not created first
+*1.4.0.1^FIX: CAB Retriever did not copy files.
+*1.4.0.1^FIX: Fixed issue when adding unattended tried to replace itself.
+*1.4.0.1^FIX: Fixed error which sometimes occurred if WIM Registry Editor did not mount properly
+*1.4.0.1^FIX: Progress bar now works correctly when integrating drivers into boot.wim
+*1.4.0.1^TWEAK: Change DPI Setting
+*1.4.0.1^TWEAK: Register/Unregister *.dll, *.ocx and *.ax
+*1.4.0.1^Tidied up Addon Maker, centered things, etc..
+*1.4.0.1^In Addon Maker, variables will show tooltip showing where files will go
+*1.4.0.1^Addon Maker lets you edit addons
+*1.4.0.1^Added antivirus detection
+*1.4.0.1^UEFI support added for ISO Maker
+*1.4.0.1^WinToolkit now shows which Windows drivers are for.
+*1.4.0.1^You can double click a driver to show its .inf file in notepad
+*1.4.0.1^Lots of GUI changes
+*1.4.0.1^Driver Installer lets you install/remove drivers on the live system.
+*1.4.0.1^Update Installer now lets you uninstall updates
+*1.4.0.1^You can now save or load AIO lists individually without affecting the other lists
+
+[1.3.0]
+*1.3.0.102RC^FIX: Users can no longer set temp folder within or the same as the mount folder.
+*1.3.0.102RC^FIX: Integration of IE9 exe now works
+*1.3.0.102RC^FIX: Updates incorrectly seen with foreign characters
+*1.3.0.102RC^FIX: Fixed access denied message when integrating themes
+*1.3.0.101RC^FIX: Spelling mistakes
+*1.3.0.101RC^FIX: New SWM error popup
+*1.3.0.101RC^FIX: Hopefully fixed some updates being installed as language packs
+*1.3.0.101RC^FIX: Win Toolkit will now replace old RunOnce when using silent installer
+*1.3.0.101RC^FIX: Enable SSL tweak
+*1.3.0.101RC^FIX: Win Toolkit now saves selected default theme pack in preset
+*1.3.0.100RC^FIX: 7z files in SoLoR Updates did stayed checked
+*1.3.0.100RC^FIX: SoLoR Updates progress decreased when it shouldn't
+*1.3.0.100RC^FIX: If you cancelled SoLoR updates, the current download was marked as completed
+*1.3.0.99RC^FIX: Win Toolkit will also remove 'Default Programs.lnk' if the tweak is selected
+*1.3.0.99RC^FIX: If updates files are deleted after adding them to AIO list, Win Toolkit will skip them
+*1.3.0.99RC^Priority updates such as Internet Explorer 9 will install first.
+*1.3.0.99RC^You will need to select IE9 exe option from list in AIO Tool 
+*1.3.0.99RC^Added new descriptions to tabs on All-In-One tool
+*1.3.0.99RC^You can now right-click and edit Error Reports to add/remove information
+*1.3.0.98RC^New error log prompt on closing
+*1.3.0.98RC^AIO Drivers tab has split 'Version' and 'Date' of drivers
+*1.3.0.98RC^FIX: Win Toolkit attempted to add some updates as language packs
+*1.3.0.98RC^FIX: SoLoR Updates did not show x86 'Additions'
+*1.3.0.98RC^FIX: Updates which require silent installation did not detect properly
+*1.3.0.97RC^New shutdown prompt screen
+*1.3.0.97RC^New 7zip method
+*1.3.0.97RC^FIX: Changed logon background and setup background showed folder dialog.
+*1.3.0.97RC^FIX: Fixed registry conversion causing BSOD
+*1.3.0.97RC^FIX: Unattended Creator now accepts MAK keys
+*1.3.0.97RC^FIX: Win Toolkit will now add 'WinToolkit' to end of temp folder location
+*1.3.0.97RC^FIX: ISO Maker did not save ISO folder
+*1.3.0.96RC^FIX: Fixed registry conversion for addons and RHM.
+*1.3.0.96RC^FIX: Removed message Box resolutions when opening AIO tool
+*1.3.0.96RC^FIX: Removed 'Done' message from integrating tweaks
+*1.3.0.96RC^FIX: Importing a registry file in Registry Hive Mounter showed an error
+*1.3.0.96RC^FIX: Unattended Creator is now resizable
+*1.3.0.96RC^FIX: Skip-Auto Activate and Serial showed a message box when it shouldn't
+*1.3.0.96RC^All-In-One now has a elapsed timer
+*1.3.0.95RC^FIX: Fixed an issue with cMain.InputBoxes on tweaks tab
+*1.3.0.95RC^FIX: Fixed an issue where user could not add/integrate addons [missing tasks.txt]
+*1.3.0.95RC^Update Google Chrome download link on Downloads tab
+*1.3.0.95RC^Updated ISO Maker GUI
+*1.3.0.94RC^FIX: Fixed some Internet Explorer 9 tweaks
+*1.3.0.94RC^FIX: Fixed some potential bugs
+*1.3.0.94RC^FIX: Fixed silent installer tweak where it should not ask you if you want run exe after install.
+*1.3.0.94RC^FIX: Updated addon integrator code
+*1.3.0.94RC^FIX: Change CMD Text Color tweak now works and has more colors
+*1.3.0.94RC^FIX: Disable page file tweak now works
+*1.3.0.94RC^FIX: All-In-One tool now has foreign character detection.
+*1.3.0.94RC^FIX: Win Toolkit will now only let you mount images on NTFS volumes
+*1.3.0.94RC^FIX: Win Toolkit will not only let you mount to directories with English characters (non-foreign)
+*1.3.0.94RC^Updated addon integration code from 2009-2010
+*1.3.0.94RC^Cleaned up all code, removing unused code, etc...
+*1.3.0.94RC^Removed 'Show Groups' in Options
+*1.3.0.94RC^Set Product key has been added to WIM Manager
+*1.3.0.94RC^Unattended option has been removed from All-In-One tool
+*1.3.0.94RC^New Unattended method for WIM Manager
+*1.3.0.94RC^WIM Manager now shows Make ISO &amp; Rebuild by default
+*1.3.0.94RC^WIM Manager lets you switch from Tool &lt;&gt; WIM Manager and visa-versa.
+*1.3.0.93RC^FIX: *.theme files now integrates it's folder if detected
+*1.3.0.93RC^FIX: Win Toolkit will now detect SWM files
+*1.3.0.93RC^WIM Manager tooltips will now show wim location
+*1.3.0.93RC^SWM Merge Tool has been added to merge *.swm files
+*1.3.0.92B^FIX: .theme was integrated as '.theme.theme' extension
+*1.3.0.93B^Added warning when wanting to set .theme as default theme.
+*1.3.0.92B^FIX: Some All-In-One buttons remained visible/enabled after pressing start
+*1.3.0.92B^FIX: All-In-One hanged after finishing
+*1.3.0.92B^FIX: All-In-One could not load/save last session properly
+*1.3.0.92B^FIX: WIM Manager now unloads mounted hives when checking for mounted images
+*1.3.0.92B^All-In-One Tool no longer switches tabs depending on what task it is doing
+*1.3.0.92B^Options to disable main screen aero glass
+*1.3.0.92B^You can now integrate .theme files
+*1.3.0.92B^TWEAK:Disable Recycle Bin
+*1.3.0.92B^TWEAK:Hide Recycle Bin
+*1.3.0.92B^TWEAK:Disable Enhanced Pointer Precision
+*1.3.0.92B^TWEAK:IE-Reset Text Size(New Tabs)
+*1.3.0.92B^TWEAK:IE-Disable Accelerator
+*1.3.0.92B^TWEAK:IE-Enable Third Party Components
+*1.3.0.92B^TWEAK:IE-Remove Bing Search Provider		
+*1.3.0.92B^TWEAK:IE-Set Google as Search Provider		
+*1.3.0.92B^TWEAK:IE-Disable Default Browser Check		
+*1.3.0.92B^TWEAK:IE-Disable First Run Customize		
+*1.3.0.92B^TWEAK:IE-Clear History on Exit			
+*1.3.0.92B^TWEAK:IE-Enable Suggested Sites			
+*1.3.0.92B^TWEAK:IE-Reset Zoom Level (New Tabs)
+*1.3.0.92B^TWEAK:IE-Enable 'Caret' Browsing			
+*1.3.0.92B^TWEAK:IE-Remove Links Bar			
+*1.3.0.92B^TWEAK:IE-Remove 'Favorites' Menu from IE	
+*1.3.0.92B^TWEAK:IE-Enable Saving Encrypted Pages to Disk
+*1.3.0.91B^FIX:Registry Hive Mounter did not mount hives before importing
+*1.3.0.91B^FIX:Tooltips on Tools Manager did not show if 'Downloads' Tab was hidden
+*1.3.0.91B^FIX:Tools Manager did not show glass effect
+*1.3.0.91B^Option to force AIO drivers as x86/x64/Mix by a blank text file in driver folder.
+*1.3.0.91B^Made a few modifications to the sort bar in All-In-One Tool
+*1.3.0.91B^Made a few modifications to the Registry Hive Mounter
+*1.3.0.90B^SoLoR Updates tool has been enhanced
+*1.3.0.90B^WinToolkit now uses newer folder browser dialog
+*1.3.0.90B^WinToolkit now automatically sorts SoLoR updates
+*1.3.0.90B^WinToolkit will now change tab in AIO depending on what's being worked on
+*1.3.0.90B^All-In-One Tool will now reset all lists after completion
+*1.3.0.90B^All-In-One Tool now gives the option to download KB2581464 for USB Tweak
+*1.3.0.90B^Added option to set default theme in All-In-One Tool
+*1.3.0.89B^FIX: Issue loading WIM_Default
+*1.3.0.89B^FIX: Updates-bf.mum where not installed
+*1.3.0.89B^Progress add for presets in All-In-One Tool
+*1.3.0.89B^You can now double click updates in All-In-One Tool to show support website
+*1.3.0.88B^FIX: Win Toolkit was no longer prompting for Admin access
+*1.3.0.87B^FIX: Hopefully fixed issue if importing registry files
+*1.3.0.86B^FIX: Some issues unmounting images
+*1.3.0.86B^FIX: Hopefully fixed an issue unmounting image with Registry Hive Mounter
+*1.3.0.86B^FIX: Issue with Language Pack Converter
+*1.3.0.86B^FIX: Issue with rebuilding on CDs and DVDs
+*1.3.0.85B^FIX: A few issues with EXE to MSP Converter
+*1.3.0.85B^FIX: Could not sort columns in certain cases
+*1.3.0.84B^FIX: A few issues with AIO
+*1.3.0.84B^FIX: An issue fixing renaming images
+*1.3.0.83B^WinToolkit now uses Wimgapi to rename images and keeps display name and display description
+*1.3.0.83B^WinToolkit now has reverted back to &lt;Name&gt; and &lt;Description&gt; instead of the display ones
+*1.3.0.82B^WIM Splitter you would if you tried to rebuild and image located on CDROM
+*1.3.0.82B^FIX: AIO tool did not let you add 'Files' if they had the same name
+*1.3.0.82B^Saving AIO Logs now uses 'yyyy-MM-dd' date format
+*1.3.0.81B^FIX: Error adding drivers
+*1.3.0.81B^FIX: Another fix for theme packs
+*1.3.0.81B^Better log reporting for copying/moving files
+*1.3.0.81B^Removed message when adding drivers
+*1.3.0.81B^WinToolkit won't let you select the system drive when trying to capture an image.
+*1.3.0.81B^Capture image shows more details about errors
+*1.3.0.80B^FIX: Silly typo causing theme packs not to install
+*1.3.0.80B^CAB Installer now accepts MSU files
+*1.3.0.80B^CAB Installer renamed to Update Installer
+*1.3.0.79B^FIX: 'Change Logon Background' tweak fixed correctly
+*1.3.0.79B^FIX: Issue from previous release (AIO Disk Creator)
+*1.3.0.79B^New method to integrate drivers for foreign characters
+*1.3.0.79B^Option to prevent Windows going to sleep whilst Win Toolkit is running
+*1.3.0.78B^FIX: Integration of Theme Packs with foreign characters in path
+*1.3.0.78B^FIX: Closing Component Removal at startup caused errors
+*1.3.0.78B^DisplayName and DisplayDescription will now be used when getting image info
+*1.3.0.78B^WinToolkit will set Name and Description to DisplayName and DisplayDescription if available
+*1.3.0.78B^Added right click to component list in AIO tool
+*1.3.0.78B^Option to shutdown PC on AIO and CAB Installer
+*1.3.0.77B^FIX: File in use error when integrating unattended via AIO
+*1.3.0.77B^FIX: WIM Manager will now mark image as 'corrupt' if imagex is closed during mount
+*1.3.0.77B^FIX: Force Windows Media Player x64 tweak
+*1.3.0.76B^FIX: Removed 'hi' debug message
+*1.3.0.76B^FIX: 'Change Logon Background' tweak
+*1.3.0.75B^FIX: Fixed some of the problems reported on the forum.
+*1.3.0.74B^FIX: WIM Manager will properly detect if image is corrupt or not
+*1.3.0.74B^FIX: WIM Manager will detect if image is still mounting/unmounting
+*1.3.0.74B^FIX: Error integrating Autounattend.xml
+*1.3.0.74B^FIX: Addon Maker would crash if a folder did not exist
+*1.3.0.74B^FIX: Addon Maker would crash if a file did not exist
+*1.3.0.74B^FIX: An error occurred in WIM Splitter is selected size is larger than wim size
+*1.3.0.74B^FIX: An error occurred in WIM Splitter if the selected file did not exist
+*1.3.0.74B^Improved Addon Maker code
+*1.3.0.74B^WinToolkit will not let you chose a corrupt image.
+*1.3.0.74B^WinToolkit will not let you chose an image still being mounted/unmounted
+*1.3.0.70B^Added 'Send Bug Report' on main menu
+*1.3.0.70B^More logs info for when wim does not mount
+*1.3.0.69B^Too much has changes to list (multiple fixes)
+*1.3.0.68B^FIX: A GUI glitch on Component Remover
+*1.3.0.68B^Further 'Little Things' changes
+*1.3.0.68B^More logs for why unmounting fails as these are the only logs i am receiving these days. 
+*1.3.0.67B^Disabled 'USB Prep Tool' on Windows XP as it doesn't work.
+*1.3.0.67B^FIX: Tool tab in main menu not hiding when you select it not to.
+*1.3.0.67B^FIX: Massive issue when using the File tab in AIO if the folder you want to copy the file to does not exist. It now creates the folders required.
+*1.3.0.66B^NEW: Remove 'Speech Support and Natural Language'
+*1.3.0.66B^FIX: ISO Maker did not save previous folder and ISO
+*1.3.0.66B^Introduced many 'Little Things' UI changes, fixes, corrections, etc...
+*1.3.0.66B^USB Boot Prep now detects all USB drives and partitions
+*1.3.0.66B^USB Boot Prep now works with individual partitions
+
+[1.3.0 Beta]
+*NEW: Win Toolkit now detects DISM in 'Program Files\Windows AIK' folder
+*NEW: Removal of themes
+*NEW: Black Viper presets for tweaks.
+*NEW: Silent Installer now supports *.inf files
+*NEW: Copy files to image via AIO Tool
+*FIX: Component Removal dependency check
+*FIX: Hanging/Freezing on 'Almost Done..." in AIO Tool
+*FIX: Incorrect menu when importing preset
+*FIX: Theme packs did not load
+*FIX: AIO file replacement
+*FIX: Other files do not get copied if integrating KB2533552
+*FIX: Fixed a graphics glitch on Unattended
+*FIX: AIO Tool will import reg files properly
+*FIX: Applying unattended did not copy file to dvd root
+*FIX: DVD root not detected properly on Component Remover
+*FIX: Last presets did not load wallpapers properly
+*FIX: Files not copying properly in AIO
+*Tweak: Change CMD Text has more options.
+*Tweak: Show Notepad Statusbar
+*Tweak: Show IE Statusbar
+*Tweak: Always shows explorer statusbar
+*Restart required if wimfltr detected
+*Autologon options on unattended
+*Skip Auto-Activation to unattended
+*Added skip button on startup form (splash)
+*Added new IE9 MSU links
+*WinToolkit will add some updates to silent installer if they can't be integrated
+*Improvements to Addon Maker shortcut creation
+*AIO file replacement will automatically make a backup
+*KB2603229 is now also added to silent install watch list
+*Added check for updates on main window
+*Made main window smaller
+*Sidebar in AIO Tool
+*Sort all items in move items up, down, top or bottom in all AIO lists
+*Component Remover now shows state, updates and folder sizes
+*Sort order of AIO by column
+*Make .bak optional for copying file
+*Move AIO options descriptions to tooltips
+
+[1.3.0 Alpha]
+*NEW: Tools Manager design
+*NEW: Component removal is now in All-In-One
+*NEW: Silent installers can now be added via All-In-One
+*NEW: Win Toolkit Guide
+*NEW: Rebuild option when saving image
+*NEW: Revamped Language Pack Converter
+*NEW: Revamped MSP to EXE Converter (Office)
+*NEW: Unattended features
+*NEW: SFX Support in All-In-One Tool
+*NEW: Last_Session.ini will be created with AIO Tool
+*NEW: Silent Installer RunOnce design
+*NEW: Update prompt screen
+*NEW: USB Prep Tool now supports 'Quick' option
+*NEW: Preset Manager
+*NEW: Updated imagex files
+*NEW: Add reg files in tweaks menu
+*NEW: AIO allows IE9.exe to be integrated
+*NEW: Massive memory reduction
+*NEW: AIO Tweak layout
+*NEW: Improved SoLoR Updates
+*FIX: Multiple fixes to the RunOnce Installer
+*FIX: Error importing previous unattended files
+*FIX: Error applying unattended when adding multiple users
+*FIX: Object error during Component Removal
+*FIX: Closing the unmount prompt (cancelling) showed Error Unmounting Image
+*FIX: Fixed errors when All-In-One could not detect DVD root
+*FIX: Sometimes an error log was still written even when disabled
+*FIX: Can't enable/disable features are using Component Remover
+*FIX: Could not load a windows 8 image
+*FIX: 'Open CMD Here tweak' fixed
+*FIX: 'Open Elevated CMD Here' tweak fixed
+*FIX: 'Take Ownership' tweak fixed
+*FIX: WIM Manager did not always scan images correctly
+*FIX: Unattended Creator (hopefully)
+*FIX: Bug where WIM Manager label was empty
+*FIX: ISO Maker did not work if label was larger than 12 characters
+*FIX: Win Toolkit hanged at startup
+*FIX: Theme Packs did not integrate properly
+*FIX: Changing setup background
+*FIX: CAB Retriever did not work
+*FIX: Disable Drivers Autorun tweak fixed
+*FIX: Open NFO in notepad tweak fixed
+*FIX: Disable Language Bar tweak fixed
+*FIX: Tooltips flickering on Component Removal
+*FIX: Component Removal showed packages twice
+*FIX: When closing Options, Tools Manager showed up twice
+*FIX: Missing buttons on About page
+*FIX: Taskbar progress bar did not fully disappear
+*FIX: Wrong format error appeared when adding addons to AIO
+*FIX: 'Change Setup Background' tweak
+*FIX: Memory leak involving Tools Manager
+*FIX: Bug where Win Toolkit would run shutdown task multiple times
+*FIX: Change Logon Background tweak
+*FIX: Change Ownership tweak
+*FIX: Win Toolkit did not always detect if another Win Toolkit is running
+*FIX: Addons did not integrate if foreign character was in the file path
+*FIX: Unattended Creator did not show current serial as requested
+*FIX: USB Boot Prep should now detect all drives
+*FIX: AIO Tool crashed due to a progress bar error
+*FIX: Win Toolkit won't let you mount an image in your DVD folder.
+*FIX: CAB Installer will not let you close it whilst adding cab files
+*FIX: Fixed registry editing so tweaks should now work
+*FIX: WIM Manager will show which edition image is locked to in green
+*FIX: SoLoR tool Office links did not work
+*FIX: CAB Retriever did not work if directory did not exist.
+*FIX: Unmount prompt now appears in front as main window
+*FIX: Missing folder bug during 'Preparing Drivers...'
+*FIX: Many fixes for Addon Maker
+*FIX: Could not mount wim file if it had 'Read-only' attribute enabled.
+*FIX: Win Toolkit installed IE Lang Pack the same way as a Windows Lang Pack.
+*FIX: Running AIO Multiple times causes strange "Integrated" tab behavior
+*FIX: 'Prompt Updates' shows all updates.
+*FIX: MSU files did not show support link
+*FIX: AIO ProgressBar issue when selecting tweaks.
+*FIX: Driver integration now converts ".pd_" and " .bc_"
+*FIX: Win Toolkit thought where language packs and tried integrating them as if they where.
+*Tweak: Remove Send Feedback tweak added
+*Tweak: Disable Action Center on system tray added
+*Tweak: Remove Search Pane (IE)
+*Tweak: Always show menu bar (IE)
+*Tweak: Set default homepage (IE)
+*Tweak: Explorer Folders Separate Process
+*Tweak: Word Wrap Notepad
+*Tweak: Always show icons, never thumbnails
+*Tweak: Force Windows 7 Media Player to run 64 bit
+*Tweak: Add 'Task Manager' to context menu
+*Tweak: Add Program and Features in context menu
+*Tweak: Improve USB Storage Devices Performance
+*Tweak: Custom Explorer Bar 1
+*Tweak: 'Automatically Expand to Current Folder'.
+*Tweak: Disable IE Crash Detection
+*Tweak: Change the Title of Internet Explorer
+*Tweak: Change the Download Directory
+*Tweak: Disable Signature checking for EXEs
+*Tweak: Turn On clear type
+*Tweak: Full Screen mode by default
+*Tweak: Turn off RSS feed discovery
+*Tweak: Launch Internet Explorer in separate process
+*Tweak: Disable Internet Explorer to check for updates
+*Tweak: Disable Password Caching in Internet Explorer
+*Tweak: Disable Tabbed browsing
+*Tweak: Disable Warning on Close (Tabs)
+*Tweak: Always Switch To New Tabs When They Are Created
+*Tweak: When a New tab Opens
+*Tweak: When a pop-up is encountered
+*Tweak: GPU Rendering
+*Tweak: Disable startup Sound
+*Tweak: Optimize Large Second Level Cache
+*Tweak: Increase File System Memory Cache Size
+*Tweak: Enable MAC File Sharing
+*Tweak: Show Drive Letters First
+*Tweak: Disable NTFS Encryption
+*Tweak: Disable Bandwidth Limit
+*Tweak: Don’t allow Windows 7 to turn off devices
+*Tweak: Disable IPv6
+*Tweak: Adjust Visual Styles
+*Tweak: Processor Scheduling
+*Tweak: Disable Page File
+*Tweak: Disable Admin Shares
+*Tweak: Show All Icons on Taskbar
+*Tweak: Small Taskbar Icons
+*Tweak: Disable Auto System Sounds Leveling
+*ISO Maker now remembers your last selected folder
+*10% faster when integrating updates using LDR/QFE mode
+*ISO Maker asks for rebuild
+*USB Prep Tool has better error catching and error logging
+*WinToolkit will close regedit before unloading logs
+*If files are open when Win Toolkit tried to unmount, Win Toolkit will tell you.
+*WinToolkit will unload all mounted registry before unmounting
+*Newer 'FolderBrowserDialog' for ISO Maker
+*Taskbar progress goes yellow during mount/unmount
+*Better boot.wim procedure during AIO (drivers/lang packs)
+*Added 'Select All' on SoLoR Updates
+*Apply Unattended copies Autounattend.xml to DVD root
+*You can now save/load all AIO Tool lists
+*Improved .WA info reading
+*Windows Thin PC detection
+*WinToolkit will release unused memory each time Tool Manager loads
+*USB Boot Prep uses smart scanning
+*USB Boot Prep should no longer continuously scan for new devices
+*WIM Manager lets you delete multiple images at once
+*WIM Manager lets you unmount multiple images at once
+*Added 'Cancel' when adding files via CAB Installer
+*Option to only use imagex x86
+*Anti-virus detection
+*ISO Maker checks for free space
+*Addon Maker/Integration no longer supports specific windows build detection
+*SoLor Updates now show progress bar
+*RunOnce Installer lets you change background and logo
+*SoLoR Updates will show new updates at the top
+
+[1.0.2]
+*NEW: ResHacker updated to 3.5.2.84 (supports x64 files)
+*NEW: Quicker Merging option
+*NEW: Unattended creator now detects current serial
+*NEW: Better XP Support
+*FIX: Fixed a bug affecting XP
+*FIX: Drivers did not prepare properly
+*FIX: Component Remover did not work properly if mount path had spaces
+*FIX: Bugs with external application
+*FIX: Could not disable 'Check Images' option
+*FIX: Did not detect currently mounted images on non-English language
+*FIX: Did not display 'unknown' packages properly in Component Remover)
+*FIX: Capture Image did not work when drive root was selected
+*FIX: Multiple bugs with AIO Integrator
+*FIX: A bug when you have added a gadget
+*FIX: Enabled NTFS Compression to fix a mounting errors
+*FIX: Forces unmount of all mounted registry hives before image is unmounted
+*Updates 7zip files
+*Updated splash screen
+*WinToolkit now starts faster
+*Improved speed on 'Checking for Updates'
+*Items re-arranged in alphabetical order on Tools Manager
+*Option to upload error log to FTP (enabled by default)
+*Add OS Info to error logs
+*Error logs will no loner show duplicate errors
+*Update checker will show what has changed if I add the information.
+
+[1.0.1]
+*Converted to C#
+*NEW: Splash Screen
+*NEW: Tools Manager
+*NEW: Unattended Creator
+*NEW: Create AIO Image Tool
+*NEW: AIO Integrator &gt; Gadgets
+*NEW: AIO Integrator &gt; Language Pack Support
+*NEW: AIO Integrator &gt; Wallpapers
+*NEW: AIO Integrator &gt; Theme Packs
+*NEW: AIO Integrator &gt; Services
+*NEW: USB Prep Tool
+*FIX: Component Remover did not work if mount path had spaces in it
+*FIX: Not all packages displayed
+*FIX: Quite a few bug fixes from VB .NET version
+*FIX: WIM Manager - Edit Name/Desc didn't work
+*FIX: Addon Integration bug fixes
+*FIX: Some tweaks did not work correctly
+*FIX: Fews bugs with the Addon Maker
+*FIX: CAB Update Installer did not install updates
+*Performance Improvements
+*TWEAKS: Many new tweaks added in AIO Integrator
+*Updated SoLoR Links
+*Improved Driver Integration
+*HDD Drivers now integrate into Boot.wim
+*Stability Improvements
+*Mounting,Unmounting, Rebuilding, etc.. now show progress within WinToolkit
+*WinToolkit Taskbar now includes progress bar
+*Load admin account in Registry Hive Mounter
+*Prompt to delete ei.cfg
+*Driver Integrator should display all driver types
+*Driver Integrator detects selected CPU type
+*Improvements to CAB Retriever
+
+[0.8.5]
+*FIX: Remove Shortcut Tweak
+*FIX: Change Logon Background Tweak
+*FIX: Change Default Wallpaper Tweak
+*FIX: Win Toolkit didn't close properly
+*FIX: Issue with integrating addons
+*FIX: Error setting attribute during language removal
+*FIX: Capture Image did not capture drive roots properly
+*FIX: Taking permissions should work properly in all languages
+*FIX: Could not Make ISO from WIM Manager
+*FIX: File path disappeared after rebuilding image
+*FIX: Merge did not work on WIM Manager
+*FIX: Could not edit description on WIM Manager
+*FIX: WIM Manager sometimes crashed when opening another tool
+*FIX: Showed Unmount + Apply Unattended when image was unmounted
+*FIX: WIM Manager always showed already mounted images as Starter Edition
+*FIX: Crashed sometimes on app close
+*FIX: Closing mount window on Component Remover displayed an error
+*Tweak: Show 'Computer' on desktop
+*Tweak: Show users folder on desktop
+*Tweak: Disable language bar
+*CAB Installer now displays it's progress when adding cabs
+*Re-designed AIO Integrator 'Options' tab
+*Language Pack Converter now uses cab2exe
+*Component Remover now detects SP1 language files
+*Re-arranged Component Remover list
+*Component Remover supports SP1
+*WIM Manager supports SP1
+*Integrating Addons should be faster
+*Addon Maker improvements
+*Addon Maker lets you Ctrl+C Variables and right-click items on the variables list
+*CAB Retriever won't show in TM unless cabs are detected
+*Cleaned Startup Code
+*Improved Win Toolkit temp files removal on exit
+*Removed Feature Manager OS
+*Removed Feature Manager WIM
+*Removed Cleanup Tool
+*Updated MSP Extractor
+*Updated WIM Splitter (Multi-threaded, Show Progress Window)
+*Updated CAB Retriever (Multi-threaded, bugs fixes, improvements)
+*Updated ISO Maker (Always shows progress,improvements)
+*Updated Capture Image (Always shows progress, improvements, bug fixes)
+*Updated Registry Hive Mounter (Improvements)
+*Updated MSU to CAB Converter (Bug Fixes)
+*Updated Language Pack Converter (Improvements)
+*Updated Silent Installers
+
+[0.8.0]
+*NEW: Component Remover
+*NEW: Silent Installers
+*NEW: Tweaks Interface
+*NEW: Language Pack Converter
+*NEW: Icons
+*FIX: Major flaw in Addon Integrator
+*FIX: MSU to CAB Converter stopped after 100 conversions
+*FIX: Hanged when adding certain updates to MSU to CAB Converter
+*FIX: You could click apply button on Feature Manager at tool load
+*FIX: Update Downloader
+*FIX: Some buttons did not appear after unmount (WIM Manager)
+*FIX: Update Integrator stop adding updates if wrong architecture
+*FIX: SoLoR Updates Home link
+*FIX: SoLor Updates did not get filtered
+*FIX: Lists did not show groups if a filter was set
+*FIX: Rebuild All will no longer damage WIM File if window is close during process
+*FIX: If user closed Exporting window then new file was not deleted
+*FIX: CAB Installer said Integrating instead of Installing
+*FIX: Some updates added to tools was named "neutral"
+*FIX: Hotkey (enter) added all items to download queue instead of selected
+*FIX: Win Toolkit now runs on XP/Vista although still not supported
+*FIX: %StartMenu% variable on Addon Maker
+*FIX: Tooltips did not display at all!
+*FIX: "More Info" link on SoLoR Updates
+*Options has been completely redesigned
+*Load Tools Manager on Startup
+*Added Logging Tab in Options
+*Removed tray icon
+*Added Import to WIM Manager
+*Display errors on AIO Update Integrator
+*WinToolkit now asks if you want to save/discard and leave the wim mounted
+*WinToolkit now uses already mounted wim
+*Addon Integrator standalone has been removed (AIO made it obsolete)
+*Update Integrator standalone has been removed (AIO made it obsolete)
+*Driver Integrator standalone has been removed (AIO made it obsolete)
+*WIM Tweaker standalone has been removed (AIO made it obsolete)
+*Closing a tool will return you to the Tools Manager
+*Changed Driver Packs home link
+*Tools list has been renamed to Programs
+*Renamed Tools to Programs
+*WIM Manager shows already mounted
+*WinToolkit now writes error log to root folder instead of uploading
+*Addon Integrator has a significant speed boost
+*Addon Integrator upgrades REGEDIT4 to 
+*Addon Integrator Supports [TOCOPYFILE]
+*Addon Integrator Supports [TOCOPYFOLDER]
+*Addon Integrator Supports [TODELETE]
+*Added more variables to Addon Maker
+*WinToolkit Addon Maker now supports %SYSTEMDRIVE% variable
+*WinToolkit Addon Maker now supports %SYSTEMROOT% variable
+*WinToolkit Addon Maker now supports %USERPROFILE% variable
+*WinToolkit Addon Maker now supports %ALLUSERSPROFILE% variable
+*WinToolkit Addon Maker now supports %PUBLIC% variable
+*WinToolkit Addon Maker now supports %APPDATA% variable
+*WinToolkit Addon Maker now supports %LOCALAPPDATA% variable
+*WinToolkit Addon Maker now supports %PROGRAMDATA% variable
+*WinToolkit Addon Maker now supports %COMMONPROGRAMFILES% variable
+*WinToolkit Addon Maker now supports %COMMONPROGRAMFILES(X86)% variable
+*WinToolkit Addon Maker now supports %PROGRAMFILES(X86)% variable
+*WinToolkit Addon Maker now supports %HOMEDRIVE% variable
+*WinToolkit Addon Maker now supports %HOMEPATH% variable
+*WinToolkit Addon Maker now supports %PATH% variable
+*WinToolkit Addon Maker now supports %USERPROFILE% variable
+*WinToolkit Addon Maker now supports %TEMP% variable
+*WinToolkit Addon Maker now supports %WINDIR% variable
+*WinToolkit Addon Maker now supports %USERS% variable
+*Added "Variables" tab to Addon Maker
+*Added "Download Addons" to AIO Integrator
+*New Updater
+*Added Merge to WIM Manager
+*Options now save settings when clicking apply
+*WinToolkit detects when the mount window is closed
+*New Logging (Default and Extensive)
+*Change Default Mount Folder
+*Blocks setting temp folders as drive root
+*Tweak: Switch Caps Lock and Backspace Keys
+*Tweak: Disable Group Policy Synchronize
+*Tweak: Enable MSI Service in Safe Mode
+*Tweak: Remove Shortcut Prefix
+*Tweak: Create Mini Dumps
+*Tweak: Disable Windows Error Reporting
+*Tweak: Add Take Ownership to context-menu (Files)
+*Tweak: Add Take Ownership to context-menu (Folders)
+*Tweak: Open cmd here
+*Tweak: Add "Manager" to Desktop context-menu
+*Tweak: Add "Services" to Desktop context-menu
+*Tweak: Remove Shortcut Arrow
+*Tweak: Add "All Tasks" to Desktop context-menu
+*Tweak: Add "Defrag" to Desktop context-menu
+*Tweak: Remove "Add to WMP list" from context-menu
+*Tweak: Remove "Print" from context-menu
+*Tweak: Remove "Troubleshooting Compatibility" from context-menu
+*Tweak: Change Public Folder Location
+*Tweak: Change Users Folder Location
+
+[0.7.0]
+*BIG: Entire database is online (SQL)
+*FIX: Did not take ownership of files properly
+*FIX: Registry Hive Mounter saved even though you clicked NO
+*FIX: SoLoR Updates now lets you sort by column
+*FIX: Downloader did not add all SoLoR updates
+*FIX: SoLoR displayed date instead of size in downloader
+*FIX: Export Image showed when image was mounted in WIM Manager
+*FIX: Change Default Background Tweak did not work
+*FIX: Not all buttons appears afer CAB Installer finished task
+*FIX: Update Integrator disable form during task
+*FIX: CAB Installer disabled form during task
+*Tweak: Speed Up Desktop
+*Tweak: Change Logon Wallpaper
+*Tweak: Change Logon Text (Shadows/darkness)
+*Tweak: 3rd party theme support (uxtheme.dll)
+*Updated Imagex.exe
+*, 7z.dll and imagex.exe are now stored internally
+*Language Packs now have their own tab
+*Addon Integrator supports [DELETE]
+*Addon Integrator supports [RUNCMD] (DISM only)
+*Added DISM to cleanup Tool
+*Added option to run cleanup tool on exit (Options)
+*Added option to show/hide Mount/Unmount processes (Options)
+*New Tools Manager
+*Driver Integrator now uses DISM
+*Rebuild All added in WIM Manager
+*Redesigned Addon Maker
+*Addon Maker lets you make new shortcuts
+*Addon Maker lets you add delete tasks
+*Addon Maker lets you add DISM commands
+*SoLoR Updates now includes Update Packs section
+*Language packs now have pre-converted files (*.cab)
+*Added Priority options (Options)
+*Code enhancements and cleanup
+*Added Update Checker on startup
+*Download  database via Options Menu
+*Added Feature Manager WIM
+*Added Feature Manager OS
+*Added All-In-One Tool
+*Added Error Log feature
+*All-In-One Tool support QFE/LDR Mode
+*Added basic Unattended Creator (Misc Tools)
+*Added Apply Unattended when image is mounted on WIM Manager
+*CAB Installer supports QFE/LDR installs
+*Update Integrator supports QFE/LDR installs
+*MSU to CAB Converter has been updated to display more info
+*Export on WIM Manager now uses imagex so you can see progress
+*You can now select multiple images for WIM Tweaker
+*Added Rebuild-All on AIO Integrator
+
+[0.6.0]
+*FIX: Addon Maker didn't add shortcuts properly
+*FIX: Cleanup Tool crash at start
+*FIX: Driver Integration
+*FIX: Some other fixes/changes
+*FIX: Crash during Addon Integration
+*FIX: Downloading sometimes added an extra extension i.e. '.msu.msu'
+*FIX: Win Toolkit did not work on French versions of Windows 7
+*FIX: Prompt if file already exists
+*FIX: Downloader crashed if you skip a download
+*Prompts if WIM Filter is installed
+*Registry hives now unload properly
+*Downloaded files are deleted from the Download Queue
+*Addon Integrator now supports deleting registry entries
+*Delete Addon Temp folder on close
+*Removed old entries in the database
+*Removed feedback button
+*Removed color schemes
+*Improved startup time
+*Removed splash screen
+*Using filters do not include Language Packs
+*Disable WIM Filter
+*Driver Integrate now deletes folder after installation
+*Added *Reaper* Addon site to the Addon drop down menu
+*Make comments in tasks.txt with ;
+*Added SoLoR updates
+*FIX: Downloader to not remove downloads properly
+*Added alternative download method
+*Added previous integrated updates in Update Integrator
+*Remove WIM Filters
+*FIX: Reading foreign characters in Tasks.txt (i.e. German Characters)
+
+[0.5.0]
+*FEATURE: Language Pack Converter 2.0
+*FEATURE:Addon integrator now supports copying to disk root
+*Updater improved!
+*WinToolkit Download redesigned and enhanced!
+*Starts up faster
+*Update Integrator and CAB Installer now support Language Packs
+*Update Integrator and CAB Installer is multi-threaded when adding files
+*Only downloads new list when needed
+*Sort lists by clicking on columns
+*Allow re-arranging of columns
+*Tweak: Take Ownership Context Menu
+*Tweak: Copy To Folder context menu
+*Tweak: Move To Folder context menu
+*Tweak: Change default background
+*FIX: Addon Maker
+*FIX: Could not delete failed download
+*FIX: Integrating addons would hang
+
+[0.2.3]
+*Driver Integrator v2.0
+*Improved image mounting speed
+*Addon Integrator updated to v3.0
+*Integrate Addons into multiple versions
+*Change Win Toolkit Temp Folder
+*Cleanup Tool updated to v4.0 Beta
+*WinToolkit now checks if it has opened with administrator privileges
+*Added search to Addon list
+*Faster Startup time!
+*Using WIMGAPI directly instead of SmartWIM
+*Better XP Support
+*FIX: WIM Manager now lists WIM Images instantly
+*FIX: WIM Manager buttons (Mount, Export, etc..) were enabled by default
+*FIX: Quite big color schemes bugs
+*FIX: Main menu bar text changes to black so it is easier to read
+*FIX: WIM Manger automatically selects the image if there is only one available
+*FIX: Some GUI glitches
+*FIX: Automatically deletes download if cancelled
+*FIX: Could not delete download if user cancelled during the download
+*FIX: Detecting WIMFltr
+*FIX: Unpredictable Mounting/Unmounting
+*FIX: Windows Defender Definitions will always download the  version
+*FIX: Registry Hive Mounter
+*FIX: Images now delete correctly
+*FIX: WIM Manager displayed wrong descriptions
+*FIX: Minor UI changes on Updater
+*FIX: Updater
+
+[0.2.0]
+*Some GUI Changes
+*Addon Integrator now supports HKEY_CURRENT_USER keys in reg files.
+*Some new icons
+*FIX: CAB Install "Remove All" didn't remove items
+*A few more fixes
+*Smaller footprint
+*Update "About" screen
+*Fixed 64bit detection
+*SmartWIM error fixed at startup
+*Some Important Fixes
+*Addon Integrator fix (%SystemRoot% problem)
+*Added Vista SP2 tab
+*WIM Manager now unmounts previous WIM completely
+*Addon Integrator updated (changes anything like "C:\" to "%SystemDrive%\")
+*FIX: Addon Integrator did not convert WIM_DEFAULT entries properly
+*Registry Mounter updated
+*Fixed addon list downloading
+*Fixed getting addon tasks.txt
+*OPTIONS: Ability to disable Update list download
+*Adding "-noupdatelist" to the Win Toolkit shortcut will skip update list download
+*Fixed feedback button
+*TOOLS: Office Updates: MSP Extractor
+*Updated Component Checker
+*Component Checker added
+*TOOLS: Addon Integrator
+*FIX: Win Toolkit does not close properly
+*Splash screen is not always on top
+*Minor Bug fixes
+*FIX: Registry Hive Mounter
+*FIX: Couldn't delete WIM Images
+*FIX: Couldn't edit image information like Name and Description
+*Re-enabled WIM Installer
+*Re-enabled Updater
+*More bug fixes
+*Minor UI improvements
+*"WinToolkit Forum" link added
+*FIX: Driver Integrator UI
+*FIX: Registry hive mounter not unmounting properly
+*FIX: Addon Integrator now unmounts properly
+*FIX: Addon Integrator now copies files properly to System32 and syswow64 folders
+
+[0.1.0 Final]
+*All current tools are final versions (verified working)
+*Settings now save (using temp method)
+*Colour Scheme fixes
+*WinToolkit will no longer have alpha versions
+*Updater cleanup
+*Tools Manager redesigned
+*Lists now have groups i.e. x64, x86, Misc, etc...
+*WIM Manager now shows custom images
+*Minor fixes
+*Multiple drivers can be integrated into more than one image
+*Can capture images
+*Custom WIM Images can now be seen in WIM Manager
+*UI improvements
+*WIM Registry Hive loading
+*Code Improvements
+*Added ability to show/hide groups in Options
+*Edit name or description of an image via WIM Manager
+*Tools Manager Updated
+*Integrate Updates into multiple images
+*Minor UI changes
+*Minor fixes
+*Updater UI changes
+*Tools Manager UI changes
+*Added "vLite Extreme" to Tools Manager
+*Integrate x64 updates using x86 OS (Win7 only)
+*Added DISM with installation
+*Minor fixes
+*FIX: Update Checker
+*Update Integrator
+*Driver Integrator
+*Minor UI Changes
+*Minor Code Changes
+*Minor Fixes
+*Mount images
+*Improve GUI and coding of WIM Manager
+*FIX: Crashing when loading boot.wim in WIM Manager
+*Colour Scheme form is finished
+*Tooltips have been completely updated
+*Code Improvements
+*Update Options screen
+*Added lots of new options in the Options screen
+*"More Info" now works for all items
+*Emergency fix for x64 users
+*Added WIM Manager Pre-Alpha
+*MSU to CAB Converter is now final version
+*CAB Retriever is now final version
+*Cleanup Tool is now RC version
+*WIM Filter Installer is now final version
+*Fix: UI bugs in MSU to CAB Converter
+*Adding updates to MSU to CAB Converter is now instant
+*Improved MSU to CAB Converter code
+*Fix: Minor bugs
+*Added Send Feedback button
+*Added CAB Installer
+*MSU to CAB Converter is now Beta
+*WinToolkit Always on Top
+*Cancel UL Download
+*Extensions moved to Options Menu
+*Temp UL Download removed if cancelled
+*Minor Updater GUI changes
+*MSU to CAB Converter UI Changes
+*Fix: MSU to CAB Converter Tooltips
+*Fix: MSU to CAB Converter minor bugs
+*Update Checker
+*WinToolkit now downloads  Update List!
+*Minor Improvements
+*Minor Fixes
+*WinToolkit Downloader
+*Fix: WIM Filter did not hide if already installed
+*Added ability to download extensions separately via Options &gt; Extensions Menu
+*Renamed "Other Software / Tools" to "Other Software / Extensions" in Tools Manager
+*WIM Filter Installer now autocloses
+*WIM Filter Installer now removes downloaded files after successful installation
+*Fix: WIM Filter Installer did not open
+*Added WIM Filter Installer v1.0 Beta
+*Updated "WinToolkit Forum" link
+*Fix: Serious bug in Tools Manager
+*Added toolbar in CAB Retriever
+*Remove Context Menu in CAB Retriever
+*Initial Release</value>
+  </data>
+</root>

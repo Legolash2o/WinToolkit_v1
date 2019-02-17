@@ -1,0 +1,772 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43432A09-7F92-4843-A183-02D98FA1F865}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <OutputPath>bin\Release\</OutputPath>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinToolkit</RootNamespace>
+    <AssemblyName>WinToolkit</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <PublishUrl>ftp://wincert.net/W7T/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://wincert.net/leli55PK/W7T/</InstallUrl>
+    <SupportUrl>http://www.wincert.net/forum/index.php%3f/forum/179-windows-7-toolkit/</SupportUrl>
+    <TargetCulture>en-GB</TargetCulture>
+    <ProductName>Windows 7 Toolkit</ProductName>
+    <PublisherName>Legolash2o</PublisherName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>29</ApplicationRevision>
+    <ApplicationVersion>1.4.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsUrl>http://go.microsoft.com/fwlink/%3fLinkID=127832</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WinToolkit.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>W7T_Install.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>578F2D14993FF6F5CD89CEAEA248B7AA02D60CAC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>W7T_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Resources\W7T.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Vista Api">
+      <HintPath>.\Vista Api.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\cComponents.cs" />
+    <Compile Include="Classes\cError.cs" />
+    <Compile Include="Classes\cNotify.cs" />
+    <Compile Include="Classes\cThemes.cs" />
+    <Compile Include="Classes\DISM.cs" />
+    <Compile Include="Classes\Extensions.cs" />
+    <Compile Include="Classes\FileHandling\Files.cs" />
+    <Compile Include="Classes\Helpers\4KHelper.cs" />
+    <Compile Include="Classes\UpdateCache.cs" />
+    <Compile Include="Classes\_Addon.cs" />
+    <Compile Include="Integration\SilentInstaller.cs" />
+    <Compile Include="Prompts\frmCleanup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmCleanup.Designer.cs">
+      <DependentUpon>frmCleanup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\WIMImage.cs" />
+    <Compile Include="Prompts\frmCommon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmCommon.Designer.cs">
+      <DependentUpon>frmCommon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmInput.Designer.cs">
+      <DependentUpon>frmInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmIntegrate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmIntegrate.Designer.cs">
+      <DependentUpon>frmIntegrate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmKeys.cs">
+      <SubType>form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmKeys.Designer.cs">
+      <DependentUpon>frmKeys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmUpdateSilents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmUpdateSilents.Designer.cs">
+      <DependentUpon>frmUpdateSilents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmWinKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmWinKey.Designer.cs">
+      <DependentUpon>frmWinKey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Imported\cWimAPI.cs" />
+    <Compile Include="Prompts\frmPresetManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmPresetManager.Designer.cs">
+      <DependentUpon>frmPresetManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmAWDownloading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmAWDownloading.Designer.cs">
+      <DependentUpon>frmAWDownloading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmUpgradeImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmUpgradeImage.Designer.cs">
+      <DependentUpon>frmUpgradeImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmPreset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmPreset.Designer.cs">
+      <DependentUpon>frmPreset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmD_ISO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmD_ISO.Designer.cs">
+      <DependentUpon>frmD_ISO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmDonate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmDonate.Designer.cs">
+      <DependentUpon>frmDonate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrvInstaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrvInstaller.designer.cs">
+      <DependentUpon>frmDrvInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmAntiVirus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmAntiVirus.Designer.cs">
+      <DependentUpon>frmAntiVirus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmError.Designer.cs">
+      <DependentUpon>frmError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmShutdown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmShutdown.Designer.cs">
+      <DependentUpon>frmShutdown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmTweaks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmTweaks.Designer.cs">
+      <DependentUpon>frmTweaks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWIMMerger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWIMMerger.designer.cs">
+      <DependentUpon>frmWIMMerger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmUPrompt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmUPrompt.designer.cs">
+      <DependentUpon>frmUPrompt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmWelcome.Designer.cs">
+      <DependentUpon>frmWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Imported\cImage.cs" />
+    <Compile Include="Classes\cMount.cs" />
+    <Compile Include="Resources\Imported\COMTypes.cs" />
+    <Compile Include="Classes\cOptions.cs" />
+    <Compile Include="Classes\cReg.cs" />
+    <Compile Include="Classes\cTweaks.cs" />
+    <Compile Include="frmAddonMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddonMaker.Designer.cs">
+      <DependentUpon>frmAddonMaker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAllInOne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAllInOne.Designer.cs">
+      <DependentUpon>frmAllInOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdInstaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdInstaller.Designer.cs">
+      <DependentUpon>frmUpdInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdRetriever.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdRetriever.Designer.cs">
+      <DependentUpon>frmUpdRetriever.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCaptureImg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCaptureImg.Designer.cs">
+      <DependentUpon>frmCaptureImg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCR.Designer.cs">
+      <DependentUpon>frmCR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEXEtoMSP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEXEtoMSP.Designer.cs">
+      <DependentUpon>frmEXEtoMSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmISO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmISO.Designer.cs">
+      <DependentUpon>frmISO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLPConvert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLPConvert.Designer.cs">
+      <DependentUpon>frmLPConvert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMSUtoCAB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMSUtoCAB.Designer.cs">
+      <DependentUpon>frmMSUtoCAB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptions.Designer.cs">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegMount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegMount.Designer.cs">
+      <DependentUpon>frmRegMount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdCatalog.Designer.cs">
+      <DependentUpon>frmUpdCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStartup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStartup.Designer.cs">
+      <DependentUpon>frmStartup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToolsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToolsManager.Designer.cs">
+      <DependentUpon>frmToolsManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\cMain.cs" />
+    <Compile Include="frmUnattended.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnattended.Designer.cs">
+      <DependentUpon>frmUnattended.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmUnmount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmUnmount.Designer.cs">
+      <DependentUpon>frmUnmount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prompts\frmUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prompts\frmUpdate.Designer.cs">
+      <DependentUpon>frmUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUSBPrep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUSBPrep.Designer.cs">
+      <DependentUpon>frmUSBPrep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWIMAIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWIMAIO.designer.cs">
+      <DependentUpon>frmWIMAIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWIMManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWIMManager.Designer.cs">
+      <DependentUpon>frmWIMManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWIMSplitter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWIMSplitter.Designer.cs">
+      <DependentUpon>frmWIMSplitter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\cAddon.cs" />
+    <Compile Include="Resources\Imported\ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Imported\Sorting.cs" />
+    <Compile Include="Resources\Imported\WimApi.cs" />
+    <Compile Include="Resources\Win32Security\AccessToken.cs" />
+    <Compile Include="Resources\Win32Security\DisposableObject.cs" />
+    <Compile Include="Resources\Win32Security\Luid.cs" />
+    <Compile Include="Resources\Win32Security\TokenPrivilege.cs" />
+    <Compile Include="Resources\Win32Security\TokenPrivileges.cs" />
+    <Compile Include="Resources\Win32Security\Win32Enums.cs" />
+    <Compile Include="Resources\Win32Security\Win32Interop.cs" />
+    <Compile Include="Resources\Win32Security\Win32Structs.cs" />
+    <Compile Include="Resources\Imported\Windows7Taskbar.cs" />
+    <EmbeddedResource Include="frmAddonMaker.resx">
+      <DependentUpon>frmAddonMaker.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAllInOne.resx">
+      <DependentUpon>frmAllInOne.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmCleanup.resx">
+      <DependentUpon>frmCleanup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmCommon.resx">
+      <DependentUpon>frmCommon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmInput.resx">
+      <DependentUpon>frmInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmIntegrate.resx">
+      <DependentUpon>frmIntegrate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmKeys.resx">
+      <DependentUpon>frmKeys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmPresetManager.resx">
+      <DependentUpon>frmPresetManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmPreset.resx">
+      <DependentUpon>frmPreset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmD_ISO.resx">
+      <DependentUpon>frmD_ISO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmDonate.resx">
+      <DependentUpon>frmDonate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrvInstaller.resx">
+      <DependentUpon>frmDrvInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmAntiVirus.resx">
+      <DependentUpon>frmAntiVirus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmError.resx">
+      <DependentUpon>frmError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmShutdown.resx">
+      <DependentUpon>frmShutdown.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmTweaks.resx">
+      <DependentUpon>frmTweaks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdInstaller.resx">
+      <DependentUpon>frmUpdInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdRetriever.resx">
+      <DependentUpon>frmUpdRetriever.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCaptureImg.resx">
+      <DependentUpon>frmCaptureImg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCR.resx">
+      <DependentUpon>frmCR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEXEtoMSP.resx">
+      <DependentUpon>frmEXEtoMSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmISO.resx">
+      <DependentUpon>frmISO.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLPConvert.resx">
+      <DependentUpon>frmLPConvert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMSUtoCAB.resx">
+      <DependentUpon>frmMSUtoCAB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptions.resx">
+      <DependentUpon>frmOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegMount.resx">
+      <DependentUpon>frmRegMount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdCatalog.resx">
+      <DependentUpon>frmUpdCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStartup.resx">
+      <DependentUpon>frmStartup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToolsManager.resx">
+      <DependentUpon>frmToolsManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnattended.resx">
+      <DependentUpon>frmUnattended.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmAWDownloading.resx">
+      <DependentUpon>frmAWDownloading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmUnmount.resx">
+      <DependentUpon>frmUnmount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmUpdate.resx">
+      <DependentUpon>frmUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUSBPrep.resx">
+      <DependentUpon>frmUSBPrep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWIMAIO.resx">
+      <DependentUpon>frmWIMAIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWIMManager.resx">
+      <DependentUpon>frmWIMManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWIMMerger.resx">
+      <DependentUpon>frmWIMMerger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWIMSplitter.resx">
+      <DependentUpon>frmWIMSplitter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmUpdateSilents.resx">
+      <DependentUpon>frmUpdateSilents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmUpgradeImage.resx">
+      <DependentUpon>frmUpgradeImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmUPrompt.resx">
+      <DependentUpon>frmUPrompt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmWelcome.resx">
+      <DependentUpon>frmWelcome.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prompts\frmWinKey.resx">
+      <DependentUpon>frmWinKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\efisys.bin" />
+    <None Include="Resources\efisys_noprompt.bin" />
+    <None Include="Resources\Files\BIOS.com" />
+    <None Include="Resources\Files\bootx64.efi" />
+    <None Include="Resources\Files\efisys.bin" />
+    <None Include="Resources\Files\efisys_noprompt.bin" />
+    <None Include="Resources\Files\RunOnce.exe.config" />
+    <None Include="Resources\W7T.manifest" />
+    <None Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Files\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\Files\blankico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Addons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\folder_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Mount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Reg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Files\Speech-NaturalLang.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Tool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pics\Updates_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Files\WIMAIO64.7z" />
+    <None Include="Resources\Pics\Wincert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Files\cdimage.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\File_icon.png" />
+    <None Include="Resources\process_icon.png" />
+    <None Include="Resources\54bb62ab706e8d85_128x128.png" />
+    <None Include="Resources\Key_32.png" />
+    <Content Include="W7T_Install.ico" />
+    <None Include="Resources\Pics\download_package.png" />
+    <Content Include="W7T_128.ico" />
+    <None Include="Resources\Pics\Checked.png" />
+    <None Include="Resources\Pics\Unchecked.png" />
+    <None Include="Resources\Imported\Vista Api.dll" />
+    <None Include="Resources\Files\Interop.SHDocVw.dll" />
+    <None Include="Resources\Files\7z_x32.exe" />
+    <None Include="Resources\Files\_7z_x86.dll" />
+    <None Include="Resources\Pics\WT-Key.png" />
+    <None Include="Resources\Files\Packages.exe" />
+    <None Include="Resources\Pics\refresh2_20x20.png" />
+    <None Include="Resources\Files\imagex.exe" />
+    <None Include="Resources\Files\bootsect.exe" />
+    <None Include="Resources\Pics\Safe.png" />
+    <None Include="Resources\Pics\None.png" />
+    <None Include="Resources\Pics\Themes.png" />
+    <None Include="Resources\Files\RunOnce.exe" />
+    <None Include="Resources\Pics\Save.png" />
+    <None Include="Resources\Files\Interop.IWshRuntimeLibrary.dll" />
+    <None Include="Resources\Files\wimfltr.inf" />
+    <None Include="Resources\Files\exe2cab.exe" />
+    <None Include="Resources\Files\intlcfg64.exe" />
+    <None Include="Resources\Files\intlcfg86.exe" />
+    <None Include="Resources\Files\ResHacker.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Vista Api">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="W7.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

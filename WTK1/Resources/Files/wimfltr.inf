@@ -1,0 +1,105 @@
+;;;
+;;; Windows Image File Filter Driver
+;;;
+;;; Copyright (c) 2004, Microsoft Corporation
+;;; Author: Bangalore Guruprakash (brGuru)
+;;;
+
+[Version]
+Signature   = "$Windows NT$"
+Class       = "ActivityMonitor"                 ;Determined by the work this filter driver does
+Provider    = %MSFT%
+DriverVer=06/21/2006,6.0.6001.18000
+
+[DestinationDirs]
+DefaultDestDir      = 12                        ;%windir%\system32\drivers
+WimFltr.DriverFiles = 12                        ;%windir%\system32\drivers
+
+;;
+;; Default install sections
+;;
+
+[DefaultInstall]
+OptionDesc  = %WimFltrServiceDescription%
+CopyFiles   = WimFltr.DriverFiles
+
+[DefaultInstall.Services]
+AddService  = %WimFltrServiceName%,,WimFltr.Service
+
+;;
+;; Default uninstall sections
+;;
+
+[DefaultUninstall]
+DelFiles    = WimFltr.DriverFiles
+DelReg      = WimFltr.DelRegistry
+
+[DefaultUninstall.Services]
+DelService = WimFltr,0x200                      ;Flags not to stop service first
+
+;;
+;; Services Section
+;;
+
+[WimFltr.Service]
+DisplayName      = %WimFltrServiceName%
+Description      = %WimFltrServiceDescription%
+ServiceBinary    = %12%\wimfltr.sys             ;%windir%\system32\drivers\wimfltr.sys
+Dependencies     = %WimFltrFilterManagerName%   ;FltMgr
+ServiceType      = 2                            ;SERVICE_FILE_SYSTEM_DRIVER
+StartType        = 3                            ;SERVICE_DEMAND_START
+ErrorControl     = 1                            ;SERVICE_ERROR_NORMAL
+LoadOrderGroup   = "FSFilter Compression"
+AddReg           = WimFltr.AddRegistry
+
+;;
+;; Registry Modifications
+;;
+
+[WimFltr.AddRegistry]
+HKLM,%WimFltrRegKey%,%WimFltrDebugFlags%,0x00010001,0x00000001
+HKR,%WimFltrRegInstancesSubkeyName%,%WimFltrRegDefaultInstanceValueName%,0x00000000,%WimFltrDefaultInstance%
+HKR,%WimFltrRegInstancesSubkeyName%"\"%WimFltrInstance1.Name%,%WimFltrRegAltitudeValueName%,0x00000000,%WimFltrInstance1.Altitude%
+HKR,%WimFltrRegInstancesSubkeyName%"\"%WimFltrInstance1.Name%,%WimFltrRegFlagsValueName%,0x00010001,%WimFltrInstance1.Flags%
+
+[WimFltr.DelRegistry]
+HKLM,%WimFltrRegKey%,%WimFltrDebugFlags%
+
+;;
+;; Copy Files
+;;
+
+[WimFltr.DriverFiles]
+WimFltr.sys
+
+;;
+;; Strings section
+;;
+
+[Strings]
+
+;
+; Localizable strings
+;
+
+MSFT                               = "Microsoft Corporation"
+WimFltrServiceDescription          = "Windows Image Mini-Filter Driver"
+WimFltrServiceName                 = "WimFltr"
+
+;
+; Non-Localizable strings
+;
+
+WimFltrRegKey                      = "system\currentcontrolset\services\WimFltr"
+WimFltrRegAltitudeValueName        = "Altitude"
+WimFltrRegDefaultInstanceValueName = "DefaultInstance"
+WimFltrRegInstancesSubkeyName      = "Instances"
+WimFltrRegFlagsValueName           = "Flags"
+
+WimFltrDebugFlags                  = "DebugFlags"
+WimFltrFilterManagerName           = "FltMgr"
+
+WimFltrDefaultInstance             = "WimFltr Instance"
+WimFltrInstance1.Name              = "WimFltr Instance"
+WimFltrInstance1.Altitude          = "170500"
+WimFltrInstance1.Flags             = 0x0              ; Allow all attachments
