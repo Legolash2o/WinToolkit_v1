@@ -129,6 +129,7 @@ namespace WinToolkit.Prompts {
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
             this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -140,9 +141,9 @@ namespace WinToolkit.Prompts {
             // 
             this.splitContainer1.Panel2.Controls.Add(this.ToolStrip5);
             this.splitContainer1.Panel2MinSize = 30;
-            this.splitContainer1.Size = new System.Drawing.Size(449, 341);
-            this.splitContainer1.SplitterDistance = 310;
-            this.splitContainer1.SplitterWidth = 1;
+            this.splitContainer1.Size = new System.Drawing.Size(674, 525);
+            this.splitContainer1.SplitterDistance = 493;
+            this.splitContainer1.SplitterWidth = 2;
             this.splitContainer1.TabIndex = 0;
             // 
             // splitContainer2
@@ -151,6 +152,7 @@ namespace WinToolkit.Prompts {
             this.splitContainer2.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
             this.splitContainer2.IsSplitterFixed = true;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.splitContainer2.Name = "splitContainer2";
             this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -162,9 +164,9 @@ namespace WinToolkit.Prompts {
             // 
             this.splitContainer2.Panel2.Controls.Add(this.scKey);
             this.splitContainer2.Panel2MinSize = 22;
-            this.splitContainer2.Size = new System.Drawing.Size(449, 310);
-            this.splitContainer2.SplitterDistance = 287;
-            this.splitContainer2.SplitterWidth = 1;
+            this.splitContainer2.Size = new System.Drawing.Size(674, 493);
+            this.splitContainer2.SplitterDistance = 469;
+            this.splitContainer2.SplitterWidth = 2;
             this.splitContainer2.TabIndex = 0;
             // 
             // lstKeys
@@ -246,9 +248,10 @@ namespace WinToolkit.Prompts {
             listViewItem20,
             listViewItem21});
             this.lstKeys.Location = new System.Drawing.Point(0, 0);
+            this.lstKeys.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstKeys.MultiSelect = false;
             this.lstKeys.Name = "lstKeys";
-            this.lstKeys.Size = new System.Drawing.Size(449, 287);
+            this.lstKeys.Size = new System.Drawing.Size(674, 469);
             this.lstKeys.SmallImageList = this.imageList1;
             this.lstKeys.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.lstKeys.TabIndex = 0;
@@ -270,16 +273,17 @@ namespace WinToolkit.Prompts {
             // 
             // contextMenuStrip1
             // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cmsCopyClipboard});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(172, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(240, 34);
             // 
             // cmsCopyClipboard
             // 
             this.cmsCopyClipboard.Image = ((System.Drawing.Image)(resources.GetObject("cmsCopyClipboard.Image")));
             this.cmsCopyClipboard.Name = "cmsCopyClipboard";
-            this.cmsCopyClipboard.Size = new System.Drawing.Size(171, 22);
+            this.cmsCopyClipboard.Size = new System.Drawing.Size(239, 30);
             this.cmsCopyClipboard.Text = "Copy to Clipboard";
             this.cmsCopyClipboard.Click += new System.EventHandler(this.cmsCopyClipboard_Click);
             // 
@@ -294,6 +298,7 @@ namespace WinToolkit.Prompts {
             // 
             this.scKey.Dock = System.Windows.Forms.DockStyle.Fill;
             this.scKey.Location = new System.Drawing.Point(0, 0);
+            this.scKey.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.scKey.Name = "scKey";
             // 
             // scKey.Panel1
@@ -303,8 +308,9 @@ namespace WinToolkit.Prompts {
             // scKey.Panel2
             // 
             this.scKey.Panel2.Controls.Add(this.txtKey);
-            this.scKey.Size = new System.Drawing.Size(449, 22);
-            this.scKey.SplitterWidth = 1;
+            this.scKey.Size = new System.Drawing.Size(674, 22);
+            this.scKey.SplitterDistance = 75;
+            this.scKey.SplitterWidth = 2;
             this.scKey.TabIndex = 2;
             // 
             // label1
@@ -313,8 +319,9 @@ namespace WinToolkit.Prompts {
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 22);
+            this.label1.Size = new System.Drawing.Size(75, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "KEY";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -325,9 +332,10 @@ namespace WinToolkit.Prompts {
             this.txtKey.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtKey.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtKey.Location = new System.Drawing.Point(0, 0);
+            this.txtKey.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtKey.MaxLength = 29;
             this.txtKey.Name = "txtKey";
-            this.txtKey.Size = new System.Drawing.Size(398, 22);
+            this.txtKey.Size = new System.Drawing.Size(597, 30);
             this.txtKey.TabIndex = 1;
             this.txtKey.WordWrap = false;
             // 
@@ -335,12 +343,14 @@ namespace WinToolkit.Prompts {
             // 
             this.ToolStrip5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ToolStrip5.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.ToolStrip5.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.ToolStrip5.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cmdAccept,
             this.cmdCancel});
             this.ToolStrip5.Location = new System.Drawing.Point(0, 0);
             this.ToolStrip5.Name = "ToolStrip5";
-            this.ToolStrip5.Size = new System.Drawing.Size(449, 30);
+            this.ToolStrip5.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.ToolStrip5.Size = new System.Drawing.Size(674, 30);
             this.ToolStrip5.TabIndex = 11;
             this.ToolStrip5.TabStop = true;
             this.ToolStrip5.Text = "ToolStrip5";
@@ -350,7 +360,7 @@ namespace WinToolkit.Prompts {
             this.cmdAccept.Image = global::WinToolkit.Properties.Resources.OK;
             this.cmdAccept.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.cmdAccept.Name = "cmdAccept";
-            this.cmdAccept.Size = new System.Drawing.Size(43, 27);
+            this.cmdAccept.Size = new System.Drawing.Size(64, 27);
             this.cmdAccept.Text = "OK";
             this.cmdAccept.ToolTipText = "Use the select key.";
             this.cmdAccept.Click += new System.EventHandler(this.cmdAccept_Click);
@@ -360,21 +370,22 @@ namespace WinToolkit.Prompts {
             this.cmdCancel.Image = global::WinToolkit.Properties.Resources.Close;
             this.cmdCancel.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.cmdCancel.Name = "cmdCancel";
-            this.cmdCancel.Size = new System.Drawing.Size(63, 27);
+            this.cmdCancel.Size = new System.Drawing.Size(91, 27);
             this.cmdCancel.Text = "Cancel";
             this.cmdCancel.ToolTipText = "Close this window without selecting anything.";
             this.cmdCancel.Click += new System.EventHandler(this.cmdCancel_Click);
             // 
             // frmKeys
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(449, 341);
+            this.ClientSize = new System.Drawing.Size(674, 525);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(465, 380);
+            this.MinimumSize = new System.Drawing.Size(686, 554);
             this.Name = "frmKeys";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Product Keys";

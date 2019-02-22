@@ -12,36 +12,7 @@ namespace WinToolkit
 {
     public static class cOptions
     {
-        public const int KeyAmount = 500;
-        internal static bool ValidKey
-        {
-            get
-            {
-                if (Debugger.IsAttached)
-                    return true;
-
-                if (DateTime.Now.Year >= 2018)
-                    return true;
-
-                string cKey = cReg.GetValue(Registry.LocalMachine, "Software\\WinToolkit", "Key");
-                if (!String.IsNullOrEmpty(cKey))
-                {
-                    var RN = new Random(434567435);
-                    for (int i = 0; i < KeyAmount; i++)
-                    {
-                        string nKey = RN.Next(100000000, 1000000000).ToString("000-000-000");
-                        if (cKey == nKey)
-                        {
-                            return true;
-                        }
-                    }
-                }
-
-                return false;
-            }
-        }
-
-        public static string NF = "";
+      public static string NF = "";
         public static string NV = "";
         public static string NM = "";
         public static string NL = "";
@@ -110,7 +81,6 @@ namespace WinToolkit
         public static bool PresetManager = true;
         public static bool FreeRAM = true;
         public static bool PreventSleep = true;
-        public static bool ShowDonateAd = true;
         public static bool ShowWelcome = true;
         public static string DISMLoc = "";
         public static bool AddRunOnce = true;
@@ -281,7 +251,6 @@ namespace WinToolkit
                     if (S.StartsWithIgnoreCase("SLASTWIM")) { LastWim = GetValue(S).ReplaceIgnoreCase("\\\\", "\\"); }
                     if (S.StartsWithIgnoreCase("SMCHECK")) { mCheck = Convert.ToBoolean(GetValue(S)); }
                     if (S.StartsWithIgnoreCase("SAIOPM")) { PresetManager = Convert.ToBoolean(GetValue(S)); }
-                    if (S.StartsWithIgnoreCase("SSHOWDONATEAD")) { ShowDonateAd = Convert.ToBoolean(GetValue(S)); }
                     if (S.StartsWithIgnoreCase("SMOUNTTEMP"))
                     {
                         string FBD = GetValue(S);

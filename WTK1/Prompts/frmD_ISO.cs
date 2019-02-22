@@ -31,7 +31,7 @@ namespace WinToolkit
             cMain.SetToolTip(cmdWin7SP1, "Download Windows 7 SP1, Microsoft's latest service pack.");
             cMain.SetToolTip(cmdWin81, "It's Windows re-imagined and reinvented from a solid core of Windows 7 speed and reliability.\nIt's an all-new touch interface. It's a new Windows for new devices.");
 
-            tabControl1.TabPages.RemoveAt(1);
+          
 
            //tabControl3.Visible = cOptions.ValidKey;
             //GBNotice.Visible = !cOptions.ValidKey;
@@ -98,10 +98,6 @@ namespace WinToolkit
             cMain.OpenLink("http://technet.microsoft.com/en-US/evalcenter/dn205286.aspx");
         }
 
-        private void btnExclusive_Click(object sender, EventArgs e)
-        {
-            cMain.OpenLink("http://wintoolkit.co.uk/Home/Downloads");
-        }
 
         private void cmdWin10_Click(object sender, EventArgs e)
         {

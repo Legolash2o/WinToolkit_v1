@@ -249,7 +249,7 @@ namespace WinToolkit
             Loaded = false;
             cboLang.SelectedIndex = 0; cMain.eForm = this;
 
-            if (cOptions.ValidKey || Debugger.IsAttached)
+            if (Debugger.IsAttached)
             {
                 gbCleanup.Enabled = true;
                 lblNoticeClean.Visible = false;

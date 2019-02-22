@@ -182,13 +182,6 @@ namespace WinToolkit
 
         private void frmToolsManager_Load(object sender, EventArgs e)
         {
-         
-            if (Debugger.IsAttached) { mnuTest.Visible = true; }
-            if (cOptions.ValidKey)
-            {
-                mnuVersion.Image = Properties.Resources.WT_Key;
-                mnuVersion.ToolTipText = "You have contributed to Win Toolkit which rewards you with\na gold star and extra features!";
-            }
 
             mnuVersion.Text = "v" + cMain.WinToolkitVersion(true);
 
@@ -348,11 +341,7 @@ namespace WinToolkit
         private void BWUpdCat_DoWork(object sender, DoWorkEventArgs e)
         {
         }
-
-        private void cmdDonate_Click(object sender, EventArgs e)
-        {
-            new frmDonate("Donate").ShowDialog();
-        }
+        
 
         private void cmdOptions_Click(object sender, EventArgs e)
         {
@@ -361,24 +350,16 @@ namespace WinToolkit
 
         private void cmdReportBug_Click(object sender, EventArgs e)
         {
-            cMain.OpenLink("http://www.wincert.net/forum/index.php?/forum/179-win-toolkit/&do=add", false);
+            cMain.OpenLink("http://www.wincert.net/forum/index.php?/forum/179-win-toolkit/&do=add");
         }
-
-        private void cmdFacebook_Click(object sender, EventArgs e)
-        {
-            cMain.OpenLink("http://www.facebook.com/WinToolkit");
-        }
+        
 
         private void cmdForum_Click(object sender, EventArgs e)
         {
-            cMain.OpenLink("http://www.wincert.net/forum/index.php?/forum/179-windows-7-toolkit/");
+            cMain.OpenLink("https://www.wincert.net/forum/index.php?/forum/179-win-toolkit/");
         }
 
-        private void cmdBlog_Click(object sender, EventArgs e)
-        {
-            cMain.OpenLink("http://liamcrozier.wordpress.com/");
-        }
-
+      
         private void cmdAbout_Click(object sender, EventArgs e)
         {
             new Prompts.frmAbout().ShowDialog();
@@ -521,36 +502,7 @@ namespace WinToolkit
         {
             cMain.OpenLink("https://repacks.net/forum/viewtopic.php?t=7");
         }
-
-       
-
-        private void cmdUpdateWinToolkit_Click(object sender, EventArgs e)
-        {
-            Enabled = false;
-            cmdUpdateWinToolkit.Text = "Searching...";
-            Application.DoEvents();
-
-            cMain.UpdateAvailable uaUpdateAvailable = cMain.CheckForUpdates();
-
-            switch (uaUpdateAvailable)
-            {
-                case cMain.UpdateAvailable.Yes:
-                    new frmWTUpdate().ShowDialog();
-                    break;
-                case cMain.UpdateAvailable.No:
-                    MessageBox.Show("Seems like you're already using the latest version. Thanks for checking.", "Latest Version: " + cMain.WinToolkitVersion(true));
-                    break;
-                case cMain.UpdateAvailable.Offline:
-                    MessageBox.Show("Unable to connect to server. Make sure you have an internet connection and that wincert is available.", "Timeout Error");
-                    break;
-                default:
-                    MessageBox.Show("An unknown error occurred whilst trying to check for updates.", "Unknown Error");
-                    break;
-            }
-
-            cmdUpdateWinToolkit.Text = "Check for &Update";
-            Enabled = true;
-        }
+        
 
         private void cmdGuides_Click(object sender, EventArgs e)
         {
@@ -579,17 +531,8 @@ namespace WinToolkit
             cMain.OpenLink("http://wallpaperswide.com/");
         }
         
+     
 
-        private void mnuTestErrorLog_Click(object sender, EventArgs e)
-        {
-            TestError TE = new TestError();
-            TE.TestUpload(true);
-        }
-
-        private void mnuTestCode_Click(object sender, EventArgs e)
-        {
-           
-        }
 
         private static string GetValue(string Input, string Value)
         {
@@ -607,10 +550,6 @@ namespace WinToolkit
             cMain.OpenLink("http://www.ntlite.com/");
         }
 
-        private void cmdTestBuilds_Click(object sender, EventArgs e)
-        {
-            cMain.OpenLink("http://www.wincert.net/leli55PK/Testing/");
-        }
 
         //private void cmdUpdCache_Click(object sender, EventArgs e)
         //{

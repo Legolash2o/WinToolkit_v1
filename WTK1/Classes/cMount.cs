@@ -693,7 +693,7 @@ namespace WinToolkit
 
             if (uChoice != MountStatus.Discard)
             {
-                if (cOptions.ValidKey || Debugger.IsAttached)
+                if (Debugger.IsAttached)
                 {
 
                     if (cOptions.AutoClean)

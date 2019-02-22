@@ -100,12 +100,6 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Legolash2o";
             // 
-            // BWUpdate
-            // 
-            this.BWUpdate.WorkerSupportsCancellation = true;
-            this.BWUpdate.DoWork += new System.ComponentModel.DoWorkEventHandler(this.BWUpdate_DoWork);
-            this.BWUpdate.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.BWUpdate_RunWorkerCompleted);
-            // 
             // frmStartup
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;

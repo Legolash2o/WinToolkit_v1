@@ -40,7 +40,7 @@ namespace WinToolkit {
                 case "Log Uploaded":
                   case "Log Saved":
                  
-                    cMain.OpenLink(Notify.Tag.ToString(),false);
+                    cMain.OpenLink(Notify.Tag.ToString());
                     break;
 
             }

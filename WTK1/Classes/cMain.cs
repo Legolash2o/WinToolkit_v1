@@ -201,98 +201,7 @@ namespace WinToolkit
             return false;
         }
 
-        public enum UpdateAvailable
-        {
-            Yes,
-            No,
-            Offline,
-            Error
-        }
-
-        public static UpdateAvailable CheckForUpdates()
-        {
-            UpdateAvailable nUpdate = UpdateAvailable.No;
-            cOptions.NF = "";
-            cOptions.NV = "";
-
-            if (string.IsNullOrEmpty(cReg.GetValue(Registry.LocalMachine, "Software\\Microsoft\\.NETFramework", "LegacyWPADSupport")))
-            {
-                cReg.WriteValue(Registry.LocalMachine, "Software\\Microsoft\\.NETFramework", "LegacyWPADSupport", 0,
-                    RegistryValueKind.DWord);
-                if (Arc64)
-                {
-                    cReg.WriteValue(Registry.LocalMachine, "Software\\Wow6432Node\\Microsoft\\.NETFramework",
-                        "LegacyWPADSupport", 0, RegistryValueKind.DWord);
-                }
-            }
-            try
-            {
-                string strResponse = "";
-                HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://update.wintoolkit.co.uk/index.htm");
-                request.UserAgent = "Win Toolkit_135792468";
-                request.Accept = "text/html";
-                request.Proxy = WebRequest.DefaultWebProxy;
-                request.Timeout = 5000;
-                request.CachePolicy = new RequestCachePolicy(RequestCacheLevel.NoCacheNoStore);
-                request.AuthenticationLevel = System.Net.Security.AuthenticationLevel.None;
-
-                using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
-                {
-                    Stream resStream = response.GetResponseStream();
-                    StreamReader streamReader = new StreamReader(resStream, Encoding.GetEncoding(response.CharacterSet));
-                    strResponse = streamReader.ReadToEnd();
-                }
-
-                if (!string.IsNullOrEmpty(strResponse))
-                {
-                    string NF = "";
-                    int intT = 0;
-                    foreach (string L in strResponse.Split(Environment.NewLine.ToCharArray()))
-                    {
-                        if (!string.IsNullOrEmpty(L))
-                        {
-                            if (L.StartsWithIgnoreCase("|"))
-                            {
-                                cOptions.NM = L.Substring(1);
-                                intT -= 1;
-                            }
-                            if (L.StartsWithIgnoreCase("#"))
-                            {
-                                cOptions.NL = L.Substring(1);
-                                intT -= 1;
-                            }
-                            if (string.IsNullOrEmpty(cOptions.NV))
-                            {
-                                cOptions.NV = L;
-                            }
-                            else
-                            {
-                                NF += Environment.NewLine + L;
-                                intT += 1;
-                            }
-                        }
-                    }
-
-                    while (!NF.StartsWithIgnoreCase("*"))
-                    {
-                        NF = NF.Substring(1);
-                    }
-
-                    var newVersion = new Version(cOptions.NV);
-                    var currentVersion = new Version(Application.ProductVersion);
-                    if (newVersion > currentVersion) { cOptions.NF = NF; return UpdateAvailable.Yes; }
-
-                }
-
-                FreeRAM();
-            }
-            catch (Exception Ex)
-            {
-                cOptions.NV = ""; nUpdate = UpdateAvailable.Error;
-            }
-
-            return nUpdate;
-        }
+      
 
         public static string GetDVD(string WIM)
         {
@@ -1032,16 +941,10 @@ namespace WinToolkit
 
 
         static string sWebSite = "";
-        public static void OpenLink(string Site, bool AdFly = true)
+        public static void OpenLink(string Site)
         {
             string S = Site;
-            bool showAd = false;
-            if (!Site.ContainsIgnoreCase("ADF.LY") && AdFly && !cOptions.ValidKey)
-            {
-                S = "http://adf.ly/1964538/" + Site;
-                showAd = true;
-            }
-
+        
             if (!new Uri(S).IsFile)
             {
                 S = S.ReplaceIgnoreCase(" ", "%20");
@@ -1073,12 +976,6 @@ namespace WinToolkit
                     }
                 }
                 catch { }
-            }
-
-            if (showAd && cOptions.ShowDonateAd)
-            {
-                new frmDonate("Hate Adverts?").ShowDialog();
-                cOptions.ShowDonateAd = false;
             }
         }
         const int BYTES_TO_READ = sizeof(Int64);

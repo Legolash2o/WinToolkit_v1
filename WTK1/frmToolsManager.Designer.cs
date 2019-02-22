@@ -81,16 +81,7 @@
             this.scMain = new System.Windows.Forms.SplitContainer();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.mnuVersion = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmdTestBuilds = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmdUpdateWinToolkit = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuTest = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuTestErrorLog = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.mnuTestCode = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuTestSplitter = new System.Windows.Forms.ToolStripSeparator();
-            this.cmdFacebook = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdForum = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmdBlog = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.cmdAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdDisclaimer = new System.Windows.Forms.ToolStripMenuItem();
@@ -144,7 +135,6 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.cmdOptions = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.cmdDonate = new System.Windows.Forms.ToolStripMenuItem();
             this.cmdReportBug = new System.Windows.Forms.ToolStripMenuItem();
             this.BWUpdCat = new System.ComponentModel.BackgroundWorker();
             this.tabControl2.SuspendLayout();
@@ -597,20 +587,13 @@
             this.toolStripSeparator1,
             this.cmdOptions,
             this.toolStripSeparator2,
-            this.cmdDonate,
             this.cmdReportBug});
             this.toolStrip2.Name = "toolStrip2";
             // 
             // mnuVersion
             // 
             this.mnuVersion.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cmdTestBuilds,
-            this.cmdUpdateWinToolkit,
-            this.mnuTest,
-            this.mnuTestSplitter,
-            this.cmdFacebook,
             this.cmdForum,
-            this.cmdBlog,
             this.toolStripSeparator3,
             this.cmdAbout,
             this.cmdDisclaimer});
@@ -618,66 +601,11 @@
             this.mnuVersion.Name = "mnuVersion";
             this.mnuVersion.Tag = "Refresh";
             // 
-            // cmdTestBuilds
-            // 
-            resources.ApplyResources(this.cmdTestBuilds, "cmdTestBuilds");
-            this.cmdTestBuilds.Name = "cmdTestBuilds";
-            this.cmdTestBuilds.Click += new System.EventHandler(this.cmdTestBuilds_Click);
-            // 
-            // cmdUpdateWinToolkit
-            // 
-            resources.ApplyResources(this.cmdUpdateWinToolkit, "cmdUpdateWinToolkit");
-            this.cmdUpdateWinToolkit.Name = "cmdUpdateWinToolkit";
-            this.cmdUpdateWinToolkit.Click += new System.EventHandler(this.cmdUpdateWinToolkit_Click);
-            // 
-            // mnuTest
-            // 
-            this.mnuTest.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuTestErrorLog,
-            this.toolStripSeparator6,
-            this.mnuTestCode});
-            resources.ApplyResources(this.mnuTest, "mnuTest");
-            this.mnuTest.Name = "mnuTest";
-            // 
-            // mnuTestErrorLog
-            // 
-            resources.ApplyResources(this.mnuTestErrorLog, "mnuTestErrorLog");
-            this.mnuTestErrorLog.Name = "mnuTestErrorLog";
-            this.mnuTestErrorLog.Click += new System.EventHandler(this.mnuTestErrorLog_Click);
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            resources.ApplyResources(this.toolStripSeparator6, "toolStripSeparator6");
-            // 
-            // mnuTestCode
-            // 
-            resources.ApplyResources(this.mnuTestCode, "mnuTestCode");
-            this.mnuTestCode.Name = "mnuTestCode";
-            this.mnuTestCode.Click += new System.EventHandler(this.mnuTestCode_Click);
-            // 
-            // mnuTestSplitter
-            // 
-            this.mnuTestSplitter.Name = "mnuTestSplitter";
-            resources.ApplyResources(this.mnuTestSplitter, "mnuTestSplitter");
-            // 
-            // cmdFacebook
-            // 
-            resources.ApplyResources(this.cmdFacebook, "cmdFacebook");
-            this.cmdFacebook.Name = "cmdFacebook";
-            this.cmdFacebook.Click += new System.EventHandler(this.cmdFacebook_Click);
-            // 
             // cmdForum
             // 
             resources.ApplyResources(this.cmdForum, "cmdForum");
             this.cmdForum.Name = "cmdForum";
             this.cmdForum.Click += new System.EventHandler(this.cmdForum_Click);
-            // 
-            // cmdBlog
-            // 
-            resources.ApplyResources(this.cmdBlog, "cmdBlog");
-            this.cmdBlog.Name = "cmdBlog";
-            this.cmdBlog.Click += new System.EventHandler(this.cmdBlog_Click);
             // 
             // toolStripSeparator3
             // 
@@ -1037,13 +965,6 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             // 
-            // cmdDonate
-            // 
-            resources.ApplyResources(this.cmdDonate, "cmdDonate");
-            this.cmdDonate.Name = "cmdDonate";
-            this.cmdDonate.Tag = "Refresh";
-            this.cmdDonate.Click += new System.EventHandler(this.cmdDonate_Click);
-            // 
             // cmdReportBug
             // 
             resources.ApplyResources(this.cmdReportBug, "cmdReportBug");
@@ -1159,14 +1080,11 @@
 		  private System.Windows.Forms.Label label30;
 		  private System.Windows.Forms.FlowLayoutPanel FLPUpdates;
 		  private System.Windows.Forms.ToolStrip toolStrip2;
-		  internal System.Windows.Forms.ToolStripMenuItem cmdDonate;
 		  internal System.Windows.Forms.ToolStripMenuItem cmdOptions;
 		  internal System.Windows.Forms.ToolStripMenuItem cmdReportBug;
 		  private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
 		  internal System.Windows.Forms.ToolStripMenuItem mnuVersion;
-		  private System.Windows.Forms.ToolStripMenuItem cmdFacebook;
 		  private System.Windows.Forms.ToolStripMenuItem cmdForum;
-		  private System.Windows.Forms.ToolStripMenuItem cmdBlog;
 		  private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
 		  private System.Windows.Forms.ToolStripMenuItem cmdAbout;
 		  private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
@@ -1185,8 +1103,6 @@
 		  private System.Windows.Forms.ToolStripMenuItem miscToolStripMenuItem;
 		  private System.Windows.Forms.ToolStripMenuItem cmdAddonMaker;
 		  private System.Windows.Forms.ToolStripMenuItem cmdUpdateRetriever;
-		  private System.Windows.Forms.ToolStripMenuItem mnuTest;
-		  private System.Windows.Forms.ToolStripSeparator mnuTestSplitter;
 		  internal System.Windows.Forms.ToolStripMenuItem mnuDownloads;
 		  private System.Windows.Forms.ToolStripMenuItem cmdWindowsISO;
 		  private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
@@ -1212,7 +1128,6 @@
 		  private System.Windows.Forms.ToolStripMenuItem cmdDSlim451Installer;
 		  private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
 		  private System.Windows.Forms.ToolStripMenuItem cmdDWin7SP1LangPacks;
-		  private System.Windows.Forms.ToolStripMenuItem cmdUpdateWinToolkit;
 		  internal System.Windows.Forms.ToolStripMenuItem cmdGuides;
 		  private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
 		  private System.Windows.Forms.ToolStripMenuItem cmdDisclaimer;
@@ -1224,11 +1139,7 @@
 		  internal System.Windows.Forms.Button cmdUSBBootPrep;
 		  private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
 		  private System.Windows.Forms.ToolStripMenuItem cmdWallpapersWide;
-		  private System.Windows.Forms.ToolStripMenuItem mnuTestErrorLog;
-		  private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-		  private System.Windows.Forms.ToolStripMenuItem mnuTestCode;
           private System.Windows.Forms.ToolStripMenuItem mnuDNTLITE;
-          private System.Windows.Forms.ToolStripMenuItem cmdTestBuilds;
         private System.Windows.Forms.ContextMenuStrip cmsCache;
         private System.Windows.Forms.ToolStripMenuItem cmdBrowseUpdateCache;
         private System.Windows.Forms.ToolStripMenuItem mnuWinKey;

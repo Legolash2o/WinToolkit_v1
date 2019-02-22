@@ -11,7 +11,7 @@ using WinToolkit.Classes.Helpers;
 using WinToolkit.Properties;
 namespace WinToolkit {
 	public partial class frmStartup : Form {
-		private cMain.UpdateAvailable bUpdateAvailable;
+	
 		private string RT = "";
 
 		public frmStartup() {
@@ -269,14 +269,5 @@ namespace WinToolkit {
 		}
 
 
-		private void BWUpdate_DoWork(object sender, DoWorkEventArgs e) {
-			bUpdateAvailable = cMain.CheckForUpdates();
-		}
-
-		private void BWUpdate_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e) {
-			if (bUpdateAvailable == cMain.UpdateAvailable.Yes) {
-				cNotify.ShowNotification("v" + cOptions.NV + " Available", "Click this balloon to download");
-			}
-		}
 	}
 }

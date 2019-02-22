@@ -170,10 +170,14 @@
     <value>TopCenter</value>
   </data>
   <data name="cmdCR.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+    <value>9, 21</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cmdCR.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdCR.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cmdCR.TabIndex" type="System.Int32, mscorlib">
@@ -243,15 +247,17 @@
   <data name="cmdAIOI.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cmdAIOI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="cmdAIOI.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 17</value>
+    <value>9, 26</value>
+  </data>
+  <data name="cmdAIOI.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdAIOI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <data name="cmdAIOI.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -335,10 +341,13 @@
     <value>NoControl</value>
   </data>
   <data name="cmdWHD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+    <value>9, 21</value>
+  </data>
+  <data name="cmdWHD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdWHD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <data name="cmdWHD.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -422,10 +431,13 @@
     <value>NoControl</value>
   </data>
   <data name="cmdAIODisk.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+    <value>9, 21</value>
+  </data>
+  <data name="cmdAIODisk.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdAIODisk.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <data name="cmdAIODisk.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -506,10 +518,13 @@
     <value>NoControl</value>
   </data>
   <data name="cmdWM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+    <value>9, 21</value>
+  </data>
+  <data name="cmdWM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdWM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <data name="cmdWM.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -596,10 +611,13 @@
     <value>TopCenter</value>
   </data>
   <data name="cmdRHM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+    <value>9, 21</value>
+  </data>
+  <data name="cmdRHM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdRHM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <data name="cmdRHM.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -631,6 +649,9 @@
   <data name="scBasic.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="scBasic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="scBasic.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
@@ -643,8 +664,11 @@
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 25</value>
+    <value>1138, 25</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -692,10 +716,13 @@
     <value>NoControl</value>
   </data>
   <data name="lblAIOInt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 17</value>
+    <value>170, 25</value>
+  </data>
+  <data name="lblAIOInt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblAIOInt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>631, 77</value>
+    <value>946, 117</value>
   </data>
   <data name="lblAIOInt.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -724,13 +751,13 @@ This is the ultimate tool to keep your images completely up-to-date and save you
     <value>Microsoft Sans Serif, 9pt, style=Italic</value>
   </data>
   <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
+    <value>3, 3</value>
   </data>
-  <data name="groupBox9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 97</value>
+    <value>1120, 146</value>
   </data>
   <data name="groupBox9.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -757,10 +784,13 @@ This is the ultimate tool to keep your images completely up-to-date and save you
     <value>NoControl</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>165, 25</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 67</value>
+    <value>951, 101</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -838,10 +868,13 @@ This is the ultimate tool to keep your images completely up-to-date and save you
     <value>NoControl</value>
   </data>
   <data name="cmdISOMaker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+    <value>9, 21</value>
+  </data>
+  <data name="cmdISOMaker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdISOMaker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <data name="cmdISOMaker.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -869,13 +902,13 @@ This is the ultimate tool to keep your images completely up-to-date and save you
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 103</value>
+    <value>3, 155</value>
   </data>
-  <data name="groupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 87</value>
+    <value>1120, 130</value>
   </data>
   <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -902,10 +935,13 @@ This is the ultimate tool to keep your images completely up-to-date and save you
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>165, 25</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 67</value>
+    <value>951, 101</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -961,10 +997,13 @@ This is the ultimate tool to keep your images completely up-to-date and save you
     <value>NoControl</value>
   </data>
   <data name="cmdUSBBootPrep.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+    <value>9, 21</value>
+  </data>
+  <data name="cmdUSBBootPrep.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdUSBBootPrep.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <data name="cmdUSBBootPrep.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -992,13 +1031,13 @@ Prep</value>
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 194</value>
+    <value>3, 291</value>
   </data>
-  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 87</value>
+    <value>1120, 130</value>
   </data>
   <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -1022,10 +1061,10 @@ Prep</value>
     <value>0, 0</value>
   </data>
   <data name="FLPPop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="FLPPop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 312</value>
+    <value>1138, 506</value>
   </data>
   <data name="FLPPop.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1058,13 +1097,13 @@ Prep</value>
     <value>20</value>
   </data>
   <data name="scBasic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 338</value>
+    <value>1138, 533</value>
   </data>
   <data name="scBasic.SplitterDistance" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
   <data name="scBasic.SplitterWidth" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="scBasic.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1085,13 +1124,13 @@ Prep</value>
     <value>shield_ok-2.png</value>
   </data>
   <data name="tabBasic.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 27</value>
+    <value>4, 31</value>
   </data>
   <data name="tabBasic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="tabBasic.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 338</value>
+    <value>1138, 533</value>
   </data>
   <data name="tabBasic.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1120,6 +1159,9 @@ Prep</value>
   <data name="scIntermediate.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="scIntermediate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="scIntermediate.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
@@ -1135,8 +1177,11 @@ Prep</value>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 25</value>
+    <value>1138, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1184,10 +1229,13 @@ Prep</value>
     <value>NoControl</value>
   </data>
   <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>165, 25</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 67</value>
+    <value>951, 101</value>
   </data>
   <data name="label13.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -1214,13 +1262,13 @@ Prep</value>
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
+    <value>3, 3</value>
   </data>
-  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 87</value>
+    <value>1120, 130</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -1247,10 +1295,13 @@ Prep</value>
     <value>NoControl</value>
   </data>
   <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>165, 25</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 67</value>
+    <value>951, 101</value>
   </data>
   <data name="label14.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1327,10 +1378,13 @@ Prep</value>
     <value>NoControl</value>
   </data>
   <data name="cmdUC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 14</value>
+    <value>9, 21</value>
+  </data>
+  <data name="cmdUC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="cmdUC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 70</value>
+    <value>147, 105</value>
   </data>
   <data name="cmdUC.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1357,13 +1411,13 @@ Prep</value>
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 93</value>
+    <value>3, 139</value>
   </data>
-  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 87</value>
+    <value>1120, 130</value>
   </data>
   <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -1390,10 +1444,13 @@ Prep</value>
     <value>NoControl</value>
   </data>
   <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>165, 25</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 67</value>
+    <value>951, 101</value>
   </data>
   <data name="label16.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -1420,13 +1477,13 @@ Prep</value>
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="groupBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 184</value>
+    <value>3, 275</value>
   </data>
-  <data name="groupBox18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox18.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 87</value>
+    <value>1120, 130</value>
   </data>
   <data name="groupBox18.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1450,10 +1507,10 @@ Prep</value>
     <value>0, 0</value>
   </data>
   <data name="FLPIntermediate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="FLPIntermediate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 312</value>
+    <value>1138, 506</value>
   </data>
   <data name="FLPIntermediate.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1483,13 +1540,13 @@ Prep</value>
     <value>1</value>
   </data>
   <data name="scIntermediate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 338</value>
+    <value>1138, 533</value>
   </data>
   <data name="scIntermediate.SplitterDistance" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
   <data name="scIntermediate.SplitterWidth" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="scIntermediate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1510,13 +1567,13 @@ Prep</value>
     <value>shield_warning-2.png</value>
   </data>
   <data name="tabIntermediate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 27</value>
+    <value>4, 31</value>
   </data>
   <data name="tabIntermediate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="tabIntermediate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 338</value>
+    <value>1138, 533</value>
   </data>
   <data name="tabIntermediate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1545,6 +1602,9 @@ Prep</value>
   <data name="scAdvanced.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="scAdvanced.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="scAdvanced.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
@@ -1560,8 +1620,11 @@ Prep</value>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 25</value>
+    <value>1138, 25</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1609,10 +1672,13 @@ Prep</value>
     <value>NoControl</value>
   </data>
   <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>165, 25</value>
+  </data>
+  <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 67</value>
+    <value>951, 101</value>
   </data>
   <data name="label17.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1641,13 +1707,13 @@ NOTE: This tool mostly uses Microsoft's method of removing packages. It will mai
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="groupBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
+    <value>3, 3</value>
   </data>
-  <data name="groupBox19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox19.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 87</value>
+    <value>1120, 130</value>
   </data>
   <data name="groupBox19.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1674,10 +1740,13 @@ NOTE: This tool mostly uses Microsoft's method of removing packages. It will mai
     <value>NoControl</value>
   </data>
   <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>165, 25</value>
+  </data>
+  <data name="label18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 67</value>
+    <value>951, 101</value>
   </data>
   <data name="label18.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1706,13 +1775,13 @@ CAUTION: Only use this if you have experience with Windows registry editor. This
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="groupBox20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 93</value>
+    <value>3, 139</value>
   </data>
-  <data name="groupBox20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox20.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 87</value>
+    <value>1120, 130</value>
   </data>
   <data name="groupBox20.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -1736,10 +1805,10 @@ CAUTION: Only use this if you have experience with Windows registry editor. This
     <value>0, 0</value>
   </data>
   <data name="FLPAdvanced.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="FLPAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 312</value>
+    <value>1138, 506</value>
   </data>
   <data name="FLPAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1769,13 +1838,13 @@ CAUTION: Only use this if you have experience with Windows registry editor. This
     <value>1</value>
   </data>
   <data name="scAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 338</value>
+    <value>1138, 533</value>
   </data>
   <data name="scAdvanced.SplitterDistance" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
   <data name="scAdvanced.SplitterWidth" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="scAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1796,13 +1865,13 @@ CAUTION: Only use this if you have experience with Windows registry editor. This
     <value>shield_critical-2.png</value>
   </data>
   <data name="tabAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 27</value>
+    <value>4, 31</value>
   </data>
   <data name="tabAdvanced.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="tabAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 338</value>
+    <value>1138, 533</value>
   </data>
   <data name="tabAdvanced.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1831,6 +1900,9 @@ CAUTION: Only use this if you have experience with Windows registry editor. This
   <data name="scUpdates.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="scUpdates.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="scUpdates.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
@@ -1846,8 +1918,11 @@ CAUTION: Only use this if you have experience with Windows registry editor. This
   <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="label30.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 25</value>
+    <value>1138, 25</value>
   </data>
   <data name="label30.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1895,10 +1970,13 @@ CAUTION: Only use this if you have experience with Windows registry editor. This
     <value>NoControl</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>110, 17</value>
+    <value>165, 25</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 67</value>
+    <value>951, 101</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -1927,13 +2005,13 @@ Credits: Alphawaves @MDL</value>
     <value>Microsoft Sans Serif, 9pt, style=Bold</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
+    <value>3, 3</value>
   </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 87</value>
+    <value>1120, 130</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -1957,10 +2035,10 @@ Credits: Alphawaves @MDL</value>
     <value>0, 0</value>
   </data>
   <data name="FLPUpdates.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="FLPUpdates.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 312</value>
+    <value>1138, 506</value>
   </data>
   <data name="FLPUpdates.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1990,13 +2068,13 @@ Credits: Alphawaves @MDL</value>
     <value>1</value>
   </data>
   <data name="scUpdates.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 338</value>
+    <value>1138, 533</value>
   </data>
   <data name="scUpdates.SplitterDistance" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
   <data name="scUpdates.SplitterWidth" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="scUpdates.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
@@ -2017,10 +2095,13 @@ Credits: Alphawaves @MDL</value>
     <value>windowsupdate.png</value>
   </data>
   <data name="tabUpdates.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 27</value>
+    <value>4, 31</value>
+  </data>
+  <data name="tabUpdates.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 6, 6, 6</value>
   </data>
   <data name="tabUpdates.Size" type="System.Drawing.Size, System.Drawing">
-    <value>756, 338</value>
+    <value>1138, 533</value>
   </data>
   <data name="tabUpdates.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -2050,117 +2131,117 @@ Credits: Alphawaves @MDL</value>
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACU
-        GQAAAk1TRnQBSQFMAgEBBAIAAQ0BAAENARQBAAEUAQAE/wEhAQAI/wFCAU0BNgcAATYDAAEoAwABUAMA
-        ASgDAAEBAQABIAYAATL/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
-        /wD/AE8AAycBOwMuAUhIAAMsAUMDLAFDSAADLAFDAiwBKwFDSAADBQEHAxYBHwMpAT4DSAGDA1EBnwMY
-        ASI0AAMsAUQDVAGuA1gBuwM5AV9AAAM1BFYBtgNWAbYDNAFUQAADNQRWAbYDVgG2AzQBVDgAAwEBAgMW
-        AR4DNAFUA0oBiQNZAb4DZAHxAesBuAEAAf8DbQH3A0wBkAMNAREsAANOAZgBzgHJAd4B/wHKAcQC/wG+
-        AbgC/wHTAdAB8QH/A1oBwAMAAQE0AANWAbEBtwHgAcMB/wGpAfsBvgH/AacB9QG3Af8BxwHjAcsB/wNT
-        Aao4AANWAbEBxwHnAe0B/wG6Af0C/wGsAfUC/wHDAeUB8QH/A1MBqjAAAyQBNQNOAZkDXAHNA2IB6QKo
-        AUAB/QHmAbkBAAH/AeIBswEAAf8B2wGqAQAB/wHmAcEBhAH/A2AB1AMdASooAANSAacBsQGuAd8B/wIA
-        AdUB/wIAAcQB/wIAAcoB/wIAAdUB/wGsAaoB+QH/A14B1TAAA1sBwwGWAd0BpwH/AQAB1AEAAf8BAAHK
-        AQAB/wEAAcYBAAH/AQABvgEAAf8BsAHmAbgB/wNXAbowAANbAcMBrAHmAfwB/wEAAc0C/wEAAbsB/AH/
-        AQABvAH8Af8BAAG+Af0B/wGqAe4C/wNXAbooAAM5AV8B+wHXAZMB/wH7AdYBjgH/AegBuwEAAf8B4QG4
-        AQAB/wHhAbcBAAH/AeABtAEAAf8B3gGyAQAB/wHcAa0BAAH/AecBxAGLAf8DYQHaAx8BLQMEAQUgAAM/
-        AWwBoQGfAc8B/wIAAbcB/wIAAZ4B/wIAAZ0B/wIAAbMB/wIAAcgB/wIAAcwB/wGtAawB/gH/A1MBqigA
-        A0oBjQGPAc8BnQH/AQABugEAAf8BAAGqAQAB/wEAAagBAAH/AQABrgEAAf8BAAGwAQAB/wEAAZ8BAAH/
-        AbwB6AHCAf8DSAGDKAADSgGNAZkB1gHwAf8BAAGuAfwB/wEAAZUB+QH/AQABlAH1Af8BAAGkAfAB/wEA
-        AbgB9gH/AQABsQH2Af8BuAHyAv8DSAGDJAADWAG7Ae0BvwEAAf8B6gHFAYkB/wHnAcEBhAH/AeQBvQEA
-        Af8B4wG7AQAB/wHiAbkBAAH/AeABtwEAAf8B3gGwAQAB/wHoAcYBkQH/A18B4AMhATAgAAMWAR8BpAGi
-        AbsB/wIAAagB/wIAAZkB/wIAAY0B/wIAAZIB/wIAAasB/wIAAcUB/wIAAdkB/wIAAdQB/wG8AbsB6AH/
-        AzEBTSAAAyQBNQGbAcABoQH/AQABrQEAAf8BAAGZAQAB/wEAAYwBAAH/AQABjgEAAf8BAAGdAQAB/wEA
-        AacBAAH/AQABpwEAAf8BAAGeAQAB/wHBAdEBxAH/Ax4BKyAAAyQBNQGaAcQB1gH/AQABpAL/AQABjQH3
-        Af8CAAHGAf8DAAH/AgABgQH/AQABuQH1Af8BAAHAAfoB/wEAAbwB/QH/Ab8B1wHcAf8DHgErIAADWwHL
-        AeMBxQGRAf8B5AHHAZMB/wHsAcQBhwH/AfEBwwEAAf8B6QG/AQAB/wHkAb0BAAH/AeMBuwEAAf8B4AG0
-        AQAB/wHmAccBlAH/A2IB6QMkATUgAANdAcoCAAG0Af8CAAGdAf8CAAGKAf8CAAGEAf8CAAGXAf8CAAGp
-        Af8CAAHFAf8CAAHDAf8CAAHKAf8CAAHnAf8DXwHzIAADYQHiAQABqgEAAf8BAAGRAQAB/wEAAYQBAAH/
-        AQABhAEAAf8BAAGJAQAB/wEAAYkBAAH/AQABoQEAAf8BAAGmAQAB/wEAAZMBAAH/AQABuAEAAf8DXgHY
-        IAADYQHiAQABqwH6Af8BAAGKAewB/wEAAY4C/wIAAaUB/wMAAf8DAAH/AQABtwH2Af8BAAHJAfoB/wEA
-        AbUB9wH/AQAB1QL/A14B2BwAAzUBVwFSAmUB9AEAAcIB5wH/AYMByAHkAf8BpgHJAdAB/wG/AcUBswH/
-        Ad0BxQGVAf8B8AHEAYEB/wHmAb0BAAH/AeIBtwEAAf8B5gHIAZcB/wNkAfEDJgE5HAADIwE0AY0BjAG+
-        Af8CAAGtAf8CAAGrAf8CsQGVAf8DAAH/AgABjAH/AgABpQH/AgABtgH/AfMB8gHOAf8CAAG8Af8CAAHH
-        Af8ClQHmAf8DOwFkGAADMAFLAQABsgEAAf8BAAGWAQAB/wEAAYgBAAH/AwAB/wGQAZEBiwH/Ad4BpAHV
-        Af8BAAGMAQAB/wEAAYoBAAH/AQABngEAAf8BAAGZAQAB/wEAAYIBAAH/AZsBwAGeAf8DJgE5GAADMAFL
-        AQABtwHbAf8BAAGTAfYB/wEAAY8B6QH/AgAB6AH/AQABgwH2Af8CAAGaAf8CAAG4Af8BAAG3AfsB/wEA
-        AcEB9AH/AQABvAHyAf8BAAGvAfcB/wGiAc4B3AH/AyYBORQAAzQBVAFYAmIB6QNcAfgBgAHIAesB/wEA
-        AcwB/AH/AQAB2QL/AaUB6gL/AbYB5AH6Af8BwQHYAdwB/wHsAdcBsQH/AeYBvAEAAf8B5gHIAZkB/wNq
-        AfkDKgFAHAADUwGoAgABwgH/AgABsgH/ApIBtwH/Ae4B7QHDAf8CxQGvAf8CAAGDAf8CAAGPAf8BwQHA
-        AaMB/wL3AcMB/wGKAYkBzAH/AgABxAH/AgAB3wH/A10B0hgAA1gBwQEAAasBAAH/AQABmgEAAf8BAAGM
-        AQAB/wGeAaoBmgH/Ad4BtQHXAf8BxwGzAcEB/wG9AagBtwH/AwAB/wEAAYwBAAH/AQABjgEAAf8DAAH/
-        AQABrQEAAf8DVAGsGAADWAHBAQABpwHyAf8BAAGXAe8B/wEAAY8B6QH/AQABiAH9Af8CAAGgAf8DAAH/
-        AwAB/wEAAZ8B7wH/AQABtwH4Af8BAAG3AfEB/wEAAagB9gH/AQAB0gL/A1QBrBAAAwcBCQFLAkwBkAM+
-        AWsDYQHkAfkB2wGrAf8B3AHQAbEB/wG6AcwBxAH/AbsB3AHqAf8BzQHuAfcB/wHaAfgC/wHwAfwC/wH1
-        AecBzgH/AewB0AGjAf8B3QG0AQAB/wMxAU0YAAMRARcDZQH0AgAByAH/AgABuwH/AgABqQH/AYMBhAHB
-        A/8B4wH/AsABuQH/Ap4BkwH/AbABrwGSAf8CAAGlAf8CAAG6Af8CAAG/Af8CAAG9Af8BkwGSAbgB/wMS
-        ARkQAAMdASkBlQG6AZcB/wEAAa0BAAH/AQABmwEAAf8B0QHWAc8C/wHxAv8BAAGpAQAB/wEAAZ4BAAH/
-        AfUBxQHuAf8BgAGTAQAB/wMAAf8BAAGCAQAB/wMAAf8DAAH/A2cB8gMLAQ8QAAMdASkBkAHBAc0B/wEA
-        Aa0B+AH/AQABmgHqAf8BAAGKAegB/wEAAYsC/wIAAY0B/wMAAf8DAAH/AQABkQHrAf8BAAGkAfUB/wEA
-        AaQB7QH/AQABmwHtAf8BAAGrAfkB/wNnAfIDCwEPDAADBAEFA0QBeQFMAk0BkQNlAfQB9wHiAb0B/wH5
-        Ad8BtQH/AfwB3gGtAf8B8gHWAasB/wHVAdcBywH/AekB7wHpAf8B+gH9AfwB/wH3AfEB4gH/AekB0gGr
-        Af8B5AG2AQAB/wM1AVYYAAMtAUYBoQGgAccB/wIAAdQB/wIAAcwB/wIAAbAB/wIAAZIB/wKdAcwB/wHw
-        Ae8B2AH/Ar8BpwH/AgABiAH/AgABmAH/AgABqAH/AgABrAH/AgABoAH/AYsBigHAAf8DLwFJEAADMwFS
-        AYMBwQGKAf8BAAHCAQAB/wEAAa8BAAH/AYIBvwGAAf8BiQG8AYgB/wMAAf8DAAH/AckByAHGAf8B6wHC
-        AeYB/wMAAf8DAAH/AwAB/wMAAf8BAAGYAQAB/wMjATQQAAMzAVIBAAHEAdwB/wEAAcYB/QH/AQABtgHw
-        Af8BAAGDAecB/wEAAYcC/wIAAYsB/wMAAf8DAAH/AQABhAHkAf8BAAGQAfMB/wEAAY0B6QH/AQABiQHn
-        Af8BAAGLAfQB/wGDAagBvgH/AyMBNBAAAyEBMAFYAlsBywMrAvwB5wHFAf8B+wHqAc4B/wH0Ad4BtgH/
-        AQABxgHeAf8BAAGxAecB/wG1AcoBxQH/AfkB5AHCAf8B9AHbAbAB/wHYAdQBwQH/AZwBqwGYAf8DOQFf
-        GAADNgFZAaMBogHTAf8CAAHbAf8BhQGGAdcB/wIAAb4B/wIAAbgB/wLbAd0B/wLnAdIB/wLCAa8B/wKT
-        AZQB/wMAAf8CAAGLAf8CAAGcAf8CAAGKAf8CAAGuAf8DNwFaEAADPgFrAYIByQGJAf8BAAHHAQAB/wEA
-        AcUBAAH/AQABnAEAAf8BAAGAAQAB/wEAAYIBAAH/AwAB/wEAAZsBAAH/Af0B2gH6Af8BsgGlAa4B/wMA
-        Af8DAAH/AwAB/wEAAaIBAAH/AzYBWBAAAz4BawEAAckB5gH/AQABwwH7Af8BAAHKAfYB/wEAAakB7wH/
-        AQABlgL/AwAB/wMAAf8DAAH/AgAB2QH/AQABgQHyAf8CAAHjAf8CAAHjAf8CAAHsAf8BhwGxAdYB/wM2
-        AVgUAAM8AWYB1wHGAaYB/wHyAeABwQH/AdwBqgEAAf8B3AGqAQAB/wEAAd0C/wEAAdQC/wEAAb8B2wH/
-        AfEB1QGkAf8B8wHiAcAB/wH1AeABuwH/AQABpgGtAf8DRAF5GAADOwFlAaIBowHXAf8CAAHcAf8CAAHW
-        Af8BpQGmAd4D/wHzA/8B6QH/AgABvwH/AgABrwH/AtEBrgH/AqwBmAH/AwAB/wIAAYMB/wMAAf8CAAGl
-        Af8DOwFjEAADSAGDAYIBzwGMAf8BAAHJAQAB/wEAAccBAAH/AQABuAEAAf8BAAGuAQAB/wEAAaABAAH/
-        AQABjwEAAf8DAAH/AYIBrQGBAf8B8gHFAe0B/wGDAYwBAAH/AwAB/wMAAf8BAAGiAQAB/wM9AWkQAANI
-        AYMBAAHNAesB/wEAAcIB+gH/AQABxgH0Af8BAAG9AfMB/wEAAcAC/wIAAZIB/wMAAf8DAAH/AgAByQH/
-        AgAB8wH/AgAB3wH/AgAB3gH/AgAB5AH/AYMBsAHdAf8DPQFpFAADMQFOAdUBwwGhAf8C4wHXAf8B0wGa
-        AQAB/wHqAboBAAH/AdUB5AHWAf8BkgHWAcgB/wGCAcUBrgH/AegB4QHCAf8B9AHiAcEB/wHvAdgBsAH/
-        AesBugEAAf8BWAJhAeYDIAEuFAADPAFmAaMBpAHZAf8CAAHdAf8BkAGRAeAB/wHwAe8B+AP/AfsB/wK+
-        AeEB/wIAAcYB/wIAAbsB/wGVAZYBvQH/AukBugH/AoIBogH/AgABhwH/AwAB/wIAAaIB/wM7AWMQAANI
-        AYYBgQHSAYwB/wEAAcwBAAH/AYwB1QGRAf8BAAHNAYAB/wEAAcIBAAH/AQABugEAAf8BAAGuAQAB/wEA
-        AZkBAAH/AQABjAEAAf8BswG1AbAC/wHJAfoB/wMAAf8DAAH/AQABnwEAAf8DPQFpEAADSAGGAQABzgHs
-        Af8BAAHGAfoB/wEAAdMB9gH/AQAB0gH2Af8BAAHSAv8BAAGgAbcB/wMAAf8DAAH/AgABxwH/AQABiAH1
-        Af8CAAHiAf8CAAHfAf8CAAHgAf8BgAGqAdgB/wM9AWkUAAM4AV0B6AHMAaQB/wH3Ae0B2gH/AbkBuwHB
-        Af8BAAG1AdkB/wGYAdcB4wH/AZIB1wGzAf8BAAG6AYkB/wHGAcwBpAH/AfsB4wG/Af8B6wHTAasB/wHy
-        Ab4BAAH/A1YBtgNQAZoDAQECEAADPQFpAaoBqwHhAf8CAAHeAf8CpwHqAf8CygHxAf8C3wH2Af8CqwHn
-        Af8BjgGPAdwB/wIAAckB/wIAAb4B/wIAAb0B/wIAAasB/wIAAZgB/wMAAf8CAAGpAf8DPAFmEAADSAGG
-        AYQB2QGRAf8BAAHOAQAB/wGSAd4BmAH/AbIB4gG1Af8BpAHcAagB/wGGAdABigH/AQABvQEAAf8BAAGp
-        AQAB/wEAAY8BAAH/AQABjwEAAf8BnAGuAZoB/wMAAf8DAAH/AQABqAEAAf8DPgFrEAADSAGGAQAB1AHy
-        Af8BAAHIAf0B/wGAAd0B/QH/AbwB6gH7Af8BpwHwAv8BoAHAAcwB/wGUAgAB/wMAAf8BAAGIAcYB/wEA
-        AZwB+QH/AQABhwHkAf8CAAHjAf8CAAHtAf8BAAG1AeAB/wM+AWsUAAM+AWsB7AHYAbsB/wH+AfYB4wH/
-        AcUBzwHjAf8CAAHpAf8BAAGYAe8B/wG7AdcBwQH/AckB1AGvAf8B2wHWAbAB/wH6Ad0BswH/Ae8B1AGp
-        Af8B9gHKAQAB/wNcAc0DVQGyAwABARAAAywBRAN/Af4BvwHAAeQB/wG0AbUB5gH/AsgB9gH/At4B/QH/
-        AswB8QH/AqIB5AH/AgAB0gH/AgABwgH/AgABsgH/AgABpwH/AgABrQH/AYgBhgG1Af8BrwGsAbkB/wMq
-        AUAQAAM1AVUB0AHgAdMB/wGqAdwBsQH/AZsB2QGiAf8BuAHrAb0B/wHJAe0BzAH/AaQB3AGnAf8BAAHJ
-        AQAB/wEAAa0BAAH/AQABlgEAAf8DAAH/AwAB/wEAAYcBAAH/AQABpgEAAf8BrAGzAaoB/wMlATcQAAM1
-        AVUByAHhAeYB/wGRAdsB7QH/AYoB3QHyAf8BygH3Av8B8AP/AbIB5QH3Af8BAAHGAekB/wEAAaYB3AH/
-        AQABmAHlAf8BAAGHAesB/wIAAesB/wEAAZsB5AH/AQABtAHYAf8BqgG3AbsB/wMlATcUAANDAXcB9AHn
-        AdUB/wH+AfYB6QH/AfkB8AHeAf8BygHBAdMB/wHUAcoBzgH/Af0B7AHUAf8B8AHmAdYB/wHiAdwBzAH/
-        AdUB0QHBAf8B3gHVAbQB/wHaAc4BpAH/AUgCWQH1AxwBJxgAAwoBDQMxAU0DUgGjAssB1wH/AcgByQHw
-        Af8BsgGzAfMB/wKWAeEB/wIAAdAB/wIAAb8B/wIAAboB/wGeAZ0BuwH/A1gBuwM2AVkDFAEbGAADDwEU
-        AzMBUgNUAa8BxwHTAckB/wG6AeYBvwH/AZAB3wGWAf8BAAHHAQAB/wEAAaYBAAH/AQABgAEAAf8BAAGG
-        AQAB/wGPAawBjwH/A1QBrgMzAVIDCwEPGAADDwEUAzMBUgNUAa8BzAHaAdwB/wHMAfIB/AH/AY4B6QL/
-        AQABzgH+Af8BAAGwAfsB/wEAAZIB8wH/AQABmgHnAf8BjAG2AcoB/wNUAa4DMwFSAwsBDxgAA0kBhwH2
-        AegB1gH/AfwB9AHqAf8B+wHyAeIB/wH8AfgB3gH/AfsB9AHYAf8B9wHnAdEB/wH0AeYB0AH/AewB3gHG
-        Af8B6AHgAckB/wNfAfsDVwG3AxcBICgAAxgBIQNYAbkBrgGvAdgB/wIAAeIB/wIAAdAB/wGAAYEBwwH/
-        A18B4AMqAUEwAAMgAS8DXgHOAZ0B0wGiAf8BAAHGAQAB/wEAAaEBAAH/AQABpAEAAf8DXAHPAyEBMDAA
-        AyABLwNeAc4BjQHXAesB/wEAAcYC/wEAAaoB+QH/AQABsgHfAf8DXAHPAyEBMCQAA04BmQH0AeYB0AH/
-        AfQB5gHQAf8B8wHhAcYB/wHzAeABwgH/AfEB2QGzAf8B7wHTAaYB/wHrAcoBkQH/AeoBxAGFAf8DKwH8
-        A1MBqgMiATE0AANAAXADagH5AasBqgHDAf8DTgGUQAADSAGGAaIBvQGkAf8BoQG6AaIB/wNJAYdAAANI
-        AYYBlAG/AcwB/wGUAb0ByQH/A0kBhywAA1EBoAHxAd8BwAH/AeoBxAGEAf8B6wHMAZcB/wNdAfADWwHL
-        A1UBsANKAYwDPQFoAywBQwMSARk8AAM8AWYDQwF4AwQBBkQAA0IBdANAAXFIAANCAXQDQAFxMAADGwEm
-        A1IBoQNBAXIDKwFCAxIBGTAAAUIBTQE+BwABPgMAASgDAAFQAwABKAMAAQEBAAEBBQAB4AEBFgAD//EA
-        Af8BnwH/AfkC/wGfAf8B+AEfAgAB/wEPAf8B8AL/AQ8B/wHAAQ8CAAH+AQMB/wHgAX8B/gEHAf8BgAEP
-        AgAB/AEDAf8BwAE/AfwBAwH/AQABBwIAAfgBAQH/AYABHwH4AQEB/wEAAQ8CAAHwAQAB/wEAAQ8B8AEA
-        Af8BAAEPAgAB8AEAAf8BAAEPAfABAAH+AQABDwIAAeABAAF+AQABBwHgAQABfAEAAQ8CAAHgAQABfgEA
-        AQcB4AEAAXgBAAEPAgABwAEAATwBAAEDAcABAAE4AQABDwIAAcABAAE8AQABAwHAAQABPAEAAQ8CAAHA
-        AQABPAEAAQMBwAEAAT4BAAEPAgABwAEAATwBAAEDAcABAAE+AQABBwIAAcABAAE8AQABAwHAAQABPgEA
-        AQMCAAHAAQABPAEAAQMBwAEAAT4BAAEDAgABwAEAATwBAAEDAcABAAE+AQABBwIAAeABAAF+AQABBwHg
-        AQABfgEAAQ8CAAH8AQMB/wHAAT8B/AEDAf4BAAEfAgAB/wEPAf8B8AL/AQ8B/gEAAT8CAAH/AY8B/wH5
-        Av8BnwH+AQ8B/wIACw==
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACW
+        GQAAAk1TRnQBSQFMAgEBBAEAASABDQEgAQ0BFAEAARQBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFQ
+        AwABKAMAAQEBAAEgBgABMv8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A
+        /wD/AP8ATwADJwE7Ay4BSEgAAywBQwMsAUNIAAMsAUMCLAErAUNIAAMFAQcDFgEfAykBPgNIAYMDUQGf
+        AxgBIjQAAywBRANUAa4DWAG7AzkBX0AAAzUEVgG2A1YBtgM0AVRAAAM1BFYBtgNWAbYDNAFUOAADAQEC
+        AxYBHgM0AVQDSgGJA1kBvgNkAfEB6wG4AQAB/wNtAfcDTAGQAw0BESwAA04BmAHOAckB3gH/AcoBxAL/
+        Ab4BuAL/AdMB0AHxAf8DWgHAAwABATQAA1YBsQG3AeABwwH/AakB+wG+Af8BpwH1AbcB/wHHAeMBywH/
+        A1MBqjgAA1YBsQHHAecB7QH/AboB/QL/AawB9QL/AcMB5QHxAf8DUwGqMAADJAE1A04BmQNcAc0DYgHp
+        AqgBQAH9AeYBuQEAAf8B4gGzAQAB/wHbAaoBAAH/AeYBwQGEAf8DYAHUAx0BKigAA1IBpwGxAa4B3wH/
+        AgAB1QH/AgABxAH/AgABygH/AgAB1QH/AawBqgH5Af8DXgHVMAADWwHDAZYB3QGnAf8BAAHUAQAB/wEA
+        AcoBAAH/AQABxgEAAf8BAAG+AQAB/wGwAeYBuAH/A1cBujAAA1sBwwGsAeYB/AH/AQABzQL/AQABuwH8
+        Af8BAAG8AfwB/wEAAb4B/QH/AaoB7gL/A1cBuigAAzkBXwH7AdcBkwH/AfsB1gGOAf8B6AG7AQAB/wHh
+        AbgBAAH/AeEBtwEAAf8B4AG0AQAB/wHeAbIBAAH/AdwBrQEAAf8B5wHEAYsB/wNhAdoDHwEtAwQBBSAA
+        Az8BbAGhAZ8BzwH/AgABtwH/AgABngH/AgABnQH/AgABswH/AgAByAH/AgABzAH/Aa0BrAH+Af8DUwGq
+        KAADSgGNAY8BzwGdAf8BAAG6AQAB/wEAAaoBAAH/AQABqAEAAf8BAAGuAQAB/wEAAbABAAH/AQABnwEA
+        Af8BvAHoAcIB/wNIAYMoAANKAY0BmQHWAfAB/wEAAa4B/AH/AQABlQH5Af8BAAGUAfUB/wEAAaQB8AH/
+        AQABuAH2Af8BAAGxAfYB/wG4AfIC/wNIAYMkAANYAbsB7QG/AQAB/wHqAcUBiQH/AecBwQGEAf8B5AG9
+        AQAB/wHjAbsBAAH/AeIBuQEAAf8B4AG3AQAB/wHeAbABAAH/AegBxgGRAf8DXwHgAyEBMCAAAxYBHwGk
+        AaIBuwH/AgABqAH/AgABmQH/AgABjQH/AgABkgH/AgABqwH/AgABxQH/AgAB2QH/AgAB1AH/AbwBuwHo
+        Af8DMQFNIAADJAE1AZsBwAGhAf8BAAGtAQAB/wEAAZkBAAH/AQABjAEAAf8BAAGOAQAB/wEAAZ0BAAH/
+        AQABpwEAAf8BAAGnAQAB/wEAAZ4BAAH/AcEB0QHEAf8DHgErIAADJAE1AZoBxAHWAf8BAAGkAv8BAAGN
+        AfcB/wIAAcYB/wMAAf8CAAGBAf8BAAG5AfUB/wEAAcAB+gH/AQABvAH9Af8BvwHXAdwB/wMeASsgAANb
+        AcsB4wHFAZEB/wHkAccBkwH/AewBxAGHAf8B8QHDAQAB/wHpAb8BAAH/AeQBvQEAAf8B4wG7AQAB/wHg
+        AbQBAAH/AeYBxwGUAf8DYgHpAyQBNSAAA10BygIAAbQB/wIAAZ0B/wIAAYoB/wIAAYQB/wIAAZcB/wIA
+        AakB/wIAAcUB/wIAAcMB/wIAAcoB/wIAAecB/wNfAfMgAANhAeIBAAGqAQAB/wEAAZEBAAH/AQABhAEA
+        Af8BAAGEAQAB/wEAAYkBAAH/AQABiQEAAf8BAAGhAQAB/wEAAaYBAAH/AQABkwEAAf8BAAG4AQAB/wNe
+        AdggAANhAeIBAAGrAfoB/wEAAYoB7AH/AQABjgL/AgABpQH/AwAB/wMAAf8BAAG3AfYB/wEAAckB+gH/
+        AQABtQH3Af8BAAHVAv8DXgHYHAADNQFXAVICZQH0AQABwgHnAf8BgwHIAeQB/wGmAckB0AH/Ab8BxQGz
+        Af8B3QHFAZUB/wHwAcQBgQH/AeYBvQEAAf8B4gG3AQAB/wHmAcgBlwH/A2QB8QMmATkcAAMjATQBjQGM
+        Ab4B/wIAAa0B/wIAAasB/wKxAZUB/wMAAf8CAAGMAf8CAAGlAf8CAAG2Af8B8wHyAc4B/wIAAbwB/wIA
+        AccB/wKVAeYB/wM7AWQYAAMwAUsBAAGyAQAB/wEAAZYBAAH/AQABiAEAAf8DAAH/AZABkQGLAf8B3gGk
+        AdUB/wEAAYwBAAH/AQABigEAAf8BAAGeAQAB/wEAAZkBAAH/AQABggEAAf8BmwHAAZ4B/wMmATkYAAMw
+        AUsBAAG3AdsB/wEAAZMB9gH/AQABjwHpAf8CAAHoAf8BAAGDAfYB/wIAAZoB/wIAAbgB/wEAAbcB+wH/
+        AQABwQH0Af8BAAG8AfIB/wEAAa8B9wH/AaIBzgHcAf8DJgE5FAADNAFUAVgCYgHpA1wB+AGAAcgB6wH/
+        AQABzAH8Af8BAAHZAv8BpQHqAv8BtgHkAfoB/wHBAdgB3AH/AewB1wGxAf8B5gG8AQAB/wHmAcgBmQH/
+        A2oB+QMqAUAcAANTAagCAAHCAf8CAAGyAf8CkgG3Af8B7gHtAcMB/wLFAa8B/wIAAYMB/wIAAY8B/wHB
+        AcABowH/AvcBwwH/AYoBiQHMAf8CAAHEAf8CAAHfAf8DXQHSGAADWAHBAQABqwEAAf8BAAGaAQAB/wEA
+        AYwBAAH/AZ4BqgGaAf8B3gG1AdcB/wHHAbMBwQH/Ab0BqAG3Af8DAAH/AQABjAEAAf8BAAGOAQAB/wMA
+        Af8BAAGtAQAB/wNUAawYAANYAcEBAAGnAfIB/wEAAZcB7wH/AQABjwHpAf8BAAGIAf0B/wIAAaAB/wMA
+        Af8DAAH/AQABnwHvAf8BAAG3AfgB/wEAAbcB8QH/AQABqAH2Af8BAAHSAv8DVAGsEAADBwEJAUsCTAGQ
+        Az4BawNhAeQB+QHbAasB/wHcAdABsQH/AboBzAHEAf8BuwHcAeoB/wHNAe4B9wH/AdoB+AL/AfAB/AL/
+        AfUB5wHOAf8B7AHQAaMB/wHdAbQBAAH/AzEBTRgAAxEBFwNlAfQCAAHIAf8CAAG7Af8CAAGpAf8BgwGE
+        AcED/wHjAf8CwAG5Af8CngGTAf8BsAGvAZIB/wIAAaUB/wIAAboB/wIAAb8B/wIAAb0B/wGTAZIBuAH/
+        AxIBGRAAAx0BKQGVAboBlwH/AQABrQEAAf8BAAGbAQAB/wHRAdYBzwL/AfEC/wEAAakBAAH/AQABngEA
+        Af8B9QHFAe4B/wGAAZMBAAH/AwAB/wEAAYIBAAH/AwAB/wMAAf8DZwHyAwsBDxAAAx0BKQGQAcEBzQH/
+        AQABrQH4Af8BAAGaAeoB/wEAAYoB6AH/AQABiwL/AgABjQH/AwAB/wMAAf8BAAGRAesB/wEAAaQB9QH/
+        AQABpAHtAf8BAAGbAe0B/wEAAasB+QH/A2cB8gMLAQ8MAAMEAQUDRAF5AUwCTQGRA2UB9AH3AeIBvQH/
+        AfkB3wG1Af8B/AHeAa0B/wHyAdYBqwH/AdUB1wHLAf8B6QHvAekB/wH6Af0B/AH/AfcB8QHiAf8B6QHS
+        AasB/wHkAbYBAAH/AzUBVhgAAy0BRgGhAaABxwH/AgAB1AH/AgABzAH/AgABsAH/AgABkgH/Ap0BzAH/
+        AfAB7wHYAf8CvwGnAf8CAAGIAf8CAAGYAf8CAAGoAf8CAAGsAf8CAAGgAf8BiwGKAcAB/wMvAUkQAAMz
+        AVIBgwHBAYoB/wEAAcIBAAH/AQABrwEAAf8BggG/AYAB/wGJAbwBiAH/AwAB/wMAAf8ByQHIAcYB/wHr
+        AcIB5gH/AwAB/wMAAf8DAAH/AwAB/wEAAZgBAAH/AyMBNBAAAzMBUgEAAcQB3AH/AQABxgH9Af8BAAG2
+        AfAB/wEAAYMB5wH/AQABhwL/AgABiwH/AwAB/wMAAf8BAAGEAeQB/wEAAZAB8wH/AQABjQHpAf8BAAGJ
+        AecB/wEAAYsB9AH/AYMBqAG+Af8DIwE0EAADIQEwAVgCWwHLAysC/AHnAcUB/wH7AeoBzgH/AfQB3gG2
+        Af8BAAHGAd4B/wEAAbEB5wH/AbUBygHFAf8B+QHkAcIB/wH0AdsBsAH/AdgB1AHBAf8BnAGrAZgB/wM5
+        AV8YAAM2AVkBowGiAdMB/wIAAdsB/wGFAYYB1wH/AgABvgH/AgABuAH/AtsB3QH/AucB0gH/AsIBrwH/
+        ApMBlAH/AwAB/wIAAYsB/wIAAZwB/wIAAYoB/wIAAa4B/wM3AVoQAAM+AWsBggHJAYkB/wEAAccBAAH/
+        AQABxQEAAf8BAAGcAQAB/wEAAYABAAH/AQABggEAAf8DAAH/AQABmwEAAf8B/QHaAfoB/wGyAaUBrgH/
+        AwAB/wMAAf8DAAH/AQABogEAAf8DNgFYEAADPgFrAQAByQHmAf8BAAHDAfsB/wEAAcoB9gH/AQABqQHv
+        Af8BAAGWAv8DAAH/AwAB/wMAAf8CAAHZAf8BAAGBAfIB/wIAAeMB/wIAAeMB/wIAAewB/wGHAbEB1gH/
+        AzYBWBQAAzwBZgHXAcYBpgH/AfIB4AHBAf8B3AGqAQAB/wHcAaoBAAH/AQAB3QL/AQAB1AL/AQABvwHb
+        Af8B8QHVAaQB/wHzAeIBwAH/AfUB4AG7Af8BAAGmAa0B/wNEAXkYAAM7AWUBogGjAdcB/wIAAdwB/wIA
+        AdYB/wGlAaYB3gP/AfMD/wHpAf8CAAG/Af8CAAGvAf8C0QGuAf8CrAGYAf8DAAH/AgABgwH/AwAB/wIA
+        AaUB/wM7AWMQAANIAYMBggHPAYwB/wEAAckBAAH/AQABxwEAAf8BAAG4AQAB/wEAAa4BAAH/AQABoAEA
+        Af8BAAGPAQAB/wMAAf8BggGtAYEB/wHyAcUB7QH/AYMBjAEAAf8DAAH/AwAB/wEAAaIBAAH/Az0BaRAA
+        A0gBgwEAAc0B6wH/AQABwgH6Af8BAAHGAfQB/wEAAb0B8wH/AQABwAL/AgABkgH/AwAB/wMAAf8CAAHJ
+        Af8CAAHzAf8CAAHfAf8CAAHeAf8CAAHkAf8BgwGwAd0B/wM9AWkUAAMxAU4B1QHDAaEB/wLjAdcB/wHT
+        AZoBAAH/AeoBugEAAf8B1QHkAdYB/wGSAdYByAH/AYIBxQGuAf8B6AHhAcIB/wH0AeIBwQH/Ae8B2AGw
+        Af8B6wG6AQAB/wFYAmEB5gMgAS4UAAM8AWYBowGkAdkB/wIAAd0B/wGQAZEB4AH/AfAB7wH4A/8B+wH/
+        Ar4B4QH/AgABxgH/AgABuwH/AZUBlgG9Af8C6QG6Af8CggGiAf8CAAGHAf8DAAH/AgABogH/AzsBYxAA
+        A0gBhgGBAdIBjAH/AQABzAEAAf8BjAHVAZEB/wEAAc0BgAH/AQABwgEAAf8BAAG6AQAB/wEAAa4BAAH/
+        AQABmQEAAf8BAAGMAQAB/wGzAbUBsAL/AckB+gH/AwAB/wMAAf8BAAGfAQAB/wM9AWkQAANIAYYBAAHO
+        AewB/wEAAcYB+gH/AQAB0wH2Af8BAAHSAfYB/wEAAdIC/wEAAaABtwH/AwAB/wMAAf8CAAHHAf8BAAGI
+        AfUB/wIAAeIB/wIAAd8B/wIAAeAB/wGAAaoB2AH/Az0BaRQAAzgBXQHoAcwBpAH/AfcB7QHaAf8BuQG7
+        AcEB/wEAAbUB2QH/AZgB1wHjAf8BkgHXAbMB/wEAAboBiQH/AcYBzAGkAf8B+wHjAb8B/wHrAdMBqwH/
+        AfIBvgEAAf8DVgG2A1ABmgMBAQIQAAM9AWkBqgGrAeEB/wIAAd4B/wKnAeoB/wLKAfEB/wLfAfYB/wKr
+        AecB/wGOAY8B3AH/AgAByQH/AgABvgH/AgABvQH/AgABqwH/AgABmAH/AwAB/wIAAakB/wM8AWYQAANI
+        AYYBhAHZAZEB/wEAAc4BAAH/AZIB3gGYAf8BsgHiAbUB/wGkAdwBqAH/AYYB0AGKAf8BAAG9AQAB/wEA
+        AakBAAH/AQABjwEAAf8BAAGPAQAB/wGcAa4BmgH/AwAB/wMAAf8BAAGoAQAB/wM+AWsQAANIAYYBAAHU
+        AfIB/wEAAcgB/QH/AYAB3QH9Af8BvAHqAfsB/wGnAfAC/wGgAcABzAH/AZQCAAH/AwAB/wEAAYgBxgH/
+        AQABnAH5Af8BAAGHAeQB/wIAAeMB/wIAAe0B/wEAAbUB4AH/Az4BaxQAAz4BawHsAdgBuwH/Af4B9gHj
+        Af8BxQHPAeMB/wIAAekB/wEAAZgB7wH/AbsB1wHBAf8ByQHUAa8B/wHbAdYBsAH/AfoB3QGzAf8B7wHU
+        AakB/wH2AcoBAAH/A1wBzQNVAbIDAAEBEAADLAFEA38B/gG/AcAB5AH/AbQBtQHmAf8CyAH2Af8C3gH9
+        Af8CzAHxAf8CogHkAf8CAAHSAf8CAAHCAf8CAAGyAf8CAAGnAf8CAAGtAf8BiAGGAbUB/wGvAawBuQH/
+        AyoBQBAAAzUBVQHQAeAB0wH/AaoB3AGxAf8BmwHZAaIB/wG4AesBvQH/AckB7QHMAf8BpAHcAacB/wEA
+        AckBAAH/AQABrQEAAf8BAAGWAQAB/wMAAf8DAAH/AQABhwEAAf8BAAGmAQAB/wGsAbMBqgH/AyUBNxAA
+        AzUBVQHIAeEB5gH/AZEB2wHtAf8BigHdAfIB/wHKAfcC/wHwA/8BsgHlAfcB/wEAAcYB6QH/AQABpgHc
+        Af8BAAGYAeUB/wEAAYcB6wH/AgAB6wH/AQABmwHkAf8BAAG0AdgB/wGqAbcBuwH/AyUBNxQAA0MBdwH0
+        AecB1QH/Af4B9gHpAf8B+QHwAd4B/wHKAcEB0wH/AdQBygHOAf8B/QHsAdQB/wHwAeYB1gH/AeIB3AHM
+        Af8B1QHRAcEB/wHeAdUBtAH/AdoBzgGkAf8BSAJZAfUDHAEnGAADCgENAzEBTQNSAaMCywHXAf8ByAHJ
+        AfAB/wGyAbMB8wH/ApYB4QH/AgAB0AH/AgABvwH/AgABugH/AZ4BnQG7Af8DWAG7AzYBWQMUARsYAAMP
+        ARQDMwFSA1QBrwHHAdMByQH/AboB5gG/Af8BkAHfAZYB/wEAAccBAAH/AQABpgEAAf8BAAGAAQAB/wEA
+        AYYBAAH/AY8BrAGPAf8DVAGuAzMBUgMLAQ8YAAMPARQDMwFSA1QBrwHMAdoB3AH/AcwB8gH8Af8BjgHp
+        Av8BAAHOAf4B/wEAAbAB+wH/AQABkgHzAf8BAAGaAecB/wGMAbYBygH/A1QBrgMzAVIDCwEPGAADSQGH
+        AfYB6AHWAf8B/AH0AeoB/wH7AfIB4gH/AfwB+AHeAf8B+wH0AdgB/wH3AecB0QH/AfQB5gHQAf8B7AHe
+        AcYB/wHoAeAByQH/A18B+wNXAbcDFwEgKAADGAEhA1gBuQGuAa8B2AH/AgAB4gH/AgAB0AH/AYABgQHD
+        Af8DXwHgAyoBQTAAAyABLwNeAc4BnQHTAaIB/wEAAcYBAAH/AQABoQEAAf8BAAGkAQAB/wNcAc8DIQEw
+        MAADIAEvA14BzgGNAdcB6wH/AQABxgL/AQABqgH5Af8BAAGyAd8B/wNcAc8DIQEwJAADTgGZAfQB5gHQ
+        Af8B9AHmAdAB/wHzAeEBxgH/AfMB4AHCAf8B8QHZAbMB/wHvAdMBpgH/AesBygGRAf8B6gHEAYUB/wMr
+        AfwDUwGqAyIBMTQAA0ABcANqAfkBqwGqAcMB/wNOAZRAAANIAYYBogG9AaQB/wGhAboBogH/A0kBh0AA
+        A0gBhgGUAb8BzAH/AZQBvQHJAf8DSQGHLAADUQGgAfEB3wHAAf8B6gHEAYQB/wHrAcwBlwH/A10B8ANb
+        AcsDVQGwA0oBjAM9AWgDLAFDAxIBGTwAAzwBZgNDAXgDBAEGRAADQgF0A0ABcUgAA0IBdANAAXEwAAMb
+        ASYDUgGhA0EBcgMrAUIDEgEZMAABQgFNAT4HAAE+AwABKAMAAVADAAEoAwABAQEAAQEFAAHgAQEWAAP/
+        8QAB/wGfAf8B+QL/AZ8B/wH4AR8CAAH/AQ8B/wHwAv8BDwH/AcABDwIAAf4BAwH/AeABfwH+AQcB/wGA
+        AQ8CAAH8AQMB/wHAAT8B/AEDAf8BAAEHAgAB+AEBAf8BgAEfAfgBAQH/AQABDwIAAfABAAH/AQABDwHw
+        AQAB/wEAAQ8CAAHwAQAB/wEAAQ8B8AEAAf4BAAEPAgAB4AEAAX4BAAEHAeABAAF8AQABDwIAAeABAAF+
+        AQABBwHgAQABeAEAAQ8CAAHAAQABPAEAAQMBwAEAATgBAAEPAgABwAEAATwBAAEDAcABAAE8AQABDwIA
+        AcABAAE8AQABAwHAAQABPgEAAQ8CAAHAAQABPAEAAQMBwAEAAT4BAAEHAgABwAEAATwBAAEDAcABAAE+
+        AQABAwIAAcABAAE8AQABAwHAAQABPgEAAQMCAAHAAQABPAEAAQMBwAEAAT4BAAEHAgAB4AEAAX4BAAEH
+        AeABAAF+AQABDwIAAfwBAwH/AcABPwH8AQMB/gEAAR8CAAH/AQ8B/wHwAv8BDwH+AQABPwIAAf8BjwH/
+        AfkC/wGfAf4BDwH/AgAL
 </value>
   </data>
   <data name="tabControl2.Location" type="System.Drawing.Point, System.Drawing">
@@ -2170,13 +2251,13 @@ Credits: Alphawaves @MDL</value>
     <value>0, 0, 0, 0</value>
   </data>
   <data name="tabControl2.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>764, 337</value>
+    <value>1146, 506</value>
   </data>
   <data name="tabControl2.Padding" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>764, 369</value>
+    <value>1146, 568</value>
   </data>
   <data name="tabControl2.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
@@ -2251,7 +2332,7 @@ Credits: Alphawaves @MDL</value>
 </value>
   </data>
   <data name="cmdBrowseUpdateCache.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 38</value>
+    <value>366, 38</value>
   </data>
   <data name="cmdBrowseUpdateCache.Text" xml:space="preserve">
     <value>Open updateCache.db in browser</value>
@@ -2260,7 +2341,7 @@ Credits: Alphawaves @MDL</value>
     <value>Opens the updateCache.db file in your default browser.</value>
   </data>
   <data name="cmsCache.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 42</value>
+    <value>367, 42</value>
   </data>
   <data name="&gt;&gt;cmsCache.Name" xml:space="preserve">
     <value>cmsCache</value>
@@ -2281,7 +2362,7 @@ Credits: Alphawaves @MDL</value>
     <value>0, 0</value>
   </data>
   <data name="scMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="scMain.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
@@ -2294,266 +2375,6 @@ Credits: Alphawaves @MDL</value>
   </data>
   <data name="toolStrip2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 11.25pt</value>
-  </data>
-  <data name="cmdTestBuilds.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        QmCC
-</value>
-  </data>
-  <data name="cmdTestBuilds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 32</value>
-  </data>
-  <data name="cmdTestBuilds.Text" xml:space="preserve">
-    <value>Test Builds</value>
-  </data>
-  <data name="cmdTestBuilds.ToolTipText" xml:space="preserve">
-    <value>Get the fixes</value>
-  </data>
-  <data name="cmdUpdateWinToolkit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        AElFTkSuQmCC
-</value>
-  </data>
-  <data name="cmdUpdateWinToolkit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 32</value>
-  </data>
-  <data name="cmdUpdateWinToolkit.Text" xml:space="preserve">
-    <value>Check for Update</value>
-  </data>
-  <data name="cmdUpdateWinToolkit.ToolTipText" xml:space="preserve">
-    <value>Check to make sure you have the version of Win Toolkit.</value>
-  </data>
-  <data name="mnuTestErrorLog.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        AABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="mnuTestErrorLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 32</value>
-  </data>
-  <data name="mnuTestErrorLog.Text" xml:space="preserve">
-    <value>Test Error Save and Upload</value>
-  </data>
-  <data name="mnuTestErrorLog.ToolTipText" xml:space="preserve">
-    <value>Testing sample error log saving and upload to server.</value>
-  </data>
-  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>263, 6</value>
-  </data>
-  <data name="mnuTestCode.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="mnuTestCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>266, 32</value>
-  </data>
-  <data name="mnuTestCode.Text" xml:space="preserve">
-    <value>Test Code</value>
-  </data>
-  <data name="mnuTestCode.ToolTipText" xml:space="preserve">
-    <value>Used for testing code.</value>
-  </data>
-  <data name="mnuTest.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAABHdJREFUSEu1
-        lH1QVFUYxi/uAstCLILI7gIuqLB8hYAQxFeKSDSCKJPTNQes4R8aamhsympkkqZGm5jAIUX51P5QCogP
-        iSAQFCRBcfmI3VYNJZCFmFE+d2GBeHp32ZlqYsoQnpnfnDvnnvd5z3vOvS8DYM1Zgbi2hoe10Z69B443
-        t90Z3+rqmWKYWl3xrR0cZdebAPlp5BZ8rTsD4dKbVdTRkxeu/X47DwtZ6zHWXYPwuOQKw6vV0VbfyKjH
-        fd1AaRhQvhu4ehiN9c1geDahhiVPr4qaVtVYXRoa0gJQd3I/Wj71xVjHeaS8m6k0LHk6xSW+cxTTnaj/
-        YBsYSxcwZkIw5s6QFUVAM9AOocQ/2bB0ZTIT2Ap6eh8A15Jw81QEzGydwLOwhpmVE5SlgYD6BD7L+lZN
-        S82XIlag419c/AYDtUC1H25fiIOVcDP4go3YIHKBsjYGGA/EpKoJfsGHzhpC/p/cfMJ81I9GMVESCcji
-        oCiJhVjiCg5vA4TizehvoSQzUcBoMsorWsAY8d0NoU+uS1VtcijPYPYyHYuCxeCVlyF2dNb9HzDjW2BU
-        dhCYfB1QhQNT1Xgl4ZPWpcgnVMTepESMD2L6ciS07QlAH4tHt+JhKXhGn8TBXogpOVUytp8qiafxEHq6
-        fsZ6G2n8ksN/yIjL4zQ0K9QLLUmYq5ZAU28PdPOhucGH3UYBmHUivBgZjPleDlVB/a+fCzymUX0YaelV
-        wzqLJad/UWJq9ql5xXlMf8lAXc5grpEMFEQnBxwTO6okCNHRLJlTEp35b8Q4Mc1g6NdKeHknpBuslpeV
-        UOrY0dYJzVc2mCvjQNtgCtw0AnrJRMZB5ocCZBwT4mKOC1VB85M0r0NN6Lu6K4qKmhcZxlRksPyn3jtR
-        2qy9fgTafAaaGj4WWmm3Mgq+RTwg+nj4rlAEzX16niWmiHlCn4A2ROP09FnExHy8fF9z3hYdpWz7AZpz
-        DGbKTaG9YrJk3kncpWC5Mbx9ttNxxWLfvljMqmkDevN1hC3hRngRQWhsbIGlpSTEYP2nMs59PzJbtQfa
-        QrqLanMstBiq0EFVTMq5kHoEQeR0DG+mHMHMJB0XdDgQ2wlqnDhA7MLcXC5SU8/8va8FvpT8/sDVfMxk
-        0Y5LLKCto9LbybyL0FUiJ+hy794QIPPzHVD125AZzUFEBBD0OeM14m3iI+ItKJVtcHMLeUOfwMbRO7C8
-        uAIoooACCqwkmolu4idCd+l9xCChN/4rdoQuCf0vSMHiYjqN2UQOtNpi5OWVLnK5Jg6MUOKxs7ggHz0V
-        GfixMgsdtZnoaspEb2sWFG3ZuNNxGve6c3BfkYv+e3kY6M/H4GAhHj68hKGhKgwP12NkpBWjozJCDpVK
-        gYEBJSYmfkFZWRmMjU2f1VdjzLOQWksCWIHY76CV2J+1Fj/H2oifZ20dQlg7x1BWtCmctd+0g3WURLAS
-        p12ss/NudsuWSNbFZScrlb7AuruHsZ6eoayXVzCNgayHRwDr6xv8Ko/H89cnoNrWnGUnVxcwfwCLO9hN
-        lsjjSAAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="mnuTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 32</value>
-  </data>
-  <data name="mnuTest.Text" xml:space="preserve">
-    <value>Test</value>
-  </data>
-  <data name="mnuTest.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuTestSplitter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 6</value>
-  </data>
-  <data name="cmdFacebook.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="cmdFacebook.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 32</value>
-  </data>
-  <data name="cmdFacebook.Text" xml:space="preserve">
-    <value>Facebook</value>
-  </data>
-  <data name="cmdFacebook.ToolTipText" xml:space="preserve">
-    <value>Visit the Win Toolkit Facebook page.</value>
-  </data>
-  <data name="cmdFacebook.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="cmdForum.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2593,7 +2414,7 @@ Credits: Alphawaves @MDL</value>
 </value>
   </data>
   <data name="cmdForum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 32</value>
+    <value>253, 36</value>
   </data>
   <data name="cmdForum.Text" xml:space="preserve">
     <value>Forum</value>
@@ -2601,53 +2422,8 @@ Credits: Alphawaves @MDL</value>
   <data name="cmdForum.ToolTipText" xml:space="preserve">
     <value>Visit the homepage of Win Toolkit!</value>
   </data>
-  <data name="cmdBlog.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="cmdBlog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 32</value>
-  </data>
-  <data name="cmdBlog.Text" xml:space="preserve">
-    <value>Blog</value>
-  </data>
-  <data name="cmdBlog.ToolTipText" xml:space="preserve">
-    <value>Visit my blog and keep up-to-date with the news.</value>
-  </data>
-  <data name="cmdBlog.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 6</value>
+    <value>250, 6</value>
   </data>
   <data name="cmdAbout.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2685,7 +2461,7 @@ Credits: Alphawaves @MDL</value>
 </value>
   </data>
   <data name="cmdAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 32</value>
+    <value>253, 36</value>
   </data>
   <data name="cmdAbout.Text" xml:space="preserve">
     <value>Changelog</value>
@@ -2729,7 +2505,7 @@ Credits: Alphawaves @MDL</value>
 </value>
   </data>
   <data name="cmdDisclaimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 32</value>
+    <value>253, 36</value>
   </data>
   <data name="cmdDisclaimer.Text" xml:space="preserve">
     <value>Disclaimer</value>
@@ -2773,7 +2549,7 @@ Credits: Alphawaves @MDL</value>
 </value>
   </data>
   <data name="mnuVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 30</value>
+    <value>136, 30</value>
   </data>
   <data name="mnuVersion.Text" xml:space="preserve">
     <value>v1.4.30.x</value>
@@ -2818,7 +2594,7 @@ Credits: Alphawaves @MDL</value>
 </value>
   </data>
   <data name="cmdGuides.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 30</value>
+    <value>170, 30</value>
   </data>
   <data name="cmdGuides.Text" xml:space="preserve">
     <value>Instructions</value>
@@ -2872,7 +2648,7 @@ NOTE: Do not post bugs in the 'Guides' part of the forum.</value>
 </value>
   </data>
   <data name="cmdWindowsISO.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 32</value>
+    <value>336, 36</value>
   </data>
   <data name="cmdWindowsISO.Text" xml:space="preserve">
     <value>Windows ISOs</value>
@@ -2919,7 +2695,7 @@ NOTE: Do not post bugs in the 'Guides' part of the forum.</value>
 </value>
   </data>
   <data name="cmdDWin7SP1LangPacks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 32</value>
+    <value>371, 36</value>
   </data>
   <data name="cmdDWin7SP1LangPacks.Text" xml:space="preserve">
     <value>Win 7 SP1 Language Packs</value>
@@ -2968,13 +2744,13 @@ NOTE: Do not post bugs in the 'Guides' part of the forum.</value>
 </value>
   </data>
   <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 32</value>
+    <value>336, 36</value>
   </data>
   <data name="toolStripMenuItem2.Text" xml:space="preserve">
     <value>Language Packs</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 6</value>
+    <value>333, 6</value>
   </data>
   <data name="cmdDAddons.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3010,7 +2786,7 @@ NOTE: Do not post bugs in the 'Guides' part of the forum.</value>
 </value>
   </data>
   <data name="cmdDAddons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 32</value>
+    <value>318, 36</value>
   </data>
   <data name="cmdDAddons.Text" xml:space="preserve">
     <value>Addons</value>
@@ -3056,7 +2832,7 @@ NOTE: Do not post bugs in the 'Guides' part of the forum.</value>
 </value>
   </data>
   <data name="cmdDSFX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 32</value>
+    <value>318, 36</value>
   </data>
   <data name="cmdDSFX.Text" xml:space="preserve">
     <value>SFX (Silent Installers)</value>
@@ -3107,7 +2883,7 @@ They work perfectly with Silent Installer via the All-In-One Integrator.</value>
 </value>
   </data>
   <data name="cmdDThemePacks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 32</value>
+    <value>318, 36</value>
   </data>
   <data name="cmdDThemePacks.Text" xml:space="preserve">
     <value>Theme Packs</value>
@@ -3116,7 +2892,7 @@ They work perfectly with Silent Installer via the All-In-One Integrator.</value>
     <value>Download themes which you can integrate, so after Windows 7 is installed you have more themes.</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 6</value>
+    <value>315, 6</value>
   </data>
   <data name="cmdDWallpapers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3153,7 +2929,7 @@ They work perfectly with Silent Installer via the All-In-One Integrator.</value>
 </value>
   </data>
   <data name="cmdDWallpapers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 32</value>
+    <value>318, 36</value>
   </data>
   <data name="cmdDWallpapers.Text" xml:space="preserve">
     <value>Microsoft Wallpapers</value>
@@ -3196,7 +2972,7 @@ They work perfectly with Silent Installer via the All-In-One Integrator.</value>
 </value>
   </data>
   <data name="cmdWallpapersWide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 32</value>
+    <value>318, 36</value>
   </data>
   <data name="cmdWallpapersWide.Text" xml:space="preserve">
     <value>Wallpapers Wide</value>
@@ -3243,7 +3019,7 @@ They work perfectly with Silent Installer via the All-In-One Integrator.</value>
 </value>
   </data>
   <data name="integratablesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 32</value>
+    <value>336, 36</value>
   </data>
   <data name="integratablesToolStripMenuItem.Text" xml:space="preserve">
     <value>Integration</value>
@@ -3283,7 +3059,7 @@ They work perfectly with Silent Installer via the All-In-One Integrator.</value>
 </value>
   </data>
   <data name="cmdDVirtualPC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 32</value>
+    <value>304, 36</value>
   </data>
   <data name="cmdDVirtualPC.Text" xml:space="preserve">
     <value>Microsoft Virtual PC</value>
@@ -3337,7 +3113,7 @@ virtual Windows environment, with a single click, directly from a computer runni
 </value>
   </data>
   <data name="cmdDVirtualBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 32</value>
+    <value>304, 36</value>
   </data>
   <data name="cmdDVirtualBox.Text" xml:space="preserve">
     <value>VirtualBox</value>
@@ -3381,7 +3157,7 @@ Server 2003, Vista, Windows 7), DOS/Windows 3.x, Linux (2.4 and 2.6), Solaris an
 </value>
   </data>
   <data name="cmdDXPMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 32</value>
+    <value>304, 36</value>
   </data>
   <data name="cmdDXPMode.Text" xml:space="preserve">
     <value>Windows XP Mode</value>
@@ -3430,7 +3206,7 @@ the life of existing software. Visit the Windows 7 Compatibility Center to find 
 </value>
   </data>
   <data name="cmdVMWare.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 32</value>
+    <value>304, 36</value>
   </data>
   <data name="cmdVMWare.Text" xml:space="preserve">
     <value>VMWare Player</value>
@@ -3473,7 +3249,7 @@ the life of existing software. Visit the Windows 7 Compatibility Center to find 
 </value>
   </data>
   <data name="testingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 32</value>
+    <value>336, 36</value>
   </data>
   <data name="testingToolStripMenuItem.Text" xml:space="preserve">
     <value>Testing</value>
@@ -3513,7 +3289,7 @@ the life of existing software. Visit the Windows 7 Compatibility Center to find 
 </value>
   </data>
   <data name="cmdDGoogleChrome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 32</value>
+    <value>271, 36</value>
   </data>
   <data name="cmdDGoogleChrome.Text" xml:space="preserve">
     <value>Google Chrome</value>
@@ -3560,7 +3336,7 @@ minimal design with new technology designed to improve the user experience.</val
 </value>
   </data>
   <data name="cmdIE11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 32</value>
+    <value>271, 36</value>
   </data>
   <data name="cmdIE11.Text" xml:space="preserve">
     <value>Internet Explorer</value>
@@ -3607,7 +3383,7 @@ minimal design with new technology designed to improve the user experience.</val
 </value>
   </data>
   <data name="cmdDFirefox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 32</value>
+    <value>271, 36</value>
   </data>
   <data name="cmdDFirefox.Text" xml:space="preserve">
     <value>Mozilla Firefox</value>
@@ -3650,7 +3426,7 @@ minimal design with new technology designed to improve the user experience.</val
 </value>
   </data>
   <data name="cmdDOpera.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 32</value>
+    <value>271, 36</value>
   </data>
   <data name="cmdDOpera.Text" xml:space="preserve">
     <value>Opera</value>
@@ -3694,7 +3470,7 @@ mobile phones and devices.</value>
 </value>
   </data>
   <data name="cmdDSafari.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 32</value>
+    <value>271, 36</value>
   </data>
   <data name="cmdDSafari.Text" xml:space="preserve">
     <value>Safari</value>
@@ -3741,13 +3517,13 @@ on the web better than it ever was.</value>
 </value>
   </data>
   <data name="webBrowsersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 32</value>
+    <value>336, 36</value>
   </data>
   <data name="webBrowsersToolStripMenuItem.Text" xml:space="preserve">
     <value>Web Browsers</value>
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 6</value>
+    <value>333, 6</value>
   </data>
   <data name="cmdDDISM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3789,7 +3565,7 @@ on the web better than it ever was.</value>
 </value>
   </data>
   <data name="cmdDDISM.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 32</value>
+    <value>336, 36</value>
   </data>
   <data name="cmdDDISM.Text" xml:space="preserve">
     <value>DISM</value>
@@ -3798,10 +3574,10 @@ on the web better than it ever was.</value>
     <value>Download DISM so you can use this tool on Windows XP or Windows Vista.</value>
   </data>
   <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>237, 6</value>
+    <value>333, 6</value>
   </data>
   <data name="mnuDNTLITE.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 32</value>
+    <value>336, 36</value>
   </data>
   <data name="mnuDNTLITE.Text" xml:space="preserve">
     <value>NTLite</value>
@@ -3831,7 +3607,7 @@ on the web better than it ever was.</value>
 </value>
   </data>
   <data name="cmdDSlim451Installer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 32</value>
+    <value>336, 36</value>
   </data>
   <data name="cmdDSlim451Installer.Text" xml:space="preserve">
     <value>Slim .NET 4.7.1 Installer</value>
@@ -3869,7 +3645,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="mnuDownloads.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 30</value>
+    <value>165, 30</value>
   </data>
   <data name="mnuDownloads.Text" xml:space="preserve">
     <value>Downloads</value>
@@ -3910,7 +3686,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdLangToCab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 32</value>
+    <value>324, 36</value>
   </data>
   <data name="cmdLangToCab.Text" xml:space="preserve">
     <value>Language Packs</value>
@@ -3939,7 +3715,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdExeToMsp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 32</value>
+    <value>324, 36</value>
   </data>
   <data name="cmdExeToMsp.Text" xml:space="preserve">
     <value>MSP Extractor (Office)</value>
@@ -3983,7 +3759,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdMsuToCab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 32</value>
+    <value>324, 36</value>
   </data>
   <data name="cmdMsuToCab.Text" xml:space="preserve">
     <value>MSU &gt; CAB</value>
@@ -4030,7 +3806,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="convertersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 32</value>
+    <value>279, 36</value>
   </data>
   <data name="convertersToolStripMenuItem.Text" xml:space="preserve">
     <value>Converters</value>
@@ -4059,7 +3835,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdCaptureImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 32</value>
+    <value>252, 36</value>
   </data>
   <data name="cmdCaptureImage.Text" xml:space="preserve">
     <value>Capture Image</value>
@@ -4097,7 +3873,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdSWMMerger.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 32</value>
+    <value>252, 36</value>
   </data>
   <data name="cmdSWMMerger.Text" xml:space="preserve">
     <value>SWM Merger</value>
@@ -4137,7 +3913,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdWIMSplitter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 32</value>
+    <value>252, 36</value>
   </data>
   <data name="cmdWIMSplitter.Text" xml:space="preserve">
     <value>WIM Splitter</value>
@@ -4185,7 +3961,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="imagingToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 32</value>
+    <value>279, 36</value>
   </data>
   <data name="imagingToolStripMenuItem.Text" xml:space="preserve">
     <value>Imaging</value>
@@ -4224,7 +4000,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdDriverInstaller.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 32</value>
+    <value>264, 36</value>
   </data>
   <data name="cmdDriverInstaller.Text" xml:space="preserve">
     <value>Driver Installer</value>
@@ -4266,7 +4042,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdUpdateInstaller.Size" type="System.Drawing.Size, System.Drawing">
-    <value>192, 32</value>
+    <value>264, 36</value>
   </data>
   <data name="cmdUpdateInstaller.Text" xml:space="preserve">
     <value>Update Installer</value>
@@ -4310,7 +4086,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="mnuInstallers.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 32</value>
+    <value>279, 36</value>
   </data>
   <data name="mnuInstallers.Text" xml:space="preserve">
     <value>Installers</value>
@@ -4353,7 +4129,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdAddonMaker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 32</value>
+    <value>273, 36</value>
   </data>
   <data name="cmdAddonMaker.Text" xml:space="preserve">
     <value>Addon Maker</value>
@@ -4395,7 +4171,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdUpdateRetriever.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 32</value>
+    <value>273, 36</value>
   </data>
   <data name="cmdUpdateRetriever.Text" xml:space="preserve">
     <value>Update Retriever</value>
@@ -4442,16 +4218,16 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="miscToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 32</value>
+    <value>279, 36</value>
   </data>
   <data name="miscToolStripMenuItem.Text" xml:space="preserve">
     <value>Misc</value>
   </data>
   <data name="toolStripSeparator10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 6</value>
+    <value>276, 6</value>
   </data>
   <data name="mnuWinKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 32</value>
+    <value>279, 36</value>
   </data>
   <data name="mnuWinKey.Text" xml:space="preserve">
     <value>Get Windows Key</value>
@@ -4499,7 +4275,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 30</value>
+    <value>103, 30</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>Tools</value>
@@ -4541,7 +4317,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 30</value>
+    <value>132, 30</value>
   </data>
   <data name="cmdOptions.Text" xml:space="preserve">
     <value>Options</value>
@@ -4551,55 +4327,6 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 30</value>
-  </data>
-  <data name="cmdDonate.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
-  </data>
-  <data name="cmdDonate.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="cmdDonate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 30</value>
-  </data>
-  <data name="cmdDonate.Text" xml:space="preserve">
-    <value>Donate</value>
-  </data>
-  <data name="cmdDonate.ToolTipText" xml:space="preserve">
-    <value>Donate to help keep this project alive!</value>
   </data>
   <data name="cmdReportBug.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4674,7 +4401,7 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
 </value>
   </data>
   <data name="cmdReportBug.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 30</value>
+    <value>165, 30</value>
   </data>
   <data name="cmdReportBug.Text" xml:space="preserve">
     <value>Report Bug</value>
@@ -4685,8 +4412,11 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
   <data name="toolStrip2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="toolStrip2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 2, 0</value>
+  </data>
   <data name="toolStrip2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>764, 30</value>
+    <value>1146, 30</value>
   </data>
   <data name="toolStrip2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -4734,13 +4464,13 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
     <value>1</value>
   </data>
   <data name="scMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>764, 400</value>
+    <value>1146, 600</value>
   </data>
   <data name="scMain.SplitterDistance" type="System.Int32, mscorlib">
     <value>30</value>
   </data>
   <data name="scMain.SplitterWidth" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="scMain.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -4767,13 +4497,13 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
     <value>52</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>96, 96</value>
+    <value>144, 144</value>
   </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>764, 400</value>
+    <value>1146, 600</value>
   </data>
   <data name="$this.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -4782,10 +4512,10 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 6, 6, 6</value>
+    <value>9, 9, 9, 9</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>780, 406</value>
+    <value>1159, 581</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
@@ -4817,64 +4547,10 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
   <data name="&gt;&gt;mnuVersion.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;cmdTestBuilds.Name" xml:space="preserve">
-    <value>cmdTestBuilds</value>
-  </data>
-  <data name="&gt;&gt;cmdTestBuilds.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmdUpdateWinToolkit.Name" xml:space="preserve">
-    <value>cmdUpdateWinToolkit</value>
-  </data>
-  <data name="&gt;&gt;cmdUpdateWinToolkit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuTest.Name" xml:space="preserve">
-    <value>mnuTest</value>
-  </data>
-  <data name="&gt;&gt;mnuTest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuTestErrorLog.Name" xml:space="preserve">
-    <value>mnuTestErrorLog</value>
-  </data>
-  <data name="&gt;&gt;mnuTestErrorLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
-    <value>toolStripSeparator6</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuTestCode.Name" xml:space="preserve">
-    <value>mnuTestCode</value>
-  </data>
-  <data name="&gt;&gt;mnuTestCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;mnuTestSplitter.Name" xml:space="preserve">
-    <value>mnuTestSplitter</value>
-  </data>
-  <data name="&gt;&gt;mnuTestSplitter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmdFacebook.Name" xml:space="preserve">
-    <value>cmdFacebook</value>
-  </data>
-  <data name="&gt;&gt;cmdFacebook.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;cmdForum.Name" xml:space="preserve">
     <value>cmdForum</value>
   </data>
   <data name="&gt;&gt;cmdForum.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmdBlog.Name" xml:space="preserve">
-    <value>cmdBlog</value>
-  </data>
-  <data name="&gt;&gt;cmdBlog.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
@@ -5194,12 +4870,6 @@ thanks to yumeyao &amp; dumpydooby). This should save you 200+ MB of space on yo
   </data>
   <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cmdDonate.Name" xml:space="preserve">
-    <value>cmdDonate</value>
-  </data>
-  <data name="&gt;&gt;cmdDonate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cmdReportBug.Name" xml:space="preserve">
     <value>cmdReportBug</value>

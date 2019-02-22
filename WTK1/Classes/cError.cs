@@ -291,7 +291,7 @@ namespace WinToolkit
             {
                 string AppInfo = "\r\n\r\n***WINTOOLKIT INFO***\r\n";
                 AppInfo += "Win Toolkit v" + cMain.WinToolkitVersion(true);
-                if (cOptions.ValidKey) { AppInfo += "*"; }
+            
                 AppInfo += "\r\nWin Toolkit Directory: " + Environment.CurrentDirectory + "\r\n";
 
                 List<Form> OpenForms = Application.OpenForms.Cast<Form>().ToList();
