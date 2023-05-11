@@ -699,7 +699,8 @@ namespace WinToolkit
                         }
                     }
 
-                    if (LST.Text.EqualsIgnoreCase("Virtual PC") && f.ContainsIgnoreCase("-VirtualPC-Package~")) { return true; }
+                    if (LST.Text.EqualsIgnoreCase("Virtual PC") && f.ContainsIgnoreCase("-VirtualPC-Package~"))
+                    { return true; }
 
                     if (LST.Group.Header.EqualsIgnoreCase("Language Packs") && f.ContainsIgnoreCase(uPName) && f.ContainsIgnoreCase("~" + LST.SubItems[2].Text.ToUpper() + "~"))
                     {
@@ -5471,7 +5472,18 @@ namespace WinToolkit
             NewUpdate.Text = uName;
             try
             {
-                if ((strFile.ContainsIgnoreCase("Microsoft-Windows-Client-LanguagePack-Package") || strFile.ContainsIgnoreCase("Microsoft-Windows-Client-Refresh-LanguagePack-Package")) && !strFile.ContainsIgnoreCase("KB2732059")) { NewUpdate.Group = lstUpdates.Groups[0]; }
+                bool langPackCheck1 = strFile.ContainsIgnoreCase("Microsoft-Windows-Client-LanguagePack-Package");
+                bool langPackCheck2 = strFile.ContainsIgnoreCase("Microsoft-Windows-Client-Refresh-LanguagePack-Package");
+                bool langPackCheckKB2732059 = !strFile.ContainsIgnoreCase("KB2732059");
+                bool langPackCheckFix = !strFile.ContainsIgnoreCase("Fix ");
+
+                if ((langPackCheck1 || langPackCheck2) && langPackCheckKB2732059 && langPackCheckFix)
+                {
+                    NewUpdate.Group = lstUpdates.Groups[0];
+                }
+
+                if (strFile.ContainsIgnoreCase("Rollup"))
+                    NewUpdate.Group = lstUpdates.Groups[1];
             }
             catch (Exception Ex)
             {
@@ -6231,12 +6243,12 @@ namespace WinToolkit
 
         }
 
-     
+
         private void tvTweaks_Checked(TreeNode e)
         {
             try
             {
-            
+
                 if (!e.Checked && e.Nodes.Count > 0)
                 {
                     if (e.Nodes[0].Tag.ToString().EqualsIgnoreCase("C")) { e.Nodes[0].Remove(); }
